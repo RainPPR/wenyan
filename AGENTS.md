@@ -16,7 +16,7 @@ The application is a pure React 19 + TypeScript + Tailwind CSS v4 single-page ap
 - Keep `README.md`, `AGENTS.md`, and `/docs/*.md` up to date after design or data modifications.
 
 ## Deployment & CI/CD
-- `.github/workflows/deploy.yml` builds the static site (`npm run build`) and deploys the `./dist` folder to GitHub Pages automatically upon push to `main`/`master`.
+- `.github/workflows/deploy.yml` sets up Node.js 22, runs `npm install`, verifies types with `npm run lint`, builds the static site (`npm run build`), and deploys `./dist` to GitHub Pages automatically upon push to `main`/`master`.
 
 ## Data Maintenance Rules
 - All classical Chinese vocabulary entries MUST be stored in modular TypeScript datasets under `/src/data/`.

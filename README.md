@@ -14,4 +14,4 @@
 - 静态检查：`npm run lint`
 
 ## GitHub Actions 自动部署
-项目包含 `.github/workflows/deploy.yml` 配置文件，只要将仓库推送到 GitHub 的 `main` 分支，GitHub Actions 将自动完成 TypeScript 检查、Vite 静态构建并发布到 GitHub Pages。
+项目包含 `.github/workflows/deploy.yml` 配置文件，使用 Node.js 22 运行环境。只要将仓库推送到 GitHub 的 `main` 或 `master` 分支，GitHub Actions 将自动安装依赖、执行 TypeScript 检查、生成 Vite 静态页面打包（`./dist`）并自动部署至 GitHub Pages。

@@ -13,4 +13,4 @@
 
 3. **构建与持续集成 (CI/CD)**
    - 使用 Vite 进行 0 运行时的静态页面打包 (`npm run build`)，输出产物存放于 `dist/` 目录。
-   - 配置 GitHub Actions 工作流文件 `.github/workflows/deploy.yml`，在推送到 `main` 分支时自动构建并发布至 GitHub Pages。
+   - 配置 GitHub Actions 工作流文件 `.github/workflows/deploy.yml`（采用 Node.js 22 运行环境，兼容无 `package-lock.json` 的标准 `npm install` 流程），在推送到 `main` 或 `master` 分支时自动构建并发布至 GitHub Pages。
