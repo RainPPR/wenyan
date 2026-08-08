@@ -12,5 +12,5 @@
    - `allVocabulary.ts` 负责归集全量数据并保障每个词条的 ID 绝对唯一，彻底消除 React duplicate key 警告。
 
 3. **构建与持续集成 (CI/CD)**
-   - 使用 Vite 进行 0 运行时的静态页面打包 (`npm run build`)，输出产物存放于 `dist/` 目录。
+   - 使用 Vite 进行 0 运行时的静态页面打包 (`npm run build`)，配置 `base: './'` 采用相对路径加载静态资源，使其完美兼容根目录与任何二级目录（如 `/wenyan/`）。输出产物存放于 `dist/` 目录。
    - 配置 GitHub Actions 工作流文件 `.github/workflows/deploy.yml`（采用 Node.js 22 运行环境，兼容无 `package-lock.json` 的标准 `npm install` 流程），在推送到 `main` 或 `master` 分支时自动构建并发布至 GitHub Pages。
