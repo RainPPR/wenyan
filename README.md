@@ -1,11 +1,14 @@
-<div align="center">
+# 高中文言实虚词汇总平台 (Classical Chinese Vocabulary Hub)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+针对高中文言文学习打造的实词、虚词与常见阅读难词检索与 AI 句法剖析工具。
 
-  <h1>Built with AI Studio</h2>
+## 项目特点与设计原则
+1. **词条归一与去重整理**：梳理常见文言实词、核心虚词及常见阅读短语，合并义项，确保词条无重复 ID 冲突。
+2. **规范释义与课文例句**：提供字义、词性、常见现代汉语翻译以及高中课文（如《鸿门宴》《廉颇蔺相如列传》《过秦论》《师说》《劝学》等）例句说明。
+3. **多维检索与筛选**：支持按汉字、拼音、义项、例句或出处关键字检索，并支持按实词、虚词、难词分类筛选。
+4. **AI 句法剖析**：基于 Gemini API，提供文言例句逐字剖析与句法结构分析助手。
 
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## 快速开始
+- 开发运行：`npm run dev`
+- 打包构建：`npm run build`
+- 静态检查：`npm run lint`
