@@ -36,13 +36,13 @@ export const Navbar: React.FC<NavbarProps> = ({ stats }) => {
               全库字词：<strong className="text-amber-400 font-mono">{stats.totalWords}</strong> 条
             </span>
             <span className="hidden sm:inline-block bg-amber-900/80 px-2.5 py-1 rounded border border-amber-700/60 text-amber-200">
-              常见实词：<strong className="text-amber-400 font-mono">{stats.shiciCount}</strong> 词
+              高频实词：<strong className="text-amber-400 font-mono">{stats.shiciCount}</strong> 词
             </span>
             <span className="hidden sm:inline-block bg-amber-900/80 px-2.5 py-1 rounded border border-amber-700/60 text-amber-200">
-              核心虚词：<strong className="text-amber-400 font-mono">{stats.xuciCount}</strong> 词
+              高频虚词：<strong className="text-amber-400 font-mono">{stats.xuciCount}</strong> 词
             </span>
             <span className="hidden md:inline-block bg-amber-900/80 px-2.5 py-1 rounded border border-amber-700/60 text-amber-200">
-              难词短语：<strong className="text-amber-400 font-mono">{stats.nanciCount}</strong> 条
+              高频难词：<strong className="text-amber-400 font-mono">{stats.nanciCount}</strong> 条
             </span>
           </div>
         </div>

@@ -3,12 +3,18 @@
 数据去重与结构设计原则：
 项目对文言词条进行整理归纳，合并同一词语的多来源异义项与课文例句，保持数据准确与务实：
 
-1. **VocabularyEntry 统一字段接口**：
+1. **分类划分标准与数据文件**：
+   - 高频实词：划入 `/src/data/shiciPart1.ts` ~ `/src/data/shiciPart4.ts`。
+   - 高频虚词：划入 `/src/data/xuci.ts`。
+   - 高频难词与固定结构：划入 `/src/data/nanci.ts`。
+   - 移除原先硬编码的固定数量限制（如“120实词”、“18虚词”等描述），统一归纳为高频重点文言词条。
+
+2. **VocabularyEntry 统一字段接口**：
    - `id`: 唯一标识符 (通过全局映射保障 ID 严格唯一，彻底消除重复 Key 警告)
    - `word`: 汉字字词（如 "安", "而", "苟", "孰与", "甫"）
    - `pinyin`: 拼音标注 (支持多音字字符串或数组，如 "fǔ", "cháo / zhāo")
    - `category`: 分类 (`'shici_120'` | `'xuci_18'` | `'gaopin_nanci'` | `'guding_jushi'`)
-   - `categoryLabel`: 分类中文名称
+   - `categoryLabel`: 分类中文名称（如 "高频文言实词", "高频文言虚词", "高频难词与短语"）
    - `radical`: 部首/笔画参考 (可选)
    - `isHighFrequency`: 是否高频常见词 (布尔值)
    - `senses`: 义项列表 `SenseItem[]`

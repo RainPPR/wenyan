@@ -115,7 +115,7 @@ export const VocabularyList: React.FC<VocabularyListProps> = ({
                 : 'bg-stone-200/80 text-stone-700 hover:bg-stone-300'
             }`}
           >
-            120 高考必备实词
+            高频实词
           </button>
 
           <button
@@ -126,7 +126,7 @@ export const VocabularyList: React.FC<VocabularyListProps> = ({
                 : 'bg-stone-200/80 text-stone-700 hover:bg-stone-300'
             }`}
           >
-            18 核心虚词
+            高频虚词
           </button>
 
           <button

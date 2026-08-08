@@ -1,0 +1,903 @@
+import { VocabularyEntry } from '../types';
+
+export const XUCI: VocabularyEntry[] = [
+  {
+    id: 'xuci_er',
+    word: '而',
+    pinyin: 'ér',
+    category: 'xuci_18',
+    categoryLabel: '核心文言虚词',
+    radical: '而',
+    isHighFrequency: true,
+    senses: [
+      {
+        pos: '连词',
+        meaning: '表示并列关系（可译为“又”“并且”或不译）',
+        examples: [
+          { text: '剑阁峥嵘而崔嵬，一夫当关，万夫莫开。', source: '《蜀道难》', translation: '剑阁高峻而且险陡。' }
+        ]
+      },
+      {
+        pos: '连词',
+        meaning: '表示递进关系（可译为“并且”“而且”）',
+        examples: [
+          { text: '君子博学而日参省乎己。', source: '《劝学》', translation: '君子广泛地学习并且每天检查反省自己。' },
+          { text: '楚怀王贪而信张仪，遂绝齐。', source: '《屈原列传》', translation: '楚怀王贪图小利并且相信张仪，于是与齐国绝交。' }
+        ]
+      },
+      {
+        pos: '连词',
+        meaning: '表示承接关系（可译为“就”“接着”或不译）',
+        examples: [
+          { text: '故舍汝而旅食京师，以求斗斛之禄。', source: '《祭十二郎文》', translation: '所以抛下你在京城寄食，来谋求微薄的俸禄。' },
+          { text: '人非生而知之者，孰能无惑。', source: '《师说》', translation: '人不是生下来就懂道理的，谁能没有疑惑。' }
+        ]
+      },
+      {
+        pos: '连词',
+        meaning: '表示转折关系（可译为“但是”“却”）',
+        examples: [
+          { text: '青，取之于蓝，而青于蓝。', source: '《劝学》', translation: '靛青是从蓝草中提取的，却比蓝草更青。' },
+          { text: '有如此之势，而为秦人积威之所劫。', source: '《六国论》', translation: '有这样的优势，却被秦国长期积聚的威势所胁迫。' }
+        ]
+      },
+      {
+        pos: '连词',
+        meaning: '表示假设关系（可译为“如果”“假如”）',
+        examples: [
+          { text: '死而有知，其几何离。', source: '《祭十二郎文》', translation: '死后如果还有知觉，那相别能有多久呢。' }
+        ]
+      },
+      {
+        pos: '连词',
+        meaning: '表示修饰关系（连接状语与中心词，可不译）',
+        examples: [
+          { text: '吾尝跂而望矣，不如登高之博见也。', source: '《劝学》', translation: '我曾经踮起脚尖远望，不如登上高处看得广阔。' }
+        ]
+      },
+      {
+        pos: '代词',
+        meaning: '第二人称代词（你、你的）',
+        examples: [
+          { text: '必欲烹而翁，则幸分我一杯羹。', source: '《项羽本纪》', translation: '如果你一定要煮你的父亲，请顺便分给我一杯肉汤。' }
+        ]
+      }
+    ],
+    examTips: '“而”字高考常考转折（却）、修饰（连接状语）与递进（并且）。需注意代词用法“而翁”（你的父亲）。'
+  },
+  {
+    id: 'xuci_he',
+    word: '何',
+    pinyin: ['hé', 'hè'],
+    category: 'xuci_18',
+    categoryLabel: '核心文言虚词',
+    radical: '亻',
+    isHighFrequency: true,
+    senses: [
+      {
+        pos: '疑问代词',
+        meaning: '单独作谓语，译为“为什么”“什么原因”',
+        examples: [
+          { text: '齐人未尝赂秦，终继五国迁灭，何哉？', source: '《六国论》', translation: '齐国未曾贿赂秦国，最终也随着五国灭亡，为什么呢？' }
+        ]
+      },
+      {
+        pos: '疑问代词',
+        meaning: '作动词或介词的宾语，前置，译为“哪里”“什么”',
+        examples: [
+          { text: '大王来何操？', source: '《鸿门宴》', translation: '大王来时带了什么？' }
+        ]
+      },
+      {
+        pos: '疑问代词',
+        meaning: '作定语，译为“什么”“哪”',
+        examples: [
+          { text: '其间旦暮闻何物，杜鹃啼血猿哀鸣。', source: '《琵琶行》', translation: '这中间早晚听见的是什么声音？是杜鹃啼血和猿猴啼鸣。' }
+        ]
+      },
+      {
+        pos: '副词',
+        meaning: '用在句首或动词前表示反问（为什么、怎么）',
+        examples: [
+          { text: '何不按兵束甲，北面而事之？', source: '《赤壁之战》', translation: '为什么不按兵不动按甲归降，向北称臣侍奉他呢？' }
+        ]
+      },
+      {
+        pos: '副词',
+        meaning: '用在形容词前表示程度深（多么、怎么这样）',
+        examples: [
+          { text: '至于誓天断发，泣下沾襟，何其衰也！', source: '《伶官传序》', translation: '至于剪发发誓，眼泪沾湿衣襟，多么衰败颓废啊！' }
+        ]
+      },
+      {
+        pos: '固定短语',
+        meaning: '【何如】怎么样，什么样 / 【何以】拿什么，凭什么',
+        examples: [
+          { text: '樊哙曰：“今日之事何如？”', source: '《鸿门宴》', translation: '樊哙说：“今天的事怎么样了？”' },
+          { text: '一旦山陵崩，长安君何以自托于赵？', source: '《触龙说赵太后》', translation: '一旦太后驾崩，长安君凭什么在赵国安身立命？' }
+        ]
+      },
+      {
+        pos: '动词 [hè]',
+        meaning: '通“呵”，喝斥，呵问；通“荷”，扛，背',
+        examples: [
+          { text: '信臣精卒陈利兵而谁何。', source: '《过秦论》', translation: '可靠的官员和精锐的士兵拿着锋利的兵器盘问呵斥谁。' },
+          { text: '何蓑何笠。', source: '《诗经·无衣》', translation: '背着蓑衣戴着斗笠。' }
+        ]
+      }
+    ],
+    examTips: '“何”作宾语时通常宾语前置（如“大王来何操”）。常考固定句式“何如”（怎么样）、“何以”（凭什么）。'
+  },
+  {
+    id: 'xuci_hu',
+    word: '乎',
+    pinyin: 'hū',
+    category: 'xuci_18',
+    categoryLabel: '核心文言虚词',
+    radical: '丿',
+    isHighFrequency: true,
+    senses: [
+      {
+        pos: '语气助词',
+        meaning: '表疑问语气（吗、呢）',
+        examples: [
+          { text: '儿寒乎？欲食乎？', source: '《项脊轩志》', translation: '孩子冷吗？想吃东西吗？' }
+        ]
+      },
+      {
+        pos: '语气助词',
+        meaning: '表反问语气（难道……吗）',
+        examples: [
+          { text: '吾师道也，夫庸知其年之先后生于吾乎？', source: '《师说》', translation: '我学习的是道理，哪管他的年龄比我大还是比我小呢？' }
+        ]
+      },
+      {
+        pos: '语气助词',
+        meaning: '表测度或商量语气（吧）',
+        examples: [
+          { text: '圣人之所以为圣，愚人之所以为愚，其皆出于此乎？', source: '《师说》', translation: '圣人之所以成为圣人，愚人之所以成为愚人，大概都是因为这个原因吧？' }
+        ]
+      },
+      {
+        pos: '语气助词',
+        meaning: '用于感叹句或祈使句（啊、呀）',
+        examples: [
+          { text: '悔相道之不察兮，延伫乎吾将反。', source: '《离骚》', translation: '后悔选择道路时没有看清啊，长久伫立我将要返回。' }
+        ]
+      },
+      {
+        pos: '介词',
+        meaning: '相当于“于”（在、比、对于、向）',
+        examples: [
+          { text: '醉翁之意不在酒，在乎山水之间也。', source: '《醉翁亭记》', translation: '醉翁的情趣不在于喝酒，而在于山水风光之间。' },
+          { text: '生乎吾前，其闻道也固先乎吾。', source: '《师说》', translation: '出生在我前面的人，他懂得道理本来就比我早。' }
+        ]
+      },
+      {
+        pos: '词尾助词',
+        meaning: '用在形容词或副词后（……的样子、……地）',
+        examples: [
+          { text: '飘飘乎如遗世独立，羽化而登仙。', source: '《赤壁赋》', translation: '飘飘然像超脱尘世独立生存，羽化成仙。' }
+        ]
+      }
+    ],
+    examTips: '“乎”作介词时用法与“于”完全相同。作词尾时表示“……的样子”（如“飘飘乎”）。'
+  },
+  {
+    id: 'xuci_nai',
+    word: '乃',
+    pinyin: 'nǎi',
+    category: 'xuci_18',
+    categoryLabel: '核心文言虚词',
+    radical: '丿',
+    isHighFrequency: true,
+    senses: [
+      {
+        pos: '副词',
+        meaning: '表顺承（才、这才、就）',
+        examples: [
+          { text: '悉使羸兵负草填之，骑乃得过。', source: '《赤壁之战》', translation: '让瘦弱的士兵背着柴草填平泥坑，骑兵才得以通过。' }
+        ]
+      },
+      {
+        pos: '副词',
+        meaning: '表出乎意料或转折（却、竟然、反而）',
+        examples: [
+          { text: '今其智乃反不能及。', source: '《师说》', translation: '现在他们的明智程度竟然反而赶不上（巫医乐师百工）。' },
+          { text: '而陋者乃以斧斤考击而求之。', source: '《石钟山记》', translation: '浅陋的人竟然用斧头敲打石壁来寻觅石钟山得名的原因。' }
+        ]
+      },
+      {
+        pos: '副词',
+        meaning: '表限制（只、仅仅）',
+        examples: [
+          { text: '至东城，乃有二十八骑。', source: '《项羽本纪》', translation: '到达东城时，只剩下二十八骑跟随。' }
+        ]
+      },
+      {
+        pos: '副词',
+        meaning: '用在判断句中起确认作用（是、本是、就是）',
+        examples: [
+          { text: '当立者乃公子扶苏。', source: '《陈涉世家》', translation: '应当立为君主的本是公子扶苏。' },
+          { text: '若事之不济，此乃天也。', source: '《赤壁之战》', translation: '如果事情不能成功，这就是天意啊。' }
+        ]
+      },
+      {
+        pos: '代词',
+        meaning: '第二人称代词（你、你们的、你的）',
+        examples: [
+          { text: '王师北定中原日，家祭无忘告乃翁。', source: '《示儿》', translation: '朝廷军队收复中原的那一天，家祭时不要忘记告诉你的父亲。' },
+          { text: '尔其无忘乃父之志。', source: '《伶官传序》', translation: '你一定不要忘记你父亲的遗志。' }
+        ]
+      }
+    ],
+    examTips: '“乃”表转折（竟然）与判断（是）是高考考查重点。代词“乃翁”（你的父亲）需熟记。'
+  },
+  {
+    id: 'xuci_qi',
+    word: '其',
+    pinyin: 'qí',
+    category: 'xuci_18',
+    categoryLabel: '核心文言虚词',
+    radical: '八',
+    isHighFrequency: true,
+    senses: [
+      {
+        pos: '代词',
+        meaning: '第三人称代词（他的、它的、他、它、他们）',
+        examples: [
+          { text: '秦王恐其破璧。', source: '《廉颇蔺相如列传》', translation: '秦王害怕他撞碎和氏璧。' },
+          { text: '其闻道也固先乎吾。', source: '《师说》', translation: '他懂得道理本来就比我早。' }
+        ]
+      },
+      {
+        pos: '代词',
+        meaning: '第一/第二人称代词（我的、我自己 / 你的、你）',
+        examples: [
+          { text: '而余亦悔其随之而不得极夫游之乐也。', source: '《游褒禅山记》', translation: '我也后悔自己跟随他们出来而未能尽情享受游览的乐趣。' }
+        ]
+      },
+      {
+        pos: '指示代词',
+        meaning: '远指或近指（那、那个、那些 / 这、这个）',
+        examples: [
+          { text: '不嫁义郎体，其往欲何云？', source: '《孔雀东南飞》', translation: '不嫁给好郎君，以后你打算怎么办？' },
+          { text: '今存其本不忍废。', source: '《指南录后序》', translation: '现在保存这底稿不忍心废弃。' }
+        ]
+      },
+      {
+        pos: '指示代词',
+        meaning: '表示范围（其中的，后面多接数词）',
+        examples: [
+          { text: '于乱石间择其一二扣之。', source: '《石钟山记》', translation: '在乱石中间选择其中的一两个敲击它们。' }
+        ]
+      },
+      {
+        pos: '副词',
+        meaning: '表推测、祈使或反问语气（大概、可能 / 还是 / 难道）',
+        examples: [
+          { text: '圣人之所以为圣……其皆出于此乎？', source: '《师说》', translation: '大概都是出于这个原因吧？' },
+          { text: '攻之不克，围之不继，吾其还也。', source: '《烛之武退秦师》', translation: '攻打它攻不下，围困它后继无力，我们还是回去吧。' }
+        ]
+      },
+      {
+        pos: '连词',
+        meaning: '表选择（是……还是……）或假设（如果）',
+        examples: [
+          { text: '其真无马邪？其真不知马也！', source: '《马说》', translation: '是真的没有千里马呢？还是真的识不出千里马呢！' },
+          { text: '其业有不精，德有不成者，非天质之卑，则心不若余之专耳。', source: '《送东阳马生序》', translation: '如果他们的学业有不精通的，德行有不成的，不是天资低下……' }
+        ]
+      }
+    ],
+    examTips: '“其”词性极丰富。作副词时表祈使（“吾其还也”译为“还是”）、表推测（“大概”）。'
+  },
+  {
+    id: 'xuci_qie',
+    word: '且',
+    pinyin: 'qiě',
+    category: 'xuci_18',
+    categoryLabel: '核心文言虚词',
+    radical: '一',
+    isHighFrequency: true,
+    senses: [
+      {
+        pos: '连词',
+        meaning: '表递进（而且、并且、况且、再说）',
+        examples: [
+          { text: '彼所将中国人不过十五六万，且己久疲。', source: '《赤壁之战》', translation: '他所带领的中原士兵不过十五六万，况且早已疲惫。' },
+          { text: '且燕赵处秦革灭殆尽之际。', source: '《六国论》', translation: '况且燕国和赵国正处在被秦国灭亡殆尽的时候。' }
+        ]
+      },
+      {
+        pos: '连词',
+        meaning: '表让步（尚且、还）',
+        examples: [
+          { text: '臣死且不避，卮酒安足辞！', source: '《鸿门宴》', translation: '我连死尚且不逃避，一杯酒哪里值得推辞！' },
+          { text: '古之圣人……犹且从师而问焉。', source: '《师说》', translation: '古代的圣人尚且跟从老师请教。' }
+        ]
+      },
+      {
+        pos: '连词',
+        meaning: '表并列（又、一面……一面……）',
+        examples: [
+          { text: '命如南山石，四体康且直。', source: '《孔雀东南飞》', translation: '寿命像南山磐石一样长，身体健康又挺拔。' }
+        ]
+      },
+      {
+        pos: '副词',
+        meaning: '表时间，将要、快要',
+        examples: [
+          { text: '若属皆且为所虏。', source: '《鸿门宴》', translation: '你们这些人全都要被他俘虏。' }
+        ]
+      },
+      {
+        pos: '副词',
+        meaning: '暂且、姑且',
+        examples: [
+          { text: '誓不相隔卿，且暂还家去。', source: '《孔雀东南飞》', translation: '誓死不与你相隔绝，你姑且暂时回娘家去。' }
+        ]
+      }
+    ],
+    examTips: '“且”作连词表让步（“臣死且不避”译为尚且）与作副词表将要（“且为所虏”）是常见考点。'
+  },
+  {
+    id: 'xuci_ruo',
+    word: '若',
+    pinyin: 'ruò',
+    category: 'xuci_18',
+    categoryLabel: '核心文言虚词',
+    radical: '艹',
+    isHighFrequency: true,
+    senses: [
+      {
+        pos: '代词',
+        meaning: '第二人称代词（你、你们、你的）',
+        examples: [
+          { text: '若入前为寿，寿毕，请以剑舞。', source: '《鸿门宴》', translation: '你进去上前祝寿，祝寿完毕，请求舞剑。' },
+          { text: '更若役，复若赋。', source: '《捕蛇者说》', translation: '变更你的差役，恢复你的赋税。' }
+        ]
+      },
+      {
+        pos: '指示代词',
+        meaning: '近指（这、这样、如此）',
+        examples: [
+          { text: '以若所为求若所欲，犹缘木而求鱼也。', source: '《齐桓晋文之事》', translation: '用这样的做法去追求这样的欲望，就像缘木求鱼一样。' }
+        ]
+      },
+      {
+        pos: '连词',
+        meaning: '表假设（如果、假设）',
+        examples: [
+          { text: '若不能，何不按兵束甲，北面而事之！', source: '《赤壁之战》', translation: '如果不能抵挡，为什么不按兵不动解开铠甲向北称臣侍奉他！' }
+        ]
+      },
+      {
+        pos: '连词 / 介词',
+        meaning: '表选择（或者） / 至、至于',
+        examples: [
+          { text: '以万人若一郡降者，封万户。', source: '《汉书·高帝纪》', translation: '率领一万人或者一个郡投降的，封万户侯。' },
+          { text: '若民，则无恒产，因无恒心。', source: '《齐桓晋文之事》', translation: '至于百姓，如果没有固定的产业，就没有稳定的心志。' }
+        ]
+      },
+      {
+        pos: '固定结构',
+        meaning: '【若夫】发语词，用在段首引起论述（要说那、像那）',
+        examples: [
+          { text: '若夫淫雨霏霏，连月不开。', source: '《岳阳楼记》', translation: '要说那阴雨连绵不断，接连几个月不晴。' }
+        ]
+      },
+      {
+        pos: '动词 / 词尾',
+        meaning: '像、好像 / 形容词词尾（……的样子）',
+        examples: [
+          { text: '桑之未落，其叶沃若。', source: '《诗经·氓》', translation: '桑树还没落叶时，它的叶子润泽茂盛的样子。' }
+        ]
+      }
+    ],
+    examTips: '“若”作代词（你）与作连词（如果）、固定结构“若夫”（至于说那）为高频考点。'
+  },
+  {
+    id: 'xuci_suo',
+    word: '所',
+    pinyin: 'suǒ',
+    category: 'xuci_18',
+    categoryLabel: '核心文言虚词',
+    radical: '户',
+    isHighFrequency: true,
+    senses: [
+      {
+        pos: '名词',
+        meaning: '处所，地方',
+        examples: [
+          { text: '某所，而母立于兹。', source: '《项脊轩志》', translation: '这个地方，当年你母亲曾站在这里。' }
+        ]
+      },
+      {
+        pos: '助词',
+        meaning: '放在动词前组成“所”字名词性结构（……的人/事物/地方/原因）',
+        examples: [
+          { text: '道之所存，师之所存也。', source: '《师说》', translation: '道理存在的地方，就是老师存在的地方。' },
+          { text: '过蒙拔擢，宠命优渥，岂敢盘桓，有所希冀。', source: '《陈情表》', translation: '过分蒙受提拔，恩宠优厚，岂敢犹豫不决有所非分企图。' }
+        ]
+      },
+      {
+        pos: '助词',
+        meaning: '与“为”呼应组成“为……所……”句式表示被动',
+        examples: [
+          { text: '仆以口语遇遭此祸，重为乡党所笑，以污辱先人。', source: '《报任安书》', translation: '我因为言语招致这场灾祸，深深被乡里人嘲笑，玷污了祖先。' }
+        ]
+      },
+      {
+        pos: '固定短语',
+        meaning: '【所以】表示凭借/方法（用来的方法）或表示原因（……的原因）',
+        examples: [
+          { text: '师者，所以传道受业解惑也。', source: '《师说》', translation: '老师，是用来传授道理、教授学业、解答疑惑的人。' },
+          { text: '所以遣将守关者，备他盗之出入与非常也。', source: '《鸿门宴》', translation: '派遣将领把守函谷关的原因，是为了防备其他盗贼进入和意外变故。' }
+        ]
+      }
+    ],
+    examTips: '“所以”是高考极高频考点！必须准确区分其表凭借（“用来……的工具/途径”）与表原因（“……的原因”）。'
+  },
+  {
+    id: 'xuci_wei',
+    word: '为',
+    pinyin: ['wéi', 'wèi'],
+    category: 'xuci_18',
+    categoryLabel: '核心文言虚词',
+    radical: '丶',
+    isHighFrequency: true,
+    senses: [
+      {
+        pos: '介词 [wèi]',
+        meaning: '表对象，对、向、替、给',
+        examples: [
+          { text: '如姬为公子泣。', source: '《信陵君窃符救赵》', translation: '如姬向信陵君哭诉。' },
+          { text: '不足为外人道也。', source: '《桃花源记》', translation: '不值得对外面的人说。' },
+          { text: '公为我献之。', source: '《鸿门宴》', translation: '您替我献给他。' }
+        ]
+      },
+      {
+        pos: '介词 [wèi]',
+        meaning: '表目的/原因，为了、因为',
+        examples: [
+          { text: '慎勿为妇死，贵贱情何薄。', source: '《孔雀东南飞》', translation: '千万不要为了妻子寻死，贵贱门第人情多么薄情。' }
+        ]
+      },
+      {
+        pos: '介词 [wéi]',
+        meaning: '表被动（被），常与“所”连用构成“为……所……”',
+        examples: [
+          { text: '身死人手，为天下笑者，何也？', source: '《过秦论》', translation: '自己死在别人手里，被天下人嘲笑，这是为什么呢？' }
+        ]
+      },
+      {
+        pos: '语气词 [wéi]',
+        meaning: '用在疑问句末尾表示疑问或反诘（呢）',
+        examples: [
+          { text: '如今人方为刀俎，我为鱼肉，何辞为？', source: '《鸿门宴》', translation: '现在人家正是刀和砧板，我们是鱼和肉，还推辞什么呢？' }
+        ]
+      },
+      {
+        pos: '动词 [wéi]',
+        meaning: '做、干、充当、治理、变成、成为、以为、意思是等',
+        examples: [
+          { text: '斩木为兵，揭竿为旗。', source: '《过秦论》', translation: '砍伐树木作为武器，举起竹竿作为旗帜。' },
+          { text: '非为织作迟，君家妇难为。', source: '《孔雀东南飞》', translation: '并不是我纺织得慢，而是你家的媳妇难做。' }
+        ]
+      }
+    ],
+    examTips: '“为”兼具动词、介词和句末语气词。需注意区分读音[wéi]与[wèi]，尤其是句末语气词“何……为”（做什么呢）。'
+  },
+  {
+    id: 'xuci_yan',
+    word: '焉',
+    pinyin: 'yān',
+    category: 'xuci_18',
+    categoryLabel: '核心文言虚词',
+    radical: '灬',
+    isHighFrequency: true,
+    senses: [
+      {
+        pos: '兼词',
+        meaning: '相当于“于之”“于此”“于彼”（在其中、从中、在这里）',
+        examples: [
+          { text: '三人行，必有我师焉。', source: '《论语》', translation: '几个人同行，其中必定有可以当我老师的人。' },
+          { text: '积土成山，风雨兴焉。', source: '《劝学》', translation: '堆积土石成为高山，风雨就会从这里兴起。' }
+        ]
+      },
+      {
+        pos: '代词',
+        meaning: '相当于“之”（他、它、他们）',
+        examples: [
+          { text: '犹且从师而问焉。', source: '《师说》', translation: '尚且跟从老师向他请教。' }
+        ]
+      },
+      {
+        pos: '疑问副词',
+        meaning: '怎么、哪里、为什么',
+        examples: [
+          { text: '焉用亡郑以陪邻？', source: '《烛之武退秦师》', translation: '为什么要灭掉郑国来增加邻国的土地呢？' }
+        ]
+      },
+      {
+        pos: '语气助词',
+        meaning: '用在句末，表陈述、感叹或反诘（了、啊、呢）',
+        examples: [
+          { text: '至丹以荆卿为计，始速祸焉。', source: '《六国论》', translation: '到了太子丹用荆轲刺秦作为对策，才加速了祸患的到来。' },
+          { text: '万钟于我何加焉！', source: '《鱼我所欲也》', translation: '优厚的俸禄对我有什么好处呢！' }
+        ]
+      },
+      {
+        pos: '词尾助词',
+        meaning: '相当于“然”（……的样子、……地）',
+        examples: [
+          { text: '盘盘焉，囷囷焉，蜂房水涡，矗不知乎几千万落。', source: '《阿房宫赋》', translation: '盘旋曲折的样子，回环萦绕的样子，像蜂房水涡一样。' }
+        ]
+      }
+    ],
+    examTips: '“焉”作兼词（“于之”“于此”）是高考文言虚词的高频考查考点！'
+  },
+  {
+    id: 'xuci_ye',
+    word: '也',
+    pinyin: 'yě',
+    category: 'xuci_18',
+    categoryLabel: '核心文言虚词',
+    radical: '乚',
+    isHighFrequency: true,
+    senses: [
+      {
+        pos: '语气助词',
+        meaning: '用在句末，表示判断语气',
+        examples: [
+          { text: '张良曰：“沛公之参乘樊哙者也。”', source: '《鸿门宴》', translation: '张良说：“他是沛公的护卫樊哙。”' }
+        ]
+      },
+      {
+        pos: '语气助词',
+        meaning: '用在句末，表示感叹语气',
+        examples: [
+          { text: '呜呼！灭六国者六国也，非秦也。', source: '《阿房宫赋》', translation: '唉！灭亡六国的是六国自己啊，不是秦国。' }
+        ]
+      },
+      {
+        pos: '语气助词',
+        meaning: '用在句末，表示疑问或反诘语气',
+        examples: [
+          { text: '谁得而族灭也？', source: '《阿房宫赋》', translation: '谁能够族灭他们呢？' }
+        ]
+      },
+      {
+        pos: '语气助词',
+        meaning: '用在句中表示语气停顿，舒缓语气',
+        examples: [
+          { text: '是说也，人常疑之。', source: '《石钟山记》', translation: '这种说法啊，人们经常怀疑它。' },
+          { text: '其闻道也亦先乎吾。', source: '《师说》', translation: '他懂得道理，也比我早。' }
+        ]
+      }
+    ],
+    examTips: '“也”在句末表判断（与“……者，……也”连用）及句中舒缓停顿是文言语法基础。'
+  },
+  {
+    id: 'xuci_yi',
+    word: '以',
+    pinyin: 'yǐ',
+    category: 'xuci_18',
+    categoryLabel: '核心文言虚词',
+    radical: '人',
+    isHighFrequency: true,
+    senses: [
+      {
+        pos: '介词',
+        meaning: '表示动作凭借的工具、方法（拿、用、凭着、按照）',
+        examples: [
+          { text: '士大夫终不肯以小舟夜泊绝壁之下。', source: '《石钟山记》', translation: '士大夫终究不肯乘着小船在夜里停泊在悬崖绝壁之下。' }
+        ]
+      },
+      {
+        pos: '介词',
+        meaning: '表示动作处置的对象（把、用）',
+        examples: [
+          { text: '操当以肃还付乡党。', source: '《赤壁之战》', translation: '曹操应当把我送还给地方官。' }
+        ]
+      },
+      {
+        pos: '介词',
+        meaning: '表示原因（因为、由于）',
+        examples: [
+          { text: '怀王以不知忠臣之分，故内惑于郑袖，外欺于张仪。', source: '《屈原列传》', translation: '怀王因为不明白忠臣的本分，所以对内被郑袖困惑，对外被张仪欺骗。' }
+        ]
+      },
+      {
+        pos: '介词',
+        meaning: '引出时间、处所（于、在、从）或带领的对象（率领、跟）',
+        examples: [
+          { text: '果予以未时还家，而汝以辰时气绝。', source: '《祭十二郎文》', translation: '果然我在未时回到家，而你已在辰时断气。' },
+          { text: '今如此以百骑走，匈奴追射我立尽。', source: '《李将军列传》', translation: '现在如果带着这一百多骑兵逃跑，匈奴追击射杀我们立刻就全完了。' }
+        ]
+      },
+      {
+        pos: '连词',
+        meaning: '表目的（来、用来）或表因果（因为）',
+        examples: [
+          { text: '请立太子为王，以绝秦望。', source: '《廉颇蔺相如列传》', translation: '请立太子为王，来断绝秦国的企图。' },
+          { text: '以其无礼于晋，且贰于楚也。', source: '《烛之武退秦师》', translation: '因为郑国对晋国无礼，并且怀有二心亲近楚国。' }
+        ]
+      },
+      {
+        pos: '连词',
+        meaning: '表并列/递进（又、而且）、表承接（而）或表修饰（地、着）',
+        examples: [
+          { text: '险以远，则至者少。', source: '《游褒禅山记》', translation: '道路险峻而且偏远，那么到达的人就少。' },
+          { text: '木欣欣以向荣，泉涓涓而始流。', source: '《归去来兮辞》', translation: '树木欣欣向荣，泉水涓涓始流。' }
+        ]
+      },
+      {
+        pos: '固定短语',
+        meaning: '【以是】【是以】因此 / 方位词【以往】【以来】',
+        examples: [
+          { text: '众人皆醉而我独醒，是以见放。', source: '《屈原列传》', translation: '大家都醉了只有我独自清醒，因此被放逐。' }
+        ]
+      }
+    ],
+    examTips: '“以”是高考考查频率最高的虚词之一！需熟练区分介词“用/凭/因为”与连词“来/而”。'
+  },
+  {
+    id: 'xuci_yin',
+    word: '因',
+    pinyin: 'yīn',
+    category: 'xuci_18',
+    categoryLabel: '核心文言虚词',
+    radical: '囗',
+    isHighFrequency: true,
+    senses: [
+      {
+        pos: '连词',
+        meaning: '表承接或因果（于是、就、便）',
+        examples: [
+          { text: '相如因持璧却立。', source: '《廉颇蔺相如列传》', translation: '蔺相如于是拿着宝璧退后站立。' }
+        ]
+      },
+      {
+        pos: '介词',
+        meaning: '凭借、依靠、趁着、通过、经由、因为、由于',
+        examples: [
+          { text: '恩所加，则思无因喜以谬赏。', source: '《谏太宗十思疏》', translation: '施加恩赏时，就想到不要因为一时高兴而奖赏错误。' },
+          { text: '因利乘便，宰割天下。', source: '《过秦论》', translation: '凭借有利的形势和便利的条件，宰割天下。' }
+        ]
+      },
+      {
+        pos: '动词',
+        meaning: '沿袭、继续、顺应',
+        examples: [
+          { text: '蒙故业，因遗策。', source: '《过秦论》', translation: '继承先人的基业，沿袭前代施行的策略。' },
+          { text: '加之以师旅，因之以饥馑。', source: '《侍坐》', translation: '有军队侵略它，接着又有饥荒。' }
+        ]
+      },
+      {
+        pos: '名词',
+        meaning: '原因、缘由、机缘',
+        examples: [
+          { text: '于今无会因。', source: '《孔雀东南飞》', translation: '至今再也没有相会的机会与缘由。' }
+        ]
+      }
+    ],
+    examTips: '“因”作介词（趁着、凭借、通过）与作连词（于是、就）是高考必考题点。'
+  },
+  {
+    id: 'xuci_yu',
+    word: '于',
+    pinyin: 'yú',
+    category: 'xuci_18',
+    categoryLabel: '核心文言虚词',
+    radical: '二',
+    isHighFrequency: true,
+    senses: [
+      {
+        pos: '介词',
+        meaning: '表示动作涉及的地方、时间、对象（在、从、到、向、跟、对、对于）',
+        examples: [
+          { text: '青，取之于蓝，而青于蓝。', source: '《劝学》', translation: '靛青是从蓝草中提取的，却比蓝草更青。（前一个“于”：从）' },
+          { text: '爱其子，择师而教之，于其身也，则耻师焉。', source: '《师说》', translation: '爱他们的孩子，选择老师来教育他；对于他们自己，却以从师为耻。' }
+        ]
+      },
+      {
+        pos: '介词',
+        meaning: '表示比较（比、胜过）',
+        examples: [
+          { text: '青，取之于蓝，而青于蓝。', source: '《劝学》', translation: '靛青是从蓝草中提取的，却比蓝草更青。（后一个“于”：比）' }
+        ]
+      },
+      {
+        pos: '介词',
+        meaning: '表示被动（被），常用于“受……于……”或“见……于……”',
+        examples: [
+          { text: '故内惑于郑袖，外欺于张仪。', source: '《屈原列传》', translation: '所以对内被郑袖所困惑，对外被张仪所欺骗。' }
+        ]
+      },
+      {
+        pos: '固定短语',
+        meaning: '【于是】相当于“于此”（在这、从这、在这种情况下、因此）',
+        examples: [
+          { text: '吾祖死于是，吾父死于是。', source: '《捕蛇者说》', translation: '我的祖父死在这种职业上，我的父亲死在这种职业上。' },
+          { text: '于是余有叹焉。', source: '《游褒禅山记》', translation: '因此我有所感叹。' }
+        ]
+      }
+    ],
+    examTips: '“于”字用法三大核心：引出地点对象（在/向）、表比较（比）、表被动（被）。'
+  },
+  {
+    id: 'xuci_yu_and',
+    word: '与',
+    pinyin: ['yǔ', 'yù', 'yú'],
+    category: 'xuci_18',
+    categoryLabel: '核心文言虚词',
+    radical: '一',
+    isHighFrequency: true,
+    senses: [
+      {
+        pos: '介词 [yǔ]',
+        meaning: '和、跟、同 / 为、替',
+        examples: [
+          { text: '而翁归，自与汝复算耳。', source: '《促织》', translation: '你父亲回来，自然会跟你算账。' },
+          { text: '陈涉少时，尝与人佣耕。', source: '《陈涉世家》', translation: '陈涉年轻时，曾经替别人雇佣耕地。' }
+        ]
+      },
+      {
+        pos: '连词 [yǔ]',
+        meaning: '表并列，和、跟、同',
+        examples: [
+          { text: '勾践载稻与脂于舟以行。', source: '《勾践灭吴》', translation: '勾践用船装载着稻米和油脂出行。' }
+        ]
+      },
+      {
+        pos: '动词 [yǔ / yù]',
+        meaning: '给予、授予 / 参与、结交、亲附、赞同',
+        examples: [
+          { text: '与尔三矢，尔其无忘乃父之志。', source: '《伶官传序》', translation: '给你三支箭，你切不要忘记你父亲的遗志。' },
+          { text: '与嬴而不助五国也。', source: '《六国论》', translation: '结交秦国而不帮助五国。' },
+          { text: '吾与点也！', source: '《论语》', translation: '我赞同曾点啊！' }
+        ]
+      },
+      {
+        pos: '语气词 [yú]',
+        meaning: '通“欤”，用在句末表示感叹或疑问（吗、呢、啊）',
+        examples: [
+          { text: '无乃尔是过与？', source: '《季氏将伐颛臾》', translation: '恐怕该责备你吧？' }
+        ]
+      }
+    ],
+    examTips: '“与”作动词结交（与嬴）、赞同（吾与点也）及通“欤”句末疑问语气需特别关注。'
+  },
+  {
+    id: 'xuci_ze',
+    word: '则',
+    pinyin: 'zé',
+    category: 'xuci_18',
+    categoryLabel: '核心文言虚词',
+    radical: '刂',
+    isHighFrequency: true,
+    senses: [
+      {
+        pos: '连词',
+        meaning: '表承接（就、便）',
+        examples: [
+          { text: '故木受绳则直，金就砺则利。', source: '《劝学》', translation: '木材经过墨线量过就变直，金属刀剑拿到磨刀石上磨过就变锋利。' }
+        ]
+      },
+      {
+        pos: '连词',
+        meaning: '表假设（假使、如果、要是……就）',
+        examples: [
+          { text: '入则无法家拂士，出则无敌国外患者，国恒亡。', source: '《生于忧患，死于安乐》', translation: '在内部如果没有守法度的世臣和辅佐的贤士，在外部如果没有敌对的国家和外患，国家往往会灭亡。' }
+        ]
+      },
+      {
+        pos: '连词',
+        meaning: '表并列（“则……则……”就……就……）或对比（却、倒是）',
+        examples: [
+          { text: '位卑则足羞，官盛则近谀。', source: '《师说》', translation: '以地位低的人为师就感到十分羞耻，以官职高的人为师就被认为近于阿谀。' },
+          { text: '于其身也，则耻师焉，惑矣。', source: '《师说》', translation: '对于他们自己，却以从师为耻，糊涂啊！' }
+        ]
+      },
+      {
+        pos: '副词',
+        meaning: '用在判断句中起强调和确认作用（是、就是）',
+        examples: [
+          { text: '此则岳阳楼之大观也。', source: '《岳阳楼记》', translation: '这就是岳阳楼的雄伟壮丽景色。' }
+        ]
+      }
+    ],
+    examTips: '“则”表转折（却）、表假设（如果）与表确认（就是）是高考考查的常考点。'
+  },
+  {
+    id: 'xuci_zhe',
+    word: '者',
+    pinyin: 'zhě',
+    category: 'xuci_18',
+    categoryLabel: '核心文言虚词',
+    radical: '耂',
+    isHighFrequency: true,
+    senses: [
+      {
+        pos: '代词',
+        meaning: '特殊指示代词（……的人、……的事物、……的情况、……的原因）',
+        examples: [
+          { text: '秦自缪公以来二十余君，未尝有坚明约束者也。', source: '《廉颇蔺相如列传》', translation: '秦国自从秦穆公以来二十多位君主，未曾有坚守信用约束的人。' },
+          { text: '廉颇者，赵之良将也。', source: '《廉颇蔺相如列传》', translation: '廉颇，是赵国的优秀将领。' }
+        ]
+      },
+      {
+        pos: '助词',
+        meaning: '用在主语后表示提顿语气、疑问语气或时间词后，不译',
+        examples: [
+          { text: '楚左尹项伯者，项羽季父也。', source: '《鸿门宴》', translation: '楚国左尹项伯，是项羽的最小的叔父。' }
+        ]
+      },
+      {
+        pos: '助词',
+        meaning: '定语后置的标志（“中心词 + 形容词/动词短语 + 者”）',
+        examples: [
+          { text: '求人可使报秦者，未得。', source: '《廉颇蔺相如列传》', translation: '寻找可以派去回复秦国的人，没有找到。' }
+        ]
+      }
+    ],
+    examTips: '“者”常作定语后置标志（如“求人可使报秦者”）及用在“……者，……也”判断句式中。'
+  },
+  {
+    id: 'xuci_zhi',
+    word: '之',
+    pinyin: 'zhī',
+    category: 'xuci_18',
+    categoryLabel: '核心文言虚词',
+    radical: '丿',
+    isHighFrequency: true,
+    senses: [
+      {
+        pos: '代词',
+        meaning: '第三人称代词（他、她、它、他们）；指示代词（这、这个、这样）',
+        examples: [
+          { text: '然语之，又恐汝日日为吾担忧。', source: '《与妻书》', translation: '然而告诉了你，又怕你天天为我担惊受怕。（代词“你”）' },
+          { text: '君子疾夫舍曰欲之而必为之辞。', source: '《季氏将伐颛臾》', translation: '君子厌恶那种避而不言自己想要却一定要为它找借口的行为。' }
+        ]
+      },
+      {
+        pos: '结构助词',
+        meaning: '相当于“的”，定语的标志',
+        examples: [
+          { text: '虎兕出于柙，龟玉毁于椟中，是谁之过与？', source: '《季氏将伐颛臾》', translation: '老虎犀牛从笼子里逃出来，龟甲宝玉在木匣里毁坏，这是谁的过错呢？' }
+        ]
+      },
+      {
+        pos: '结构助词',
+        meaning: '用在主谓之间，取消句子独立性，不译',
+        examples: [
+          { text: '臣之壮也，犹不如人；今老矣，无能为也已。', source: '《烛之武退秦师》', translation: '我在壮年的时候，尚且不如别人；现在衰老了，无能为力了。' }
+        ]
+      },
+      {
+        pos: '结构助词',
+        meaning: '宾语前置的标志 / 定语后置的标志，不译',
+        examples: [
+          { text: '句读之不知，惑之不解。', source: '《师说》', translation: '不通晓句读，不能解决疑惑。' },
+          { text: '人谁又能以身之察察，受物之汶汶者乎？', source: '《屈原列传》', translation: '谁又能让自己洁净的身体，蒙受污浊的事物呢？' }
+        ]
+      },
+      {
+        pos: '音节助词',
+        meaning: '补足音节，无实在意义',
+        examples: [
+          { text: '填然鼓之，兵刃既接，弃甲曳兵而走。', source: '《寡人之于国也》', translation: '咚咚地击鼓，兵刃已经交锋，抛下铠甲拖着武器逃跑。' }
+        ]
+      },
+      {
+        pos: '动词',
+        meaning: '到……去，前往',
+        examples: [
+          { text: '胡为乎遑遑欲何之？', source: '《归去来兮辞》', translation: '为什么心神不定想要到哪里去呢？' }
+        ]
+      }
+    ],
+    examTips: '“之”是高考虚词之首！五大考点：代词、结构助词“的”、主谓间取消句子独立性、宾语前置标志、动词“到……去”。'
+  }
+];
