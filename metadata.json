@@ -1,6 +1,6 @@
 {
   "name": "高中文言实虚词汇总平台",
-  "description": "高考必备高中文言文120实词、18虚词及高频阅读难词全库整合与刷题备考系统",
+  "description": "高中文言文常见实词、核心虚词及阅读难词词义与课文例句整理检索平台",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": []
 }

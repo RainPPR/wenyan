@@ -1,17 +1,15 @@
 import React, { useState, useMemo } from 'react';
 import { VocabularyEntry } from '../types';
-import { Search, Filter, Sparkles, ChevronRight, BookOpen } from 'lucide-react';
+import { Search, Filter, ChevronRight, BookOpen } from 'lucide-react';
 
 interface VocabularyListProps {
   vocabulary: VocabularyEntry[];
   onSelectEntry: (entry: VocabularyEntry) => void;
-  onOpenAiAnalyze: (sentence: string, targetWord: string) => void;
 }
 
 export const VocabularyList: React.FC<VocabularyListProps> = ({
   vocabulary,
-  onSelectEntry,
-  onOpenAiAnalyze
+  onSelectEntry
 }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
@@ -34,18 +32,19 @@ export const VocabularyList: React.FC<VocabularyListProps> = ({
       if (!searchTerm.trim()) return true;
 
       const q = searchTerm.trim().toLowerCase();
-      const matchWord = item.word.toLowerCase().includes(q);
+      const matchWord = (item.word || '').toLowerCase().includes(q);
       const matchPinyin = Array.isArray(item.pinyin)
-        ? item.pinyin.some((p) => p.toLowerCase().includes(q))
-        : item.pinyin.toLowerCase().includes(q);
-      const matchSenses = item.senses.some(
+        ? item.pinyin.some((p) => (p || '').toLowerCase().includes(q))
+        : (item.pinyin || '').toLowerCase().includes(q);
+      const matchSenses = (item.senses || []).some(
         (s) =>
-          s.meaning.toLowerCase().includes(q) ||
-          s.examples.some(
+          (s?.meaning || '').toLowerCase().includes(q) ||
+          (s?.pos || '').toLowerCase().includes(q) ||
+          (s?.examples || []).some(
             (ex) =>
-              ex.text.toLowerCase().includes(q) ||
-              ex.translation.toLowerCase().includes(q) ||
-              ex.source.toLowerCase().includes(q)
+              (ex?.text || '').toLowerCase().includes(q) ||
+              (ex?.translation || '').toLowerCase().includes(q) ||
+              (ex?.source || '').toLowerCase().includes(q)
           )
       );
 
@@ -81,14 +80,13 @@ export const VocabularyList: React.FC<VocabularyListProps> = ({
           {/* High Frequency Filter Toggle */}
           <button
             onClick={() => setOnlyHighFreq(!onlyHighFreq)}
-            className={`flex items-center justify-center space-x-2 px-4 py-2.5 rounded-lg text-xs font-serif font-bold transition-all border ${
+            className={`flex items-center justify-center space-x-1.5 px-4 py-2.5 rounded-lg text-xs font-serif font-bold transition-all border ${
               onlyHighFreq
                 ? 'bg-amber-900 text-amber-100 border-amber-800 shadow-sm'
                 : 'bg-white text-stone-700 border-stone-300 hover:bg-stone-100'
             }`}
           >
-            <Sparkles className={`w-3.5 h-3.5 ${onlyHighFreq ? 'text-amber-300' : 'text-stone-400'}`} />
-            <span>只看高考高频重点词</span>
+            <span>只看高频重点字词</span>
           </button>
         </div>
 
@@ -192,36 +190,21 @@ export const VocabularyList: React.FC<VocabularyListProps> = ({
                       </span>
                     </div>
 
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        if (item.senses[0]?.examples[0]?.text) {
-                          onOpenAiAnalyze(item.senses[0].examples[0].text, item.word);
-                        }
-                      }}
-                      className="inline-flex items-center space-x-1 text-[11px] text-amber-700 hover:text-amber-900 bg-amber-50 hover:bg-amber-100 px-2 py-1 rounded border border-amber-200 transition-colors font-serif"
-                      title="使用 AI 解析第一条课文例句"
-                    >
-                      <Sparkles className="w-3 h-3 text-amber-600" />
-                      <span>AI 赏析</span>
-                    </button>
-                  </div>
-
-                  {/* Category Tag & High Freq Badge */}
-                  <div className="flex items-center space-x-2 mb-3">
-                    <span className="text-[10px] font-serif bg-amber-50 text-amber-900 px-2 py-0.5 rounded border border-amber-200/80">
-                      {item.categoryLabel}
-                    </span>
-                    {item.isHighFrequency && (
-                      <span className="text-[10px] bg-red-50 text-red-700 px-1.5 py-0.5 rounded border border-red-200 font-bold">
-                        高考高频
+                    <div className="flex items-center space-x-2">
+                      <span className="text-[10px] font-serif bg-amber-50 text-amber-900 px-2 py-0.5 rounded border border-amber-200/80">
+                        {item.categoryLabel}
                       </span>
-                    )}
+                      {item.isHighFrequency && (
+                        <span className="text-[10px] bg-red-50 text-red-700 px-1.5 py-0.5 rounded border border-red-200 font-bold">
+                          高频考点
+                        </span>
+                      )}
+                    </div>
                   </div>
 
                   {/* Senses Preview */}
                   <div className="space-y-1.5 text-xs text-stone-700 line-clamp-3">
-                    {item.senses.slice(0, 3).map((s, idx) => (
+                    {(item.senses || []).slice(0, 3).map((s, idx) => (
                       <p key={idx} className="flex items-start">
                         <span className="text-amber-800 font-serif font-bold mr-1 shrink-0">
                           [{s.pos}]
@@ -229,7 +212,7 @@ export const VocabularyList: React.FC<VocabularyListProps> = ({
                         <span className="text-stone-800">{s.meaning}</span>
                       </p>
                     ))}
-                    {item.senses.length > 3 && (
+                    {(item.senses || []).length > 3 && (
                       <span className="text-[10px] text-stone-400 block pt-0.5">
                         ……（共 {item.senses.length} 项义项，点击查看完整）
                       </span>

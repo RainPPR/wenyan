@@ -1,23 +1,21 @@
 import React from 'react';
 import { VocabularyEntry } from '../types';
-import { X, Sparkles, BookOpen, AlertCircle } from 'lucide-react';
+import { X, BookOpen, AlertCircle } from 'lucide-react';
 
 interface ModalProps {
   entry: VocabularyEntry | null;
   onClose: () => void;
-  onOpenAiAnalyze?: (sentence: string, targetWord: string) => void;
 }
 
 export const VocabularyCardModal: React.FC<ModalProps> = ({
   entry,
-  onClose,
-  onOpenAiAnalyze
+  onClose
 }) => {
   if (!entry) return null;
 
   const pinyinStr = Array.isArray(entry.pinyin)
     ? entry.pinyin.join(' / ')
-    : entry.pinyin;
+    : (entry.pinyin || '');
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-stone-900/60 backdrop-blur-sm overflow-y-auto">
@@ -74,7 +72,7 @@ export const VocabularyCardModal: React.FC<ModalProps> = ({
             </h3>
 
             <div className="grid gap-4">
-              {entry.senses.map((sense, idx) => (
+              {(entry.senses || []).map((sense, idx) => (
                 <div
                   key={idx}
                   className="bg-white p-4 rounded-lg border border-stone-200 shadow-sm hover:border-amber-300 transition-colors"
@@ -93,7 +91,7 @@ export const VocabularyCardModal: React.FC<ModalProps> = ({
 
                   {/* Examples */}
                   <div className="space-y-2 mt-3 pl-3 border-l-2 border-amber-200">
-                    {sense.examples.map((ex, exIdx) => (
+                    {(sense.examples || []).map((ex, exIdx) => (
                       <div key={exIdx} className="text-sm space-y-1">
                         <div className="flex flex-wrap items-baseline justify-between gap-2">
                           <p className="font-serif font-bold text-stone-900 text-base">
@@ -106,20 +104,6 @@ export const VocabularyCardModal: React.FC<ModalProps> = ({
                         <p className="text-stone-600 text-xs leading-relaxed">
                           译文：{ex.translation}
                         </p>
-
-                        {/* AI Deep Analyze Button */}
-                        {onOpenAiAnalyze && (
-                          <button
-                            onClick={() => {
-                              onClose();
-                              onOpenAiAnalyze(ex.text, entry.word);
-                            }}
-                            className="inline-flex items-center space-x-1 text-xs text-amber-700 hover:text-amber-900 font-medium hover:underline pt-1"
-                          >
-                            <Sparkles className="w-3 h-3 text-amber-600" />
-                            <span>用 AI 分析此句语法义项</span>
-                          </button>
-                        )}
                       </div>
                     ))}
                   </div>
@@ -132,7 +116,7 @@ export const VocabularyCardModal: React.FC<ModalProps> = ({
         {/* Modal Footer */}
         <div className="bg-stone-100 px-6 py-3 border-t border-stone-200 flex items-center justify-between">
           <p className="text-xs text-stone-500 font-serif">
-            数据来源：《普通高中语文课程标准》· 120个必考实词 & 18个虚词全景总汇
+            文言实词虚词全义项及高中课文例句整理
           </p>
           <button
             onClick={onClose}
