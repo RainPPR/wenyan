@@ -19,7 +19,7 @@ The application is a pure React 19 + TypeScript + Tailwind CSS v4 single-page ap
 - `.github/workflows/deploy.yml` sets up Node.js 22, runs `npm install`, verifies types with `npm run lint`, builds the static site (`npm run build`), and deploys `./dist` to GitHub Pages automatically upon push to `main`/`master`.
 
 ## Data Maintenance Rules
-- All classical Chinese vocabulary entries MUST be stored in modular TypeScript datasets under `/src/data/` (`shiciPart1.ts`~`shiciPart4.ts`, `xuci.ts`, `nanci.ts`).
+- All classical Chinese vocabulary entries MUST be stored in modular TypeScript datasets under `/src/data/` (`shiciPart1.ts`~`shiciPart4.ts`, `xuci.ts`, `nanci.ts`). `xuci.ts` contains the perfected 18 function words dataset with complete senses, quotes, translations, and notes.
 - High-frequency vocabulary is organized flexibly without hardcoded numeric limits (e.g. no fixed "120实词" or "18虚词" labels).
 - Ensure NO duplicate word entries exist across categories, while merging all definitions, alternate pronunciations, parts of speech, and textbook examples from source texts.
 - Ensure every item in `ALL_VOCABULARY` has a strictly unique `id` to avoid React duplicate key collisions.
