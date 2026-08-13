@@ -13,25 +13,23 @@ const shiciRaw: RawVocabularyEntry[] = [
   ...SHICI_PART3,
   ...SHICI_PART4,
   ...SHICI_PART5,
-  ...SHICI_PART6
+  ...SHICI_PART6,
 ];
 
-const xuciRaw: RawVocabularyEntry[] = [
-  ...XUCI
-];
+const xuciRaw: RawVocabularyEntry[] = [...XUCI];
 
 // Combine all datasets and map category/categoryLabel based on source file
 const rawList: VocabularyEntry[] = [
   ...shiciRaw.map((item) => ({
     ...item,
     category: 'shici' as const,
-    categoryLabel: '文言实词'
+    categoryLabel: '文言实词',
   })),
   ...xuciRaw.map((item) => ({
     ...item,
     category: 'xuci' as const,
-    categoryLabel: '文言虚词'
-  }))
+    categoryLabel: '文言虚词',
+  })),
 ];
 
 // Combine entries with the same word and category if any duplicates exist
@@ -46,9 +44,7 @@ rawList.forEach((entry) => {
     const existing = entryMap.get(key)!;
     const existingSenses = existing.senses;
     entry.senses.forEach((newSense) => {
-      const isDuplicateSense = existingSenses.some(
-        (s) => s.meaning === newSense.meaning
-      );
+      const isDuplicateSense = existingSenses.some((s) => s.meaning === newSense.meaning);
       if (!isDuplicateSense) {
         existingSenses.push(newSense);
       }
@@ -66,20 +62,16 @@ export const ALL_VOCABULARY: VocabularyEntry[] = Array.from(entryMap.values()).m
   seenIds.add(uniqueId);
   return {
     ...item,
-    id: uniqueId
+    id: uniqueId,
   };
 });
 
-export const SHICI_LIST = ALL_VOCABULARY.filter(
-  (item) => item.category === 'shici'
-);
+export const SHICI_LIST = ALL_VOCABULARY.filter((item) => item.category === 'shici');
 
-export const XUCI_LIST = ALL_VOCABULARY.filter(
-  (item) => item.category === 'xuci'
-);
+export const XUCI_LIST = ALL_VOCABULARY.filter((item) => item.category === 'xuci');
 
 export const STATS = {
   totalWords: ALL_VOCABULARY.length,
   shiciCount: SHICI_LIST.length,
-  xuciCount: XUCI_LIST.length
+  xuciCount: XUCI_LIST.length,
 };

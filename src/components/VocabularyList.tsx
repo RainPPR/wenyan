@@ -7,10 +7,7 @@ interface VocabularyListProps {
   onSelectEntry: (entry: VocabularyEntry) => void;
 }
 
-export const VocabularyList: React.FC<VocabularyListProps> = ({
-  vocabulary,
-  onSelectEntry
-}) => {
+export const VocabularyList: React.FC<VocabularyListProps> = ({ vocabulary, onSelectEntry }) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [onlyHighFreq, setOnlyHighFreq] = useState(false);
@@ -133,7 +130,13 @@ export const VocabularyList: React.FC<VocabularyListProps> = ({
 
       {/* Results Header Info */}
       <div className="flex items-center justify-between text-xs text-stone-500 px-1 font-serif">
-        <span>共检索到 <strong className="text-amber-900 font-bold font-mono text-sm">{filteredList.length}</strong> 条无重复文言词条</span>
+        <span>
+          共检索到{' '}
+          <strong className="text-amber-900 font-bold font-mono text-sm">
+            {filteredList.length}
+          </strong>{' '}
+          条无重复文言词条
+        </span>
         <span>点击卡片查看高中必修课文经典例句与考点解析</span>
       </div>
 
@@ -157,9 +160,7 @@ export const VocabularyList: React.FC<VocabularyListProps> = ({
       ) : (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {filteredList.map((item) => {
-            const pinyinStr = Array.isArray(item.pinyin)
-              ? item.pinyin.join(' / ')
-              : item.pinyin;
+            const pinyinStr = Array.isArray(item.pinyin) ? item.pinyin.join(' / ') : item.pinyin;
 
             return (
               <div

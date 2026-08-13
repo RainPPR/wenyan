@@ -7,15 +7,10 @@ interface ModalProps {
   onClose: () => void;
 }
 
-export const VocabularyCardModal: React.FC<ModalProps> = ({
-  entry,
-  onClose
-}) => {
+export const VocabularyCardModal: React.FC<ModalProps> = ({ entry, onClose }) => {
   if (!entry) return null;
 
-  const pinyinStr = Array.isArray(entry.pinyin)
-    ? entry.pinyin.join(' / ')
-    : (entry.pinyin || '');
+  const pinyinStr = Array.isArray(entry.pinyin) ? entry.pinyin.join(' / ') : entry.pinyin || '';
 
   return (
     <div
@@ -107,7 +102,9 @@ export const VocabularyCardModal: React.FC<ModalProps> = ({
                           </span>
                         </div>
                         <p className="text-stone-600 font-sans text-xs sm:text-sm leading-relaxed">
-                          <span className="font-serif font-semibold text-amber-900/80 mr-1">译：</span>
+                          <span className="font-serif font-semibold text-amber-900/80 mr-1">
+                            译：
+                          </span>
                           {ex.translation}
                         </p>
                       </div>
@@ -121,9 +118,7 @@ export const VocabularyCardModal: React.FC<ModalProps> = ({
 
         {/* Modal Footer */}
         <div className="bg-stone-100/90 px-6 py-3.5 border-t border-stone-200/80 flex items-center justify-between">
-          <p className="text-xs text-stone-500 font-serif">
-            文言实词虚词全义项及高中课文例句整理
-          </p>
+          <p className="text-xs text-stone-500 font-serif">文言实词虚词全义项及高中课文例句整理</p>
           <button
             onClick={onClose}
             className="px-4 py-1.5 bg-stone-800 text-stone-100 hover:bg-stone-900 text-xs rounded-lg transition-colors font-medium shadow-xs"

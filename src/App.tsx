@@ -25,9 +25,7 @@ export default function App() {
       {/* Footer */}
       <footer className="bg-stone-900 text-stone-400 py-6 text-center text-xs border-t border-stone-800 font-serif">
         <div className="max-w-7xl mx-auto px-4 space-y-1">
-          <p className="text-stone-300 font-bold">
-            高中文言实虚词检索与学习平台
-          </p>
+          <p className="text-stone-300 font-bold">高中文言实虚词检索与学习平台</p>
           <p className="text-stone-500">
             包含文言常用实词、虚词与常见短语义项说明及高中课文文言例句参考
           </p>
@@ -35,10 +33,7 @@ export default function App() {
       </footer>
 
       {/* Vocabulary Detail Modal */}
-      <VocabularyCardModal
-        entry={selectedEntry}
-        onClose={() => setSelectedEntry(null)}
-      />
+      <VocabularyCardModal entry={selectedEntry} onClose={() => setSelectedEntry(null)} />
     </div>
   );
 }

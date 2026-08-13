@@ -1,5 +1,4 @@
 import React from 'react';
-import { BookOpen, Search } from 'lucide-react';
 
 interface NavbarProps {
   stats: {

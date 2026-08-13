@@ -1,16 +1,23 @@
 # 系统架构说明 (Architecture Overview)
 
-本应用采用纯静态单页 Web 应用 (SPA) 架构，可以直接打包为 HTML/JS/CSS 并部署至 GitHub Pages：
+本应用采用纯静态单页 Web 应用 (SPA) 架构，可以直接打包为静态 HTML/JS/CSS 并部署至 GitHub Pages：
 
-1. **前端层 (Frontend Layer)**
+1. **前端展现层 (Frontend Layer)**
    - 使用 React 19 + TypeScript + Tailwind CSS v4 构建古朴沉稳的字词检索界面。
    - 使用 Motion 库实现模态框与组件过渡。
-   - 核心组件：`Navbar` (导航与统计)、`VocabularyList` (卡片与多维检索)、`VocabularyCardModal` (词条深度解析模态框)。
+   - 核心组件构成：
+     - Navbar: 顶部导航与全库字词统计展示。
+     - VocabularyList: 字词多维实时模糊检索、高频筛选、分类切分与词条卡片网格。
+     - VocabularyCardModal: 词条深度解析模态框，包含宣纸风衬面、义项拆解、课文例句对译与考点易错警示。
 
-2. **数据层 (Data Layer)**
-   - 核心数据采用结构化的 TypeScript 模块 (`/src/data/`) 静态打包，包含文言实词、核心虚词及高频阅读难词与固定短语。
-   - `allVocabulary.ts` 负责归集全量数据并保障每个词条的 ID 绝对唯一，彻底消除 React duplicate key 警告。
+2. **数据架构层 (Data Layer)**
+   - 核心数据采用模块化的 TypeScript 数据文件 (`/src/data/`) 静态打包，拆分为实词部分与核心虚词部分。
+   - 数据模型采用 RawVocabularyEntry 接口与 VocabularyEntry 复合接口解耦设计，分类标签由 allVocabulary 统一映射并绑定。
+   - allVocabulary 负责汇总全量数据并动态分配与保障每个词条的 ID 绝对唯一，彻底消除渲染重复 Key 警告。
 
 3. **构建与持续集成 (CI/CD)**
-   - 使用 Vite 进行 0 运行时的静态页面打包 (`npm run build`)，配置 `base: './'` 采用相对路径加载静态资源，使其完美兼容根目录与任何二级目录（如 `/wenyan/`）。输出产物存放于 `dist/` 目录。
-   - 配置 GitHub Actions 工作流文件 `.github/workflows/deploy.yml`（采用 Node.js 22 运行环境，兼容无 `package-lock.json` 的标准 `npm install` 流程），在推送到 `main` 或 `master` 分支时自动构建并发布至 GitHub Pages。
+   - 集成 ESLint (Flat Config) 严格规范与 Prettier 统一格式化 (`npm run lint`, `npm run pretty`)，保障项目代码质量与严谨规范。
+   - 使用 Vite 进行 0 运行时的纯静态页面打包 (`npm run build`)，配置相对路径 base 设置，完美兼容根目录与任意二级目录托管。输出产物存放于 dist 目录。
+   - 配置双 GitHub Actions 工作流文件：
+     - `.github/workflows/ci.yml`：在 Push 和 Pull Request 时自动运行 TypeScript 类型检查 (`npm run typecheck`)、ESLint 校验与 Prettier 代码格式校验。
+     - `.github/workflows/deploy.yml`：在推送到主分支时自动触发依赖安装、静态构建打包（`dist`）与 GitHub Pages 一键发布。
