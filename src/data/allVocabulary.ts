@@ -4,8 +4,8 @@ import { SHICI_PART2 } from './shiciPart2';
 import { SHICI_PART3 } from './shiciPart3';
 import { SHICI_PART4 } from './shiciPart4';
 import { SHICI_PART5 } from './shiciPart5';
+import { SHICI_PART6 } from './shiciPart6';
 import { XUCI } from './xuci';
-import { NANCI } from './nanci';
 
 // Combine all datasets
 const rawList: VocabularyEntry[] = [
@@ -14,8 +14,8 @@ const rawList: VocabularyEntry[] = [
   ...SHICI_PART3,
   ...SHICI_PART4,
   ...SHICI_PART5,
-  ...XUCI,
-  ...NANCI
+  ...SHICI_PART6,
+  ...XUCI
 ];
 
 // Combine entries with the same word and category if any duplicates exist
@@ -55,20 +55,15 @@ export const ALL_VOCABULARY: VocabularyEntry[] = Array.from(entryMap.values()).m
 });
 
 export const SHICI_LIST = ALL_VOCABULARY.filter(
-  (item) => item.category === 'shici_120'
+  (item) => item.category === 'shici'
 );
 
 export const XUCI_LIST = ALL_VOCABULARY.filter(
-  (item) => item.category === 'xuci_18'
-);
-
-export const NANCI_LIST = ALL_VOCABULARY.filter(
-  (item) => item.category === 'gaopin_nanci' || item.category === 'guding_jushi' || item.category === 'tongjia_jianci'
+  (item) => item.category === 'xuci'
 );
 
 export const STATS = {
   totalWords: ALL_VOCABULARY.length,
   shiciCount: SHICI_LIST.length,
-  xuciCount: XUCI_LIST.length,
-  nanciCount: NANCI_LIST.length
+  xuciCount: XUCI_LIST.length
 };

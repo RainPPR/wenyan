@@ -2,7 +2,7 @@
  * Classical Chinese Vocabulary & Study Types
  */
 
-export type CategoryType = 'shici_120' | 'xuci_18' | 'gaopin_nanci' | 'guding_jushi' | 'tongjia_jianci';
+export type CategoryType = 'shici' | 'xuci';
 
 export interface ExampleItem {
   text: string;          // 文言原文例句
@@ -22,7 +22,7 @@ export interface VocabularyEntry {
   word: string;                   // 汉字/词语
   pinyin: string | string[];     // 拼音（字符串或多音字数组）
   category: CategoryType;
-  categoryLabel: string;         // '120高考必备实词' | '18高考核心虚词' | '高频阅读难词' | '固定结构与兼词'
+  categoryLabel: string;         // '文言实词' | '文言虚词'
   radical?: string;              // 部首/首字
   strokes?: number;              // 笔画数（可选）
   senses: SenseItem[];

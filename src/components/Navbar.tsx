@@ -6,7 +6,6 @@ interface NavbarProps {
     totalWords: number;
     shiciCount: number;
     xuciCount: number;
-    nanciCount: number;
   };
 }
 
@@ -25,7 +24,7 @@ export const Navbar: React.FC<NavbarProps> = ({ stats }) => {
                 高中文言实虚词汇总平台
               </h1>
               <p className="text-xs text-amber-300/80 font-sans">
-                常见文言实词、核心虚词及高频难词义项例句汇编
+                常见文言实词与核心虚词义项例句汇编
               </p>
             </div>
           </div>
@@ -36,13 +35,10 @@ export const Navbar: React.FC<NavbarProps> = ({ stats }) => {
               全库字词：<strong className="text-amber-400 font-mono">{stats.totalWords}</strong> 条
             </span>
             <span className="hidden sm:inline-block bg-amber-900/80 px-2.5 py-1 rounded border border-amber-700/60 text-amber-200">
-              高频实词：<strong className="text-amber-400 font-mono">{stats.shiciCount}</strong> 词
+              文言实词：<strong className="text-amber-400 font-mono">{stats.shiciCount}</strong> 词
             </span>
             <span className="hidden sm:inline-block bg-amber-900/80 px-2.5 py-1 rounded border border-amber-700/60 text-amber-200">
-              高频虚词：<strong className="text-amber-400 font-mono">{stats.xuciCount}</strong> 词
-            </span>
-            <span className="hidden md:inline-block bg-amber-900/80 px-2.5 py-1 rounded border border-amber-700/60 text-amber-200">
-              高频难词：<strong className="text-amber-400 font-mono">{stats.nanciCount}</strong> 条
+              文言虚词：<strong className="text-amber-400 font-mono">{stats.xuciCount}</strong> 词
             </span>
           </div>
         </div>

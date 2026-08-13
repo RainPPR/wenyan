@@ -108,36 +108,25 @@ export const VocabularyList: React.FC<VocabularyListProps> = ({
           </button>
 
           <button
-            onClick={() => setSelectedCategory('shici_120')}
+            onClick={() => setSelectedCategory('shici')}
             className={`px-3 py-1.5 rounded-md transition-colors shrink-0 ${
-              selectedCategory === 'shici_120'
+              selectedCategory === 'shici'
                 ? 'bg-amber-800 text-amber-50 font-bold'
                 : 'bg-stone-200/80 text-stone-700 hover:bg-stone-300'
             }`}
           >
-            高频实词
+            文言实词
           </button>
 
           <button
-            onClick={() => setSelectedCategory('xuci_18')}
+            onClick={() => setSelectedCategory('xuci')}
             className={`px-3 py-1.5 rounded-md transition-colors shrink-0 ${
-              selectedCategory === 'xuci_18'
+              selectedCategory === 'xuci'
                 ? 'bg-amber-800 text-amber-50 font-bold'
                 : 'bg-stone-200/80 text-stone-700 hover:bg-stone-300'
             }`}
           >
-            高频虚词
-          </button>
-
-          <button
-            onClick={() => setSelectedCategory('gaopin_nanci')}
-            className={`px-3 py-1.5 rounded-md transition-colors shrink-0 ${
-              selectedCategory === 'gaopin_nanci'
-                ? 'bg-amber-800 text-amber-50 font-bold'
-                : 'bg-stone-200/80 text-stone-700 hover:bg-stone-300'
-            }`}
-          >
-            高频阅读难词与短语
+            文言虚词
           </button>
         </div>
       </div>
