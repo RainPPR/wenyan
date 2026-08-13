@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { VocabularyEntry } from '../types';
 import { X, BookOpen, AlertCircle } from 'lucide-react';
 
@@ -8,6 +8,34 @@ interface ModalProps {
 }
 
 export const VocabularyCardModal: React.FC<ModalProps> = ({ entry, onClose }) => {
+  useEffect(() => {
+    if (!entry) return;
+
+    // Lock background page scroll and prevent layout shift caused by scrollbar width change
+    const originalOverflow = document.body.style.overflow;
+    const originalPaddingRight = document.body.style.paddingRight;
+    const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+
+    document.body.style.overflow = 'hidden';
+    if (scrollbarWidth > 0) {
+      document.body.style.paddingRight = `${scrollbarWidth}px`;
+    }
+
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        onClose();
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.body.style.overflow = originalOverflow;
+      document.body.style.paddingRight = originalPaddingRight;
+      window.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [entry, onClose]);
+
   if (!entry) return null;
 
   const pinyinStr = Array.isArray(entry.pinyin) ? entry.pinyin.join(' / ') : entry.pinyin || '';
@@ -15,14 +43,14 @@ export const VocabularyCardModal: React.FC<ModalProps> = ({ entry, onClose }) =>
   return (
     <div
       onClick={onClose}
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-stone-900/60 backdrop-blur-sm overflow-y-auto cursor-pointer"
+      className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-stone-900/60 backdrop-blur-sm cursor-pointer overflow-hidden animate-in fade-in duration-200"
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="relative w-full max-w-3xl bg-[#fdfbf7] border border-amber-900/20 rounded-2xl shadow-2xl overflow-hidden my-8 animate-in fade-in zoom-in-95 duration-200 cursor-default"
+        className="relative w-full max-w-3xl max-h-[85vh] sm:max-h-[90vh] bg-[#fdfbf7] border border-amber-900/20 rounded-2xl shadow-2xl overflow-hidden flex flex-col my-auto cursor-default animate-in zoom-in-95 duration-200"
       >
         {/* Modal Header */}
-        <div className="bg-amber-950 text-amber-50 px-6 py-5 flex items-center justify-between border-b border-amber-900/60 shadow-md">
+        <div className="bg-amber-950 text-amber-50 px-6 py-5 flex items-center justify-between border-b border-amber-900/60 shadow-md shrink-0">
           <div className="flex items-baseline space-x-3">
             <span className="text-3xl sm:text-4xl font-serif font-bold text-amber-100 tracking-wider">
               {entry.word}
@@ -48,7 +76,7 @@ export const VocabularyCardModal: React.FC<ModalProps> = ({ entry, onClose }) =>
         </div>
 
         {/* Modal Body */}
-        <div className="p-6 max-h-[75vh] overflow-y-auto space-y-6 text-stone-800 font-serif">
+        <div className="p-6 flex-1 overflow-y-auto space-y-6 text-stone-800 font-serif">
           {/* Exam Tips / Core Warning */}
           {entry.examTips && (
             <div className="bg-amber-50/90 border-l-4 border-amber-700 p-4 rounded-r-xl shadow-sm text-amber-950 flex items-start space-x-3.5 border border-amber-200/60">
@@ -117,7 +145,7 @@ export const VocabularyCardModal: React.FC<ModalProps> = ({ entry, onClose }) =>
         </div>
 
         {/* Modal Footer */}
-        <div className="bg-stone-100/90 px-6 py-3.5 border-t border-stone-200/80 flex items-center justify-between">
+        <div className="bg-stone-100/90 px-6 py-3.5 border-t border-stone-200/80 flex items-center justify-between shrink-0">
           <p className="text-xs text-stone-500 font-serif">文言实词虚词全义项及高中课文例句整理</p>
           <button
             onClick={onClose}

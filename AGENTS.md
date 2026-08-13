@@ -9,6 +9,8 @@ The application is a pure React 19 + TypeScript + Tailwind CSS v4 single-page ap
 ## Practical Focus & Scope
 
 - Focus purely on clean word lookup, complete definitions, accurate senses, correct translations, and real textbook examples.
+- Implement intelligent multi-tiered relevance search ranking so exact headword matches (e.g., searching "望") sit at the absolute top, followed by prefix matches, substring matches, tone-stripped pinyin matches, core definitions, and textbook quote/source matches.
+- Ensure modal dialogs handle background scroll locks and layout-shift scrollbar compensation (`document.body.style.overflow = 'hidden'` with scrollbar width padding) to prevent double scrollbars or page jitter when modals open.
 - Completely removed AI tools, flashcards, quizzes, and bookmark/favorites state to keep the project completely offline-ready, light, and static.
 - Removed unused scripts, redundant declarations, obsolete interfaces, and marketing hype across the UI and documentation.
 
@@ -37,6 +39,7 @@ The application is a pure React 19 + TypeScript + Tailwind CSS v4 single-page ap
 
 ## Technology Stack
 
-- **Frontend**: React 19 + TypeScript + Tailwind CSS v4 + Motion + Lucide React
+- **Technology Stack**: React 19 + TypeScript + Tailwind CSS v4 + Motion + Lucide React
 - **Build Tool**: Vite 6
+- **Code Quality**: ESLint 9 (Flat Config) + Prettier 3
 - **CI/CD**: GitHub Actions (`.github/workflows/ci.yml`, `.github/workflows/deploy.yml`)
