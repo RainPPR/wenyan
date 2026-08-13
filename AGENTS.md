@@ -14,6 +14,31 @@ The application is a pure React 19 + TypeScript + Tailwind CSS v4 single-page ap
 - Completely removed AI tools, flashcards, quizzes, and bookmark/favorites state to keep the project completely offline-ready, light, and static.
 - Removed unused scripts, redundant declarations, obsolete interfaces, and marketing hype across the UI and documentation.
 
+## Documentation & Content Specifications
+
+Comprehensive specifications for data curation, architecture, features, and content standards are maintained in the `/docs` directory:
+
+- [`docs/content-specification.md`](docs/content-specification.md): **内容编排要求与规范 (Content Curation & Specification)** — Detailed guidelines on unmerging senses, zero-placeholder policies, multi-tier search algorithms, and UI modal layout rules.
+- [`docs/data-structure.md`](docs/data-structure.md): Data schema, entry relationships, and unmerging rules.
+- [`docs/architecture.md`](docs/architecture.md): Application architecture, static bundle setup, and build pipelines.
+- [`docs/features.md`](docs/features.md): Core functional requirements and UX interactions.
+
+## Agent Skills & Workflow Evolution (`.agents/skills`)
+
+Reusable agent workflows and domain-specific knowledge are organized in the `.agents/skills/` directory:
+
+- [`.agents/skills/vocabulary-data-curation/SKILL.md`](.agents/skills/vocabulary-data-curation/SKILL.md): Dataset schema compliance, sense unmerging, and zero-placeholder validation.
+- [`.agents/skills/code-quality-assurance/SKILL.md`](.agents/skills/code-quality-assurance/SKILL.md): Pipeline checks (`typecheck`, `lint`, `pretty`, `compile_applet`).
+- [`.agents/skills/documentation-evolution/SKILL.md`](.agents/skills/documentation-evolution/SKILL.md): Instructions for syncing docs, updating `AGENTS.md`, and evolving skill files.
+
+### Continuous Skill Maintenance & Evolution Protocol
+
+All AI Agents interacting with this repository MUST:
+
+1. **Read & Trigger Skills**: Consult relevant `.agents/skills/*/SKILL.md` files when performing dataset edits, code quality checks, or documentation updates.
+2. **Evolve Skills Continuously**: As user requirements evolve, new edge cases are discovered, or new optimization workflows are established, AI Agents MUST proactively update existing skills or author new skills under `.agents/skills/`.
+3. **Synchronize Documentation**: Keep `AGENTS.md`, `README.md`, `/docs/*.md`, and `.agents/skills/` strictly synchronized after every modification turn.
+
 ## Build and Quality Verification Rules
 
 - Run `npm run typecheck` (`tsc --noEmit`) to verify TypeScript type safety.

@@ -21,6 +21,12 @@
 - Prettier 格式检查：`npm run pretty`
 - Prettier 格式自动修复：`npm run pretty:fix`
 
+## 文档与 Agent Skills 规范
+
+- **内容编排要求与规范**：详情参见 [`docs/content-specification.md`](docs/content-specification.md)，包含义项独立解构（Unmerged Senses）、零占位例句（Zero-Placeholder Policy）与多阶梯搜索权重算法。
+- **项目架构与数据说明**：参见 [`docs/architecture.md`](docs/architecture.md)、[`docs/data-structure.md`](docs/data-structure.md) 及 [`docs/features.md`](docs/features.md)。
+- **Agent Workflows & Skills**：核心 AI 工作流保存在 [`.agents/skills/`](.agents/skills/) 目录下（包含数据编排、代码质量与文档持续演进 Skill），由 AI 持续维护与进化。
+
 ## GitHub Actions CI 检查与自动部署
 
 项目包含两个 GitHub Actions 工作流配置文件：

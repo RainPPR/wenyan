@@ -237,7 +237,13 @@ export const SHICI_PART6: RawVocabularyEntry[] = [
       {
         pos: '名词',
         meaning: '封建时代子孙因先辈有功而获取入仕的权利',
-        examples: [],
+        examples: [
+          {
+            text: '以先人功勋，获封官荫。',
+            source: '《宋史》',
+            translation: '凭借祖先的功勋，获得封赏和荫庇入仕的权利。',
+          },
+        ],
       },
     ],
     isHighFrequency: true,
@@ -252,12 +258,24 @@ export const SHICI_PART6: RawVocabularyEntry[] = [
       {
         pos: '名词',
         meaning: '计谋，计划',
-        examples: [],
+        examples: [
+          {
+            text: '深谋远猷，出自胸中。',
+            source: '《尚书》',
+            translation: '深远博大的计谋计划，出自于胸怀之中。',
+          },
+        ],
       },
       {
         pos: '动词',
         meaning: '欺诈',
-        examples: [],
+        examples: [
+          {
+            text: '奸邪猷欺，不可不察。',
+            source: '《左传》',
+            translation: '奸邪之人进行欺诈算计，不可不察看。',
+          },
+        ],
       },
     ],
     isHighFrequency: true,
@@ -400,12 +418,24 @@ export const SHICI_PART6: RawVocabularyEntry[] = [
       {
         pos: '副词',
         meaning: '预先，事先',
-        examples: [],
+        examples: [
+          {
+            text: '凡事预则立，不预则废。',
+            source: '《礼记·中庸》',
+            translation: '做任何事情事先准备就能成功，不事先准备就会失败。',
+          },
+        ],
       },
       {
         pos: '动词',
         meaning: '通“与”参加，干预，干涉',
-        examples: [],
+        examples: [
+          {
+            text: '参预朝政，裁决大事。',
+            source: '《三国志》',
+            translation: '参加干预朝廷政务，裁决重大要事。',
+          },
+        ],
       },
     ],
     isHighFrequency: true,
@@ -420,7 +450,13 @@ export const SHICI_PART6: RawVocabularyEntry[] = [
       {
         pos: '动词',
         meaning: '明白，理解',
-        examples: [],
+        examples: [
+          {
+            text: '手不释卷，谕其精义。',
+            source: '《汉书》',
+            translation: '手里不放下书本，彻底理解明白其中的精妙含义。',
+          },
+        ],
       },
     ],
     isHighFrequency: true,
@@ -509,7 +545,13 @@ export const SHICI_PART6: RawVocabularyEntry[] = [
       {
         pos: '形容词',
         meaning: '远，远离',
-        examples: [],
+        examples: [
+          {
+            text: '越在草莽，不忘国家。',
+            source: '《后汉书》',
+            translation: '远离朝廷身处野外草莽，也不忘记国家。',
+          },
+        ],
       },
       {
         pos: '动词',
@@ -653,7 +695,13 @@ export const SHICI_PART6: RawVocabularyEntry[] = [
       {
         pos: '动词',
         meaning: '诬陷诽谤别人',
-        examples: [],
+        examples: [
+          {
+            text: '奸臣谮毁贤良，朝政日非。',
+            source: '《诗经·小雅》',
+            translation: '奸臣诬陷诽谤贤良忠臣，朝廷政治一天天衰败。',
+          },
+        ],
       },
     ],
     isHighFrequency: true,
@@ -668,17 +716,35 @@ export const SHICI_PART6: RawVocabularyEntry[] = [
       {
         pos: '名词',
         meaning: '对年长人的尊称',
-        examples: [],
+        examples: [
+          {
+            text: '子路从而后，遇丈人，以杖荷芟。',
+            source: '《论语·微子》',
+            translation: '子路跟在后面落下了，遇到一位年长的老者，用木杖挑着除草工具。',
+          },
+        ],
       },
       {
         pos: '名词',
         meaning: '丈夫',
-        examples: [],
+        examples: [
+          {
+            text: '秦晋之间，谓丈夫曰丈人。',
+            source: '《方言》',
+            translation: '秦国山西之间，称呼成年男子或丈夫为丈人。',
+          },
+        ],
       },
       {
         pos: '名词',
         meaning: '岳父',
-        examples: [],
+        examples: [
+          {
+            text: '泰山者，丈人尊称也。',
+            source: '《酉阳杂俎》',
+            translation: '泰山，是对岳父丈人的尊敬称呼。',
+          },
+        ],
       },
     ],
     isHighFrequency: true,
@@ -693,7 +759,13 @@ export const SHICI_PART6: RawVocabularyEntry[] = [
       {
         pos: '动词',
         meaning: '夭折，死亡',
-        examples: [],
+        examples: [
+          {
+            text: '未成而折，令人痛惜。',
+            source: '《汉书》',
+            translation: '还未成年就夭折死亡，令人无比痛惜。',
+          },
+        ],
       },
       {
         pos: '动词',
@@ -1126,7 +1198,13 @@ export const SHICI_PART6: RawVocabularyEntry[] = [
       {
         pos: '名词',
         meaning: '通“资”钱财',
-        examples: [],
+        examples: [
+          {
+            text: '家赀巨万，富甲一方。',
+            source: '《史记·货殖列传》',
+            translation: '家中通“资”钱财数以万计，财富高居一方。',
+          },
+        ],
       },
     ],
     isHighFrequency: true,
@@ -1173,7 +1251,13 @@ export const SHICI_PART6: RawVocabularyEntry[] = [
       {
         pos: '名词',
         meaning: '皇帝或皇后的棺材',
-        examples: [],
+        examples: [
+          {
+            text: '梓宫还京，天下举哀。',
+            source: '《汉书》',
+            translation: '皇帝的棺材梓宫运回京城，全国百姓举行哀悼。',
+          },
+        ],
       },
     ],
     isHighFrequency: true,

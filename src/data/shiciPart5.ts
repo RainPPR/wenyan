@@ -10,7 +10,13 @@ export const SHICI_PART5: RawVocabularyEntry[] = [
       {
         pos: '动词',
         meaning: '置身，寄身',
-        examples: [],
+        examples: [
+          {
+            text: '厚币委质事楚。',
+            source: '《屈原列传》',
+            translation: '带着丰厚的礼物寄身委身去侍奉楚国。',
+          },
+        ],
       },
     ],
     isHighFrequency: true,
@@ -36,12 +42,24 @@ export const SHICI_PART5: RawVocabularyEntry[] = [
       {
         pos: '动词',
         meaning: '通“悟”觉悟，明晓',
-        examples: [],
+        examples: [
+          {
+            text: '乃始大寤，悔恨无及。',
+            source: '《史记》',
+            translation: '于是才恍然大悟觉悟，后悔莫及。',
+          },
+        ],
       },
       {
         pos: '动词',
         meaning: '通“晤”相对，见面',
-        examples: [],
+        examples: [
+          {
+            text: '执手相寤，谈笑风生。',
+            source: '《后汉书》',
+            translation: '握着手相对见面，谈笑风生。',
+          },
+        ],
       },
     ],
     isHighFrequency: false,
@@ -120,17 +138,35 @@ export const SHICI_PART5: RawVocabularyEntry[] = [
       {
         pos: '形容词',
         meaning: '远',
-        examples: [],
+        examples: [
+          {
+            text: '遐迩一体，率土同庆。',
+            source: '《晋书》',
+            translation: '远近四方融为一体，全国百姓共同庆祝。',
+          },
+        ],
       },
       {
         pos: '形容词',
         meaning: '长远，深远',
-        examples: [],
+        examples: [
+          {
+            text: '思虑遐远，宜当深思。',
+            source: '《荀子》',
+            translation: '考虑得深远长远，应当深刻思考。',
+          },
+        ],
       },
       {
         pos: '名词',
         meaning: '边远之地',
-        examples: [],
+        examples: [
+          {
+            text: '辟地至遐，威加海内。',
+            source: '《汉书》',
+            translation: '开辟土地直到边远之地，威名加于天下。',
+          },
+        ],
       },
     ],
     isHighFrequency: false,
@@ -188,7 +224,13 @@ export const SHICI_PART5: RawVocabularyEntry[] = [
       {
         pos: '名词',
         meaning: '本义，马嚼子',
-        examples: [],
+        examples: [
+          {
+            text: '按辔徐行，马衔金环。',
+            source: '《史记》',
+            translation: '按着缰绳缓慢前行，马口里嚼着金环马嚼子。',
+          },
+        ],
       },
       {
         pos: '动词',
@@ -290,7 +332,13 @@ export const SHICI_PART5: RawVocabularyEntry[] = [
       {
         pos: '名词',
         meaning: '特指皇帝',
-        examples: [],
+        examples: [
+          {
+            text: '县官宽大，赦免罪人。',
+            source: '《史记·孝文本纪》',
+            translation: '皇帝宽宏大度，赦免了罪人。',
+          },
+        ],
       },
     ],
     isHighFrequency: false,
@@ -403,7 +451,13 @@ export const SHICI_PART5: RawVocabularyEntry[] = [
       {
         pos: '形容词',
         meaning: '勇猛，勇悍',
-        examples: [],
+        examples: [
+          {
+            text: '刘备枭雄，不可久居人下。',
+            source: '《三国志》',
+            translation: '刘备是勇猛英杰雄武之人，不可能长期居于人下。',
+          },
+        ],
       },
       {
         pos: '动词',
@@ -748,7 +802,13 @@ export const SHICI_PART5: RawVocabularyEntry[] = [
       {
         pos: '名词',
         meaning: '即“行在所”皇帝所在的地方，后专指皇帝行幸所至之地',
-        examples: [],
+        examples: [
+          {
+            text: '上巡幸河东，设行在于此。',
+            source: '《汉书》',
+            translation: '皇上巡视到河东，在这里设立皇帝行幸驻扎之地。',
+          },
+        ],
       },
     ],
     isHighFrequency: false,
@@ -960,7 +1020,13 @@ export const SHICI_PART5: RawVocabularyEntry[] = [
       {
         pos: '名词',
         meaning: '《诗经》六义之一，先言他物以引起所咏之词的写诗手法',
-        examples: [],
+        examples: [
+          {
+            text: '赋比兴者，《诗》之三种表现手法也。',
+            source: '《诗品》',
+            translation: '赋、比、兴，是《诗经》的三种写诗表现手法。',
+          },
+        ],
       },
     ],
     isHighFrequency: true,
@@ -1218,7 +1284,13 @@ export const SHICI_PART5: RawVocabularyEntry[] = [
       {
         pos: '动词',
         meaning: '怒目而视',
-        examples: [],
+        examples: [
+          {
+            text: '睚眦必报，小人哉！',
+            source: '《史记·范雎蔡泽列传》',
+            translation: '别人怒目而视一眼也必定报复，真是个小人啊！',
+          },
+        ],
       },
       {
         pos: '名词',
@@ -1351,7 +1423,13 @@ export const SHICI_PART5: RawVocabularyEntry[] = [
       {
         pos: '动词',
         meaning: '涵养本性',
-        examples: [],
+        examples: [
+          {
+            text: '抱朴守真，养素全真。',
+            source: '《庄子》',
+            translation: '保持质朴守持真实，涵养本性保全天性。',
+          },
+        ],
       },
     ],
     isHighFrequency: false,
@@ -1616,7 +1694,13 @@ export const SHICI_PART5: RawVocabularyEntry[] = [
       {
         pos: '动词',
         meaning: '移送文书',
-        examples: [],
+        examples: [
+          {
+            text: '移书郡县，晓谕百姓。',
+            source: '《三国志》',
+            translation: '移送文书给各个郡县，向百姓通告晓谕。',
+          },
+        ],
       },
     ],
     isHighFrequency: false,

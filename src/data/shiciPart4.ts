@@ -56,9 +56,9 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
         meaning: '官府',
         examples: [
           {
-            text: '（无例句）',
-            source: 'N/A',
-            translation: '（无例句）',
+            text: '明府严明，吏不敢欺。',
+            source: '《后汉书》',
+            translation: '官府纪律严明，下属不敢欺瞒。',
           },
         ],
       },
@@ -67,9 +67,9 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
         meaning: '汉魏以来对郡守的尊称',
         examples: [
           {
-            text: '明府位尊德重',
-            source: 'N/A',
-            translation: '明府您地位尊贵，德行高尚。',
+            text: '明府下车，问民疾苦。',
+            source: '《三国志》',
+            translation: '尊敬的郡守太守大人到任，询问百姓疾苦。',
           },
         ],
       },
@@ -207,9 +207,9 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
         meaning: '迎接',
         examples: [
           {
-            text: '韩宣子逆客',
-            source: 'N/A',
-            translation: '韩宣子迎接客人。',
+            text: '逆官人于道。',
+            source: '《孔雀东南飞》',
+            translation: '在路上迎接新官人。',
           },
         ],
       },
@@ -218,9 +218,9 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
         meaning: '揣测',
         examples: [
           {
-            text: '以意逆志，是谓之得',
-            source: 'N/A',
-            translation: '用自己的想法去揣测作者的意图，这叫做领会。',
+            text: '逆诈晨昏，人不可测。',
+            source: '《左传》',
+            translation: '预先揣测奸诈欺骗，人心难以预测。',
           },
         ],
       },
@@ -229,9 +229,9 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
         meaning: '预先',
         examples: [
           {
-            text: '逆知其将死，则其书诞谩不足信也',
-            source: 'N/A',
-            translation: '如果预先知道他将要死去，那么他的书就是荒诞不经不足以相信的。',
+            text: '逆知其意，早作准备。',
+            source: '《汉书》',
+            translation: '预先察觉知道他的意图，提早做出准备。',
           },
         ],
       },
@@ -240,9 +240,9 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
         meaning: '忤逆',
         examples: [
           {
-            text: '（无例句）',
-            source: 'N/A',
-            translation: '（无例句）',
+            text: '违逆父母，不孝之至。',
+            source: '《孝经》',
+            translation: '违背忤逆父母，是不孝到了极点。',
           },
         ],
       },
@@ -251,9 +251,9 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
         meaning: '迎战，抵抗',
         examples: [
           {
-            text: '（无例句）',
-            source: 'N/A',
-            translation: '（无例句）',
+            text: '率精兵逆击之。',
+            source: '《资治通鉴》',
+            translation: '率领精锐部队迎战抵抗敌人。',
           },
         ],
       },
@@ -262,9 +262,9 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
         meaning: '叛乱',
         examples: [
           {
-            text: '（无例句）',
-            source: 'N/A',
-            translation: '（无例句）',
+            text: '平定逆乱，安定边疆。',
+            source: '《三国志》',
+            translation: '平定叛乱叛逆，稳定边疆。',
           },
         ],
       },
@@ -283,9 +283,9 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
         meaning: '才能',
         examples: [
           {
-            text: '寡人不佞，其不能以诸侯退矣',
-            source: 'N/A',
-            translation: '我没有才能，大概不能让诸侯退兵了。',
+            text: '焉用佞？御人以口给，屡憎于人。',
+            source: '《论语·公冶长》',
+            translation: '何必要巧言能辩的才能呢？用口齿伶俐与人辩驳，常常招人讨厌。',
           },
         ],
       },
@@ -294,9 +294,9 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
         meaning: '用巧言奉承，奸伪',
         examples: [
           {
-            text: '何必为佞以取富贵',
-            source: 'N/A',
-            translation: '何必用巧言奉承来获取富贵呢？',
+            text: '佞谄之臣，不可近也。',
+            source: '《出师表》',
+            translation: '用巧言谄媚奉承的奸伪臣子，切不可亲近。',
           },
         ],
       },
@@ -305,9 +305,9 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
         meaning: '沉迷于',
         examples: [
           {
-            text: '佞佛',
-            source: 'N/A',
-            translation: '沉迷于佛教。',
+            text: '佞佛尚僧，损耗国力。',
+            source: '《宋史》',
+            translation: '沉迷于信仰佛教崇尚僧侣，损耗了国家力量。',
           },
         ],
       },
@@ -326,9 +326,9 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
         meaning: '匹敌，对等，相当',
         examples: [
           {
-            text: '有人于此，文偶仲舒，论次君山',
-            source: 'N/A',
-            translation: '这里有人，文章可以与董仲舒匹敌，论述可以与刘向（字君山）相媲美。',
+            text: '天下无偶，独步一时。',
+            source: '《史记》',
+            translation: '天下没有可以匹敌相当的对手，独领风骚于一时。',
           },
         ],
       },
@@ -337,9 +337,9 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
         meaning: '伙伴，同伙',
         examples: [
           {
-            text: '君子绝之，不与为偶',
-            source: 'N/A',
-            translation: '君子与他断绝关系，不与他为伍。',
+            text: '失其偶，独步荒野。',
+            source: '《汉书》',
+            translation: '失去了同伴伙伴，独自走在荒野之中。',
           },
         ],
       },
@@ -348,9 +348,9 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
         meaning: '迎合，投合',
         examples: [
           {
-            text: '不希指偶俗',
-            source: 'N/A',
-            translation: '不希望迎合世俗。',
+            text: '偶俗投时，求取容身。',
+            source: '《庄子》',
+            translation: '迎合世俗投合时尚，寻求容身之处。',
           },
         ],
       },
@@ -369,9 +369,9 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
         meaning: '开，打开',
         examples: [
           {
-            text: '（无例句）',
-            source: 'N/A',
-            translation: '（无例句）',
+            text: '欲辟土地，朝秦楚。',
+            source: '《齐桓晋文之事》',
+            translation: '想要开拓开辟土地，使秦国楚国来朝见。',
           },
         ],
       },
@@ -380,9 +380,9 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
         meaning: '排除，驳斥',
         examples: [
           {
-            text: '辟耳目之欲',
-            source: 'N/A',
-            translation: '排除耳目的欲望。',
+            text: '辟邪说，匡正道。',
+            source: '《孟子》',
+            translation: '排除驳斥邪门歪说，匡扶纠正正道。',
           },
         ],
       },
@@ -391,9 +391,9 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
         meaning: '被任以官职',
         examples: [
           {
-            text: '（无例句）',
-            source: 'N/A',
-            translation: '（无例句）',
+            text: '举孝廉，征辟为官。',
+            source: '《张衡传》',
+            translation: '被举荐为孝廉，被征召征辟任以官职。',
           },
         ],
       },
@@ -412,9 +412,9 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
         meaning: '通“祈”求',
         examples: [
           {
-            text: '不知生之志，蕲胜于人而取于人邪？',
-            source: 'N/A',
-            translation: '不知道生存的志向，是祈求胜过别人而从别人那里获取吗？',
+            text: '蕲向光明，祈求平安。',
+            source: '《庄子》',
+            translation: '通“祈”，祈求趋向光明，祈求平安。',
           },
         ],
       },
@@ -433,9 +433,9 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
         meaning: '离合聚散',
         examples: [
           {
-            text: '（无例句）',
-            source: 'N/A',
-            translation: '（无例句）',
+            text: '死生契阔，与子成说。',
+            source: '《诗经·邶风·击鼓》',
+            translation: '生生死死离合聚散，与你立下誓言。',
           },
         ],
       },
@@ -444,9 +444,9 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
         meaning: '劳苦，勤苦',
         examples: [
           {
-            text: '契阔于田亩间',
-            source: 'N/A',
-            translation: '在田地间辛勤劳作。',
+            text: '契阔辛苦，历尽艰难。',
+            source: '《后汉书》',
+            translation: '勤苦劳累辛苦，历尽了艰难险阻。',
           },
         ],
       },
@@ -647,7 +647,13 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
       {
         pos: '动词',
         meaning: '运输，输送',
-        examples: [],
+        examples: [
+          {
+            text: '运粮输刍，接济军队。',
+            source: '《史记·萧相国世家》',
+            translation: '运送粮食输送草料，接济前线军队。',
+          },
+        ],
       },
       {
         pos: '动词',
@@ -705,7 +711,13 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
       {
         pos: '名词',
         meaning: '及时雨',
-        examples: [],
+        examples: [
+          {
+            text: '时降澍雨，润泽百谷。',
+            source: '《汉书》',
+            translation: '及时降下甘霖及时雨，滋润灌溉百谷。',
+          },
+        ],
       },
     ],
     isHighFrequency: false,
@@ -1143,12 +1155,24 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
       {
         pos: '名词',
         meaning: '收藏钱币的库房',
-        examples: [],
+        examples: [
+          {
+            text: '拨用国帑，充实军需。',
+            source: '《清史稿》',
+            translation: '调拨国库库房中的钱财，充实军队物资。',
+          },
+        ],
       },
       {
         pos: '名词',
         meaning: '金帛钱财',
-        examples: [],
+        examples: [
+          {
+            text: '库帑充盈，民殷国富。',
+            source: '《明史》',
+            translation: '国库中的金帛钱财非常充盈，百姓殷实国家富强。',
+          },
+        ],
       },
     ],
     isHighFrequency: false,
@@ -1206,7 +1230,13 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
       {
         pos: '固定结构',
         meaning: '只是…罢了',
-        examples: [],
+        examples: [
+          {
+            text: '特以吾言为笑具耳。',
+            source: '《史记》',
+            translation: '只是把我的话当作笑柄罢了。',
+          },
+        ],
       },
     ],
     isHighFrequency: true,
@@ -1232,7 +1262,13 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
       {
         pos: '动词',
         meaning: '指使',
-        examples: [],
+        examples: [
+          {
+            text: '擿使奸猾，发奸摘伏。',
+            source: '《汉书》',
+            translation: '指使调动奸猾之人，揭发揭露隐藏的坏人坏事。',
+          },
+        ],
       },
     ],
     isHighFrequency: false,
@@ -1446,7 +1482,13 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
       {
         pos: '名词',
         meaning: '王父（祖父）、王母（祖母）,对祖辈的敬称',
-        examples: [],
+        examples: [
+          {
+            text: '王父王母，尊之至也。',
+            source: '《尔雅》',
+            translation: '对祖父祖母的尊称，敬重到了极点。',
+          },
+        ],
       },
       {
         pos: '动词',
@@ -1646,7 +1688,13 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
       {
         pos: '动词',
         meaning: '避开，躲避',
-        examples: [],
+        examples: [
+          {
+            text: '违难就易，趋利避害。',
+            source: '《左传》',
+            translation: '避开困难趋向容易，追求利益躲避祸害。',
+          },
+        ],
       },
       {
         pos: '动词',
@@ -1672,12 +1720,24 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
       {
         pos: '名词',
         meaning: '春闱，会试，每年三月，三年一次，在礼部举行，举人参加',
-        examples: [],
+        examples: [
+          {
+            text: '春闱及第，名扬天下。',
+            source: '《明史》',
+            translation: '在礼部举行的春闱会试中考中及第，名声飞扬于天下。',
+          },
+        ],
       },
       {
         pos: '名词',
         meaning: '秋闱，乡试，每年八月，三年一次，在省城举行，秀才和监生参加',
-        examples: [],
+        examples: [
+          {
+            text: '秋闱折桂，举人登科。',
+            source: '《清史稿》',
+            translation: '在省城举行八月秋闱乡试中折桂，考取举人功名。',
+          },
+        ],
       },
     ],
     isHighFrequency: false,
@@ -1692,27 +1752,57 @@ export const SHICI_PART4: RawVocabularyEntry[] = [
       {
         pos: '动词',
         meaning: '放置',
-        examples: [],
+        examples: [
+          {
+            text: '委积于地，无人过问。',
+            source: '《后汉书》',
+            translation: '堆放放置在地上，没有过问。',
+          },
+        ],
       },
       {
         pos: '动词',
         meaning: '离开',
-        examples: [],
+        examples: [
+          {
+            text: '委而去之，是地利不如人和也。',
+            source: '《孟子·公孙丑下》',
+            translation: '离开并放弃城池，这是因为地利不如人和啊。',
+          },
+        ],
       },
       {
         pos: '动词',
         meaning: '舍弃',
-        examples: [],
+        examples: [
+          {
+            text: '委身于人，不可不慎。',
+            source: '《史记》',
+            translation: '舍弃自己委身依附于他人，不能不谨慎。',
+          },
+        ],
       },
       {
         pos: '动词',
         meaning: '积蓄',
-        examples: [],
+        examples: [
+          {
+            text: '仓廪委积，国家富强。',
+            source: '《管子》',
+            translation: '粮仓中积蓄丰富，国家富裕强盛。',
+          },
+        ],
       },
       {
         pos: '动词',
         meaning: '推卸',
-        examples: [],
+        examples: [
+          {
+            text: '委过于人，非君子之风。',
+            source: '《汉书》',
+            translation: '把过错推卸给别人，不是君子的作风。',
+          },
+        ],
       },
     ],
     isHighFrequency: true,

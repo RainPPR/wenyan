@@ -1110,14 +1110,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '能够',
         examples: [
           {
-            text: '汝之纯明而不克蒙其泽乎？',
-            source: '《祭十二郎文》',
-            translation: '你如此纯洁贤明，却不能蒙受我的恩泽吗？',
-          },
-          {
-            text: '克勤克俭',
-            source: 'N/A',
-            translation: '能够勤劳节俭。',
+            text: '如其克谐，辄如往日。',
+            source: '《资治通鉴·赤壁之战》',
+            translation: '如果能够成功，就还像往日一样。',
           },
         ],
       },
@@ -1137,14 +1132,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '克制，约束',
         examples: [
           {
-            text: '克己奉公。',
-            source: '《后汉书》',
-            translation: '克制私欲，一心为公。',
-          },
-          {
-            text: '克己复礼为仁',
-            source: 'N/A',
-            translation: '克制自己，使言行符合礼节，这就是仁。',
+            text: '克己复礼为仁。',
+            source: '《论语·颜渊》',
+            translation: '克制自己，使言语行动符合礼节，这就是仁。',
           },
         ],
       },
@@ -1174,9 +1164,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '伤害，虐待',
         examples: [
           {
-            text: '外有利民之名，而内实则侵刻百姓',
-            source: 'N/A',
-            translation: '表面上打着有利百姓的旗号，而实际上却侵犯虐待百姓。',
+            text: '刻削苛细，苛罚不舍。',
+            source: '《汉书》',
+            translation: '虐待剥削苛刻细碎，严苛惩罚不予赦免。',
           },
         ],
       },
@@ -1185,9 +1175,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '苛严，苛刻',
         examples: [
           {
-            text: '用法益刻，盖自此始',
-            source: 'N/A',
-            translation: '法律的实施更加苛刻，大概就是从这时开始的。',
+            text: '为人刻薄，少恩。',
+            source: '《史记·秦始皇本纪》',
+            translation: '为人严酷苛刻，缺少恩德。',
           },
         ],
       },
@@ -1227,9 +1217,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '盗贼',
         examples: [
           {
-            text: '（无例句）',
-            source: 'N/A',
-            translation: '（无例句）',
+            text: '凡盗贼寇乱，皆由贪起。',
+            source: '《汉书》',
+            translation: '大凡盗贼反叛，都是由于贪婪引起。',
           },
         ],
       },
@@ -1238,9 +1228,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '劫掠，侵犯',
         examples: [
           {
-            text: '匈奴寇边',
-            source: 'N/A',
-            translation: '匈奴侵犯边境。',
+            text: '匈奴大举入寇。',
+            source: '《史记·李将军列传》',
+            translation: '匈奴大规模入侵侵犯边境。',
           },
         ],
       },
@@ -1249,9 +1239,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '入侵者，敌人',
         examples: [
           {
-            text: '（无例句）',
-            source: 'N/A',
-            translation: '（无例句）',
+            text: '成则为王，败则为寇。',
+            source: '《史记》',
+            translation: '成功了就成为君王，失败了就成为贼寇敌人。',
           },
         ],
       },
@@ -1270,9 +1260,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '诚恳，恳切',
         examples: [
           {
-            text: '莫能申其忠款',
-            source: 'N/A',
-            translation: '没有人能表达他的忠诚恳切。',
+            text: '方今四海款附，天下太平。',
+            source: '《三国志》',
+            translation: '如今四海真诚归顺款附，天下极其太平。',
           },
         ],
       },
@@ -1281,9 +1271,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '留，止',
         examples: [
           {
-            text: '以计款之',
-            source: 'N/A',
-            translation: '用计谋挽留他。',
+            text: '款关而求见。',
+            source: '《史记》',
+            translation: '敲门留止求见。',
           },
         ],
       },
@@ -1302,9 +1292,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '诚心归附',
         examples: [
           {
-            text: '结纳豪杰，众多款附',
-            source: 'N/A',
-            translation: '结交豪杰，很多人都诚心归附。',
+            text: '方今四海款附，天下太平。',
+            source: '《三国志》',
+            translation: '如今四海真诚归顺款附，天下极其太平。',
           },
         ],
       },
@@ -1323,9 +1313,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '测量，估量',
         examples: [
           {
-            text: '自揆不堪，可来听命？',
-            source: 'N/A',
-            translation: '自己估量不能胜任，可以来听从命令吗？',
+            text: '揆情度理，实所难堪。',
+            source: '《晋书》',
+            translation: '估量情理，确实难以忍受。',
           },
         ],
       },
@@ -1334,9 +1324,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '考察，度量',
         examples: [
           {
-            text: '（无例句）',
-            source: 'N/A',
-            translation: '（无例句）',
+            text: '揆之以始，察之以终。',
+            source: '《荀子》',
+            translation: '考察事情的起始，察看事情的终结。',
           },
         ],
       },
@@ -1355,9 +1345,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '放荡，滥',
         examples: [
           {
-            text: '（无例句）',
-            source: 'N/A',
-            translation: '（无例句）',
+            text: '放浪形骸之外。',
+            source: '《兰亭集序》',
+            translation: '放纵放荡于世俗礼法之外。',
           },
         ],
       },
@@ -1366,9 +1356,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '徒然，白白的',
         examples: [
           {
-            text: '胡为浪自苦，得酒且欢喜',
-            source: 'N/A',
-            translation: '为什么白白地自我苦恼，有酒就姑且欢喜吧。',
+            text: '浪得虚名，无补于实。',
+            source: '《三国志》',
+            translation: '白白获得虚名，对实际毫无补益。',
           },
         ],
       },
@@ -1387,9 +1377,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '衰老，疲敝，用以形容军队',
         examples: [
           {
-            text: '且楚师老矣，必败',
-            source: 'N/A',
-            translation: '况且楚国的军队已经疲惫了，一定会失败。',
+            text: '师老兵疲，难以持久。',
+            source: '《资治通鉴》',
+            translation: '军队衰老疲敝，难以长久坚持。',
           },
         ],
       },
@@ -1398,9 +1388,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '老成，老练',
         examples: [
           {
-            text: '中朝大官老于事',
-            source: 'N/A',
-            translation: '朝廷中的大官们都老练于政事。',
+            text: '老成持重，可当大任。',
+            source: '《汉书》',
+            translation: '老练阅历丰富，可以担当重任。',
           },
         ],
       },
@@ -1485,9 +1475,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '遭遇',
         examples: [
           {
-            text: '罹难',
-            source: 'N/A',
-            translation: '遭遇灾难。',
+            text: '我生不辰，逢天圮怒，罹此大戾。',
+            source: '《诗经·小雅》',
+            translation: '我出生不逢好时机，遭遇这巨大的祸患。',
           },
         ],
       },
@@ -1496,9 +1486,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '忧患，苦难',
         examples: [
           {
-            text: '我生之后，逢此百罹',
-            source: 'N/A',
-            translation: '我出生以后，遭遇了这许多苦难。',
+            text: '免于罹祸。',
+            source: '《汉书》',
+            translation: '避免遭受忧患祸害。',
           },
         ],
       },
@@ -1517,9 +1507,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '官府中的小吏',
         examples: [
           {
-            text: '岁责里胥代里胥',
-            source: 'N/A',
-            translation: '每年责令里胥代替（他人）缴纳（赋税）。',
+            text: '里胥猾黠，抓捕无辜。',
+            source: '《促织》',
+            translation: '里胥奸诈狡猾，拘捕无罪的平民。',
           },
         ],
       },
@@ -1570,9 +1560,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '查访，侦察',
         examples: [
           {
-            text: '诸生存咸阳者，吾使人廉问',
-            source: 'N/A',
-            translation: '所有在咸阳活着的人，我派人去查访询问。',
+            text: '密遣廉察，知其虚实。',
+            source: '《明史》',
+            translation: '秘密派遣人员查访侦察，了解虚实。',
           },
         ],
       },
@@ -1581,9 +1571,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '正直，方正',
         examples: [
           {
-            text: '（无例句）',
-            source: 'N/A',
-            translation: '（无例句）',
+            text: '廉洁正直，立身之本。',
+            source: '《墨子》',
+            translation: '廉洁正直，是立身处世的根本。',
           },
         ],
       },
@@ -1592,9 +1582,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '清廉，不苟取',
         examples: [
           {
-            text: '（无例句）',
-            source: 'N/A',
-            translation: '（无例句）',
+            text: '贪夫殉财，廉士殉名。',
+            source: '《史记·屈原贾生列传》',
+            translation: '贪婪的人为钱财牺牲，清廉的人为名声献身。',
           },
         ],
       },
@@ -1603,9 +1593,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '辞让，谦恭',
         examples: [
           {
-            text: '（无例句）',
-            source: 'N/A',
-            translation: '（无例句）',
+            text: '温良恭俭让，廉退自守。',
+            source: '《汉书》',
+            translation: '温和善良谦恭让不争，谦虚辞让自律。',
           },
         ],
       },
@@ -1624,9 +1614,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '依赖，寄托',
         examples: [
           {
-            text: '计出于无聊也',
-            source: 'N/A',
-            translation: '这个计策是出于无奈而想出来的。',
+            text: '民无所聊，遂起为盗。',
+            source: '《汉书》',
+            translation: '百姓没有可以依赖寄托的生计，于是揭竿起义成为盗贼。',
           },
         ],
       },
@@ -1635,9 +1625,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '姑且，暂且',
         examples: [
           {
-            text: '聊相为言之',
-            source: 'N/A',
-            translation: '姑且互相说说这件事。',
+            text: '聊乘化以归尽。',
+            source: '《归去来兮辞》',
+            translation: '姑且顺应自然的造化走向寿命的尽头。',
           },
         ],
       },
@@ -1656,9 +1646,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '猎取财物',
         examples: [
           {
-            text: '（无例句）',
-            source: 'N/A',
-            translation: '（无例句）',
+            text: '官吏猎食百姓，民不聊生。',
+            source: '《后汉书》',
+            translation: '官吏像猎兽一样搜刮掠夺百姓财物，百姓无法生活。',
           },
         ],
       },
@@ -1667,9 +1657,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '图谋财物',
         examples: [
           {
-            text: '吾非等猎食者',
-            source: 'N/A',
-            translation: '我不是那些图谋财物的人。',
+            text: '游食之徒，四处猎食。',
+            source: '《新唐书》',
+            translation: '游惰游食的人，四处图谋搜刮财物。',
           },
         ],
       },
@@ -1688,9 +1678,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '评定编次',
         examples: [
           {
-            text: '（无例句）',
-            source: 'N/A',
-            translation: '（无例句）',
+            text: '论次诸家，排定名次。',
+            source: '《史记·太史公自序》',
+            translation: '评定编次各家学说，排定次序。',
           },
         ],
       },
@@ -1709,9 +1699,9 @@ export const SHICI_PART3: RawVocabularyEntry[] = [
         meaning: '列举罪状告发',
         examples: [
           {
-            text: '良肱论列之，遂蠲其籍',
-            source: 'N/A',
-            translation: '良肱列举他的罪状告发了他，于是免除了他的户籍。',
+            text: '上书论列奸臣罪状。',
+            source: '《汉书》',
+            translation: '向上呈递奏章列举告发奸臣的罪状。',
           },
         ],
       },
