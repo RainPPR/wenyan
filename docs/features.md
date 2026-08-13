@@ -23,7 +23,12 @@
    - 标注常见语法特征、通假异读与考点探微警示。
    - 支持点击背景遮罩、右上角关闭按钮或按 `Esc` 键一键快捷退出模态框。
 
-3. **静态打包与 GitHub Actions 自动化 (Static Build & GitHub Actions)**
+4. **静态打包与 GitHub Actions 自动化 (Static Build & GitHub Actions)**
    - 彻底移除服务端与 API 依赖，打包产物均为纯静态 HTML/CSS/JS 文件。
    - 借助 GitHub Actions CI 工作流 (`ci.yml`) 实现 PR 与主分支推送时的类型检查与代码风格严格校验。
    - 借助 GitHub Actions 部署工作流 (`deploy.yml`) 实现推送主分支即自动打包与部署发布至 GitHub Pages。
+
+5. **高中综合素质评价系统成果填报支撑 (Comprehensive Quality Evaluation Support)**
+   - 在项目根目录提供符合中国大陆高中综合素质评价系统规范的文件 [`/研究性学习及创新成果.md`](../研究性学习及创新成果.md)。
+   - 包含严格受限（200字符内）且无标记排版的纯文本填表范例（理论学习情况、研究内容、成果概述）。
+   - 提供完整规范的开题报告、结题报告与项目活动设计方案模板。

@@ -26,6 +26,7 @@
 
 - **内容编排要求与规范**：详情参见 [`docs/content-specification.md`](docs/content-specification.md)，包含义项独立解构（Unmerged Senses）、零占位例句（Zero-Placeholder Policy）与多阶梯搜索权重算法。
 - **项目架构与数据说明**：参见 [`docs/architecture.md`](docs/architecture.md)、[`docs/data-structure.md`](docs/data-structure.md) 及 [`docs/features.md`](docs/features.md)。
+- **高中综合素质评价系统文档**：根目录包含符合中国大陆高中综合素质评价系统要求的研究性学习及创新成果填报范例文件 [`研究性学习及创新成果.md`](研究性学习及创新成果.md)（含纯文本无排版框填报范例、开题与结题报告）。
 - **Agent Workflows & Skills**：核心 AI 工作流保存在 [`.agents/skills/`](.agents/skills/) 目录下（包含数据编排、代码质量与文档持续演进 Skill），由 AI 持续维护与进化。
 
 ## GitHub Actions CI 检查与自动部署

@@ -24,6 +24,7 @@ Comprehensive specifications for data curation, architecture, features, and cont
 - [`docs/data-structure.md`](docs/data-structure.md): Data schema, entry relationships, and unmerging rules.
 - [`docs/architecture.md`](docs/architecture.md): Application architecture, static bundle setup, and build pipelines.
 - [`docs/features.md`](docs/features.md): Core functional requirements and UX interactions.
+- [`/研究性学习及创新成果.md`](研究性学习及创新成果.md): Mainland China High School Comprehensive Quality Evaluation System documentation template (plain-text filling, <=200 character limit fields, research and project design samples).
 
 ## Agent Skills & Workflow Evolution (`.agents/skills`)
 

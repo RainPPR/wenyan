@@ -33,10 +33,12 @@ export const Navbar: React.FC<NavbarProps> = ({ stats }) => {
           <div className="flex items-center space-x-2.5 text-xs font-serif">
             <div className="flex items-center space-x-2">
               <span className="bg-amber-900/80 px-2.5 py-1 rounded border border-amber-700/60 text-amber-200">
-                全库字词：<strong className="text-amber-400 font-mono">{stats.totalWords}</strong> 条
+                全库字词：<strong className="text-amber-400 font-mono">{stats.totalWords}</strong>{' '}
+                条
               </span>
               <span className="hidden sm:inline-block bg-amber-900/80 px-2.5 py-1 rounded border border-amber-700/60 text-amber-200">
-                文言实词：<strong className="text-amber-400 font-mono">{stats.shiciCount}</strong> 词
+                文言实词：<strong className="text-amber-400 font-mono">{stats.shiciCount}</strong>{' '}
+                词
               </span>
               <span className="hidden sm:inline-block bg-amber-900/80 px-2.5 py-1 rounded border border-amber-700/60 text-amber-200">
                 文言虚词：<strong className="text-amber-400 font-mono">{stats.xuciCount}</strong> 词
