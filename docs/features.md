@@ -23,4 +23,3 @@
    - 彻底移除服务端与 API 依赖，打包产物均为纯静态 HTML/CSS/JS 文件。
    - 借助 GitHub Actions CI 工作流 (`ci.yml`) 实现 PR 与主分支推送时的类型检查与代码风格严格校验。
    - 借助 GitHub Actions 部署工作流 (`deploy.yml`) 实现推送主分支即自动打包与部署发布至 GitHub Pages。
-
