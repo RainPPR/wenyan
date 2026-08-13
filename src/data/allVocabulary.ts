@@ -3,6 +3,7 @@ import { SHICI_PART1 } from './shiciPart1';
 import { SHICI_PART2 } from './shiciPart2';
 import { SHICI_PART3 } from './shiciPart3';
 import { SHICI_PART4 } from './shiciPart4';
+import { SHICI_PART5 } from './shiciPart5';
 import { XUCI } from './xuci';
 import { NANCI } from './nanci';
 
@@ -12,6 +13,7 @@ const rawList: VocabularyEntry[] = [
   ...SHICI_PART2,
   ...SHICI_PART3,
   ...SHICI_PART4,
+  ...SHICI_PART5,
   ...XUCI,
   ...NANCI
 ];
