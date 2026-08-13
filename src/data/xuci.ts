@@ -101,14 +101,31 @@ export const XUCI: RawVocabularyEntry[] = [
         ],
       },
       {
-        pos: '复音虚词 / 固定结构',
-        meaning: '【而已】罢了 / 【而况】何况 / 【已而】【俄而】不久，随后',
+        pos: '固定短语',
+        meaning: '【而已】罢了',
         examples: [
           {
             text: '闻道有先后，术业有专攻，如是而已。',
             source: '《师说》',
             translation: '听亲道理有早有晚，业务学问各有特长，如此罢了。',
           },
+        ],
+      },
+      {
+        pos: '固定短语',
+        meaning: '【而况】何况',
+        examples: [
+          {
+            text: '已而夕阳西下，树影散乱，太守归而宾客从也。',
+            source: '《醉翁亭记》',
+            translation: '不久夕阳落山，树影散乱，太守回去而宾客跟随。',
+          },
+        ],
+      },
+      {
+        pos: '固定短语',
+        meaning: '【已而】【俄而】不久，随后',
+        examples: [
           {
             text: '已而夕阳西下，树影散乱，太守归而宾客从也。',
             source: '《醉翁亭记》',
@@ -184,13 +201,19 @@ export const XUCI: RawVocabularyEntry[] = [
       },
       {
         pos: '复音虚词',
-        meaning: '【何如】怎么样，什么样 / 【何以】即“以何”，凭什么，拿什么',
+        meaning: '【何如】怎么样，什么样',
         examples: [
           {
             text: '樊哙曰：“今日之事何如？”',
             source: '《鸿门宴》',
             translation: '樊哙说：“今天的事怎么样了？”',
           },
+        ],
+      },
+      {
+        pos: '复音虚词',
+        meaning: '【何以】即“以何”，凭什么，拿什么',
+        examples: [
           {
             text: '一旦山陵崩，长安君何以自托于赵？',
             source: '《触龙说赵太后》',
@@ -453,18 +476,35 @@ export const XUCI: RawVocabularyEntry[] = [
         ],
       },
       {
-        pos: '副词',
-        meaning: '表示推测、祈使或反问语气（译为“大概”“可能”/“还是”/“难道”）',
+        pos: '动词',
+        meaning: '表示推测、祈使或反问语气（译为“大概”“可能”',
         examples: [
           {
             text: '圣人之所以为圣，愚人之所以为愚，其皆出于此乎？',
             source: '《师说》',
             translation: '大概都是出于这个原因吧？',
           },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '“还是”',
+        examples: [
           {
             text: '攻之不克，围之不继，吾其还也。',
             source: '《烛之武退秦师》',
             translation: '攻打它攻不下，围困它后继无力，我们还是回去吧。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '“难道”）',
+        examples: [
+          {
+            text: '圣人之所以为圣，愚人之所以为愚，其皆出于此乎？',
+            source: '《师说》',
+            translation: '大概都是出于这个原因吧？',
           },
         ],
       },
@@ -583,7 +623,7 @@ export const XUCI: RawVocabularyEntry[] = [
         ],
       },
       {
-        pos: '发语词 / 固定短语',
+        pos: '固定短语',
         meaning: '【且夫】用在句首，表示下文代入更深一层论述（况且、再说）',
         examples: [
           {
@@ -719,17 +759,45 @@ export const XUCI: RawVocabularyEntry[] = [
       },
       {
         pos: '助词',
-        meaning: '放在动词前同动词组成“所”字结构（表示“所……的人/事物/情况/原因”等）',
+        meaning: '放在动词前同动词组成“所”字结构（表示“所……的人',
         examples: [
           {
             text: '道之所存，师之所存也。',
             source: '《师说》',
             translation: '道理存在的地方，就是老师存在的地方。',
           },
+        ],
+      },
+      {
+        pos: '助词',
+        meaning: '事物',
+        examples: [
           {
             text: '过蒙拔擢，宠命优渥，岂敢盘桓，有所希冀。',
             source: '《陈情表》',
             translation: '过分蒙受提拔，恩宠优厚，岂敢犹豫不决有所非分企图。',
+          },
+        ],
+      },
+      {
+        pos: '助词',
+        meaning: '情况',
+        examples: [
+          {
+            text: '道之所存，师之所存也。',
+            source: '《师说》',
+            translation: '道理存在的地方，就是老师存在的地方。',
+          },
+        ],
+      },
+      {
+        pos: '助词',
+        meaning: '原因”等）',
+        examples: [
+          {
+            text: '道之所存，师之所存也。',
+            source: '《师说》',
+            translation: '道理存在的地方，就是老师存在的地方。',
           },
         ],
       },
@@ -746,7 +814,7 @@ export const XUCI: RawVocabularyEntry[] = [
       },
       {
         pos: '复音虚词',
-        meaning: '【所以】表示凭借/方法（用来的方法）或表示原因（……的原因）',
+        meaning: '【所以】表示凭借',
         examples: [
           {
             text: '师者，所以传道受业解惑也。',
@@ -762,7 +830,29 @@ export const XUCI: RawVocabularyEntry[] = [
       },
       {
         pos: '复音虚词',
-        meaning: '【所从】……的地方，……的途径/办法',
+        meaning: '方法（用来的方法）或表示原因（……的原因）',
+        examples: [
+          {
+            text: '所以遣将守关者，备他盗之出入与非常也。',
+            source: '《鸿门宴》',
+            translation: '派遣将领把守函谷关的原因，是为了防备其他盗贼进入和意外变故。',
+          },
+        ],
+      },
+      {
+        pos: '复音虚词',
+        meaning: '【所从】……的地方，……的途径',
+        examples: [
+          {
+            text: '见渔人，乃大惊，问所从来。',
+            source: '《桃花源记》',
+            translation: '看见渔人，竟然大吃一惊，询问从哪里来。',
+          },
+        ],
+      },
+      {
+        pos: '复音虚词',
+        meaning: '办法',
         examples: [
           {
             text: '见渔人，乃大惊，问所从来。',
@@ -1357,23 +1447,13 @@ export const XUCI: RawVocabularyEntry[] = [
         ],
       },
       {
-        pos: '动词 [yǔ / yù]',
+        pos: '动词 [yǔ',
         meaning: '结交，亲附，赞同，参与',
         examples: [
-          {
-            text: '合从缔交，相与为一。',
-            source: '《过秦论》',
-            translation: '合纵缔结盟约，相互交好一体行动。',
-          },
           {
             text: '与嬴而不助五国也。',
             source: '《六国论》',
             translation: '结交秦国而不帮助五国。',
-          },
-          {
-            text: '吾与点也！',
-            source: '《论语》',
-            translation: '我赞同曾点啊！',
           },
         ],
       },
@@ -1498,7 +1578,18 @@ export const XUCI: RawVocabularyEntry[] = [
       },
       {
         pos: '助词',
-        meaning: '定语后置的标志（“中心词 + 形容词/动词短语 + 者”）',
+        meaning: '定语后置的标志（“中心词 + 形容词',
+        examples: [
+          {
+            text: '求人可使报秦者，未得。',
+            source: '《廉颇蔺相如列传》',
+            translation: '寻找可以派去回复秦国的人，没有找到。',
+          },
+        ],
+      },
+      {
+        pos: '助词',
+        meaning: '动词短语 + 者”）',
         examples: [
           {
             text: '求人可使报秦者，未得。',
@@ -1635,14 +1726,20 @@ export const XUCI: RawVocabularyEntry[] = [
     pinyin: 'fǔ',
     senses: [
       {
-        pos: '副词/名词',
-        meaning: '始，才，刚刚 / 古代对男子的美称（如“字”后加“甫”）',
+        pos: '副词',
+        meaning: '始，才，刚刚',
         examples: [
           {
             text: '遥襟甫畅，逸兴遄飞。',
             source: '《滕王阁序》',
             translation: '远望的胸怀刚刚敞开，超逸的兴致迅速飞扬。',
           },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '古代对男子的美称（如“字”后加“甫”）',
+        examples: [
           {
             text: '年甫十四，即从军。',
             source: '《宋史》',
@@ -1659,18 +1756,35 @@ export const XUCI: RawVocabularyEntry[] = [
     pinyin: 'gǒu',
     senses: [
       {
-        pos: '副词/连词',
-        meaning: '苟且，随便 / 尚且，或许 / 假如，如果',
+        pos: '副词',
+        meaning: '苟且，随便',
         examples: [
           {
             text: '苟全性命于乱世，不求闻达于诸侯。',
             source: '《出师表》',
             translation: '在乱世中苟且保全性命，不奢求在诸侯中扬名显达。',
           },
+        ],
+      },
+      {
+        pos: '连词',
+        meaning: '尚且，或许',
+        examples: [
           {
             text: '苟富贵，无相忘。',
             source: '《陈涉世家》',
             translation: '如果有一天发迹富贵了，彼此不要互相忘记。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '假如，如果',
+        examples: [
+          {
+            text: '苟全性命于乱世，不求闻达于诸侯。',
+            source: '《出师表》',
+            translation: '在乱世中苟且保全性命，不奢求在诸侯中扬名显达。',
           },
         ],
       },
@@ -1702,14 +1816,31 @@ export const XUCI: RawVocabularyEntry[] = [
     pinyin: 'wú',
     senses: [
       {
-        pos: '连词/副词',
-        meaning: '无论，不论 / 即使 / 通“勿”，不要，别',
+        pos: '连词',
+        meaning: '无论，不论',
         examples: [
           {
             text: '无愚智，咸莫不叹服。',
             source: '《三国志》',
             translation: '不论愚笨还是聪明的人，无不佩服叹服。',
           },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '即使',
+        examples: [
+          {
+            text: '无食桑葚，无与士耽。',
+            source: '《诗经》',
+            translation: '不要贪吃桑葚，不要沉溺于与男子的情爱之中。',
+          },
+        ],
+      },
+      {
+        pos: '通假字',
+        meaning: '通“勿”，不要，别',
+        examples: [
           {
             text: '无食桑葚，无与士耽。',
             source: '《诗经》',
@@ -1726,18 +1857,35 @@ export const XUCI: RawVocabularyEntry[] = [
     pinyin: 'rán',
     senses: [
       {
-        pos: '代词/动词/连词',
-        meaning: '如此，这样 / 认为……是对的 / 转折“然而、但是”',
+        pos: '代词',
+        meaning: '如此，这样',
         examples: [
           {
             text: '河东凶亦然。',
             source: '《寡人之于国也》',
             translation: '黄河以东遭遇灾荒也是这样处理。',
           },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '认为……是对的',
+        examples: [
           {
             text: '得斗升之水然活耳。',
             source: '《庄子》',
             translation: '得到一斗一升的水就能活命了。',
+          },
+        ],
+      },
+      {
+        pos: '连词',
+        meaning: '转折“然而、但是”',
+        examples: [
+          {
+            text: '河东凶亦然。',
+            source: '《寡人之于国也》',
+            translation: '黄河以东遭遇灾荒也是这样处理。',
           },
         ],
       },
@@ -1750,8 +1898,19 @@ export const XUCI: RawVocabularyEntry[] = [
     pinyin: ['jǐ', 'jī'],
     senses: [
       {
-        pos: '数词/副词',
-        meaning: '几次，屡次 [jǐ] / 接近，几乎，差不多 [jī]',
+        pos: '数词',
+        meaning: '几次，屡次 [jǐ]',
+        examples: [
+          {
+            text: '微君，太子几废。',
+            source: '《荆轲刺秦王》',
+            translation: '如果没有您，太子几乎就被废黜了。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '接近，几乎，差不多 [jī]',
         examples: [
           {
             text: '微君，太子几废。',
@@ -1770,7 +1929,29 @@ export const XUCI: RawVocabularyEntry[] = [
     senses: [
       {
         pos: '副词',
-        meaning: '唯独，只有 / 偏偏 / 岂，难道',
+        meaning: '唯独，只有',
+        examples: [
+          {
+            text: '相如虽驽，独畏廉将军哉？',
+            source: '《廉颇蔺相如列传》',
+            translation: '我蔺相如虽然平庸无能，难道单单害怕廉颇将军吗？',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '偏偏',
+        examples: [
+          {
+            text: '相如虽驽，独畏廉将军哉？',
+            source: '《廉颇蔺相如列传》',
+            translation: '我蔺相如虽然平庸无能，难道单单害怕廉颇将军吗？',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '岂，难道',
         examples: [
           {
             text: '相如虽驽，独畏廉将军哉？',
@@ -1788,18 +1969,24 @@ export const XUCI: RawVocabularyEntry[] = [
     pinyin: 'chū',
     senses: [
       {
-        pos: '副词/名词',
-        meaning: '起初，当初 / 刚刚，才',
+        pos: '副词',
+        meaning: '起初，当初',
+        examples: [
+          {
+            text: '初极狭，才通人。',
+            source: '《桃花源记》',
+            translation: '起初通道极其狭窄，仅能容纳一个人通过。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '刚刚，才',
         examples: [
           {
             text: '太祖初入关，祥与晋公护俱在咸阳。',
             source: '《周书》',
             translation: '太祖刚刚进入函谷关时，祥与晋国公宇文护都在咸阳。',
-          },
-          {
-            text: '初极狭，才通人。',
-            source: '《桃花源记》',
-            translation: '起初通道极其狭窄，仅能容纳一个人通过。',
           },
         ],
       },
@@ -1831,18 +2018,35 @@ export const XUCI: RawVocabularyEntry[] = [
     pinyin: 'jìng',
     senses: [
       {
-        pos: '动词/副词',
-        meaning: '终了，结束 / 穷究，查到底 / 终于，竟然',
+        pos: '动词',
+        meaning: '终了，结束',
         examples: [
           {
             text: '卒竟其功，成就大业。',
             source: '《史记》',
             translation: '最终完成了这项功业，成就了大业。',
           },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '穷究，查到底',
+        examples: [
           {
             text: '秦王竟酒，终不能加胜于赵。',
             source: '《廉颇蔺相如列传》',
             translation: '秦王直到酒宴结束，始终不能占赵国的上风。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '终于，竟然',
+        examples: [
+          {
+            text: '卒竟其功，成就大业。',
+            source: '《史记》',
+            translation: '最终完成了这项功业，成就了大业。',
           },
         ],
       },
@@ -1855,8 +2059,19 @@ export const XUCI: RawVocabularyEntry[] = [
     pinyin: 'nài hé',
     senses: [
       {
-        pos: '固定短语',
-        meaning: '怎么办 / 怎么，为什么',
+        pos: '疑问代词',
+        meaning: '怎么办',
+        examples: [
+          {
+            text: '沛公曰：“为之奈何？”',
+            source: '《鸿门宴》',
+            translation: '沛公（刘邦）说：“对这件事该怎么办呢？”',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '怎么，为什么',
         examples: [
           {
             text: '沛公曰：“为之奈何？”',
@@ -1874,8 +2089,19 @@ export const XUCI: RawVocabularyEntry[] = [
     pinyin: 'nài ... hé',
     senses: [
       {
-        pos: '固定句式',
-        meaning: '对……怎么办？ / 把……怎么样？',
+        pos: '疑问代词',
+        meaning: '对……怎么办？',
+        examples: [
+          {
+            text: '如太行、王屋何？',
+            source: '《愚公移山》',
+            translation: '又能把太行山、王屋山怎么样呢？',
+          },
+        ],
+      },
+      {
+        pos: '疑问代词',
+        meaning: '把……怎么样？',
         examples: [
           {
             text: '如太行、王屋何？',
@@ -1893,18 +2119,35 @@ export const XUCI: RawVocabularyEntry[] = [
     pinyin: 'tuō',
     senses: [
       {
-        pos: '形容词/副词/连词',
-        meaning: '轻慢，疏忽，疏略 / 或许，偶尔 / 假使，倘若（表假设）',
+        pos: '形容词',
+        meaning: '轻慢，疏忽，疏略',
         examples: [
           {
             text: '无礼则脱，寡谋自陷，不可不慎。',
             source: '《左传》',
             translation: '缺乏礼貌就会举止轻慢，缺乏谋略就会使自己陷入困境，不能不谨慎。',
           },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '或许，偶尔',
+        examples: [
           {
             text: '脱因水旱，谷麦不收，何以赈恤？',
             source: '《汉书》',
             translation: '倘若遭遇水旱灾害，粮食没有收成，拿什么来救济恤安百姓？',
+          },
+        ],
+      },
+      {
+        pos: '连词',
+        meaning: '假使，倘若（表假设）',
+        examples: [
+          {
+            text: '无礼则脱，寡谋自陷，不可不慎。',
+            source: '《左传》',
+            translation: '缺乏礼貌就会举止轻慢，缺乏谋略就会使自己陷入困境，不能不谨慎。',
           },
         ],
       },
@@ -1917,14 +2160,20 @@ export const XUCI: RawVocabularyEntry[] = [
     pinyin: 'qì',
     senses: [
       {
-        pos: '介词/副词',
-        meaning: '到了，等到 / 竟然，终究，始终',
+        pos: '介词',
+        meaning: '到了，等到',
         examples: [
           {
             text: '迄孝武世，礼乐崩坏。',
             source: '《汉书》',
             translation: '等到汉武帝时代，礼乐制度早已崩坏。',
           },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '竟然，终究，始终',
+        examples: [
           {
             text: '荆公无以答，迄不为变。',
             source: '《宋史》',
@@ -1942,7 +2191,29 @@ export const XUCI: RawVocabularyEntry[] = [
     senses: [
       {
         pos: '副词',
-        meaning: '希望，祈望（表达期盼） / 确实，诚然 / 唯独，只有',
+        meaning: '希望，祈望（表达期盼）',
+        examples: [
+          {
+            text: '阙秦以利晋，唯君图之。',
+            source: '《烛之武退秦师》',
+            translation: '损害秦国而有利于晋国，希望您好好考虑这件事。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '确实，诚然',
+        examples: [
+          {
+            text: '阙秦以利晋，唯君图之。',
+            source: '《烛之武退秦师》',
+            translation: '损害秦国而有利于晋国，希望您好好考虑这件事。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '唯独，只有',
         examples: [
           {
             text: '阙秦以利晋，唯君图之。',
@@ -1960,8 +2231,19 @@ export const XUCI: RawVocabularyEntry[] = [
     pinyin: 'zī',
     senses: [
       {
-        pos: '代词/副词',
-        meaning: '指示代词“这，这个，此时” / 通“滋”，更加，滋长',
+        pos: '代词',
+        meaning: '指示代词“这，这个，此时”',
+        examples: [
+          {
+            text: '而母立于兹，瞻顾不舍。',
+            source: '《项脊轩志》',
+            translation: '你的母亲站在这个地方，久久眷恋注视不肯离开。',
+          },
+        ],
+      },
+      {
+        pos: '通假字',
+        meaning: '通“滋”，更加，滋长',
         examples: [
           {
             text: '而母立于兹，瞻顾不舍。',
@@ -1980,7 +2262,18 @@ export const XUCI: RawVocabularyEntry[] = [
     senses: [
       {
         pos: '副词短语',
-        meaning: '或许，可能，差不多 / 但愿，希望（表期望语气）',
+        meaning: '或许，可能，差不多',
+        examples: [
+          {
+            text: '庶几其圣人乎？修己以安百姓。',
+            source: '《庄子》',
+            translation: '这大概接近于圣人了吧？修养自身来使天下百姓安定。',
+          },
+        ],
+      },
+      {
+        pos: '副词短语',
+        meaning: '但愿，希望（表期望语气）',
         examples: [
           {
             text: '庶几其圣人乎？修己以安百姓。',
@@ -1998,18 +2291,35 @@ export const XUCI: RawVocabularyEntry[] = [
     pinyin: 'qū qū',
     senses: [
       {
-        pos: '形容词/代词',
-        meaning: '真挚诚恳的样子 / 渺小微小 / 自称的谦词“我”',
+        pos: '形容词',
+        meaning: '真挚诚恳的样子',
         examples: [
           {
             text: '阿母谓府吏：“何乃太区区！”',
             source: '《孔雀东南飞》',
             translation: '母亲对府吏说：“你为什么竟如此真挚专一呢！”',
           },
+        ],
+      },
+      {
+        pos: '形容词',
+        meaning: '渺小微小',
+        examples: [
           {
             text: '秦人起于区区之地，而霸天下。',
             source: '《过秦论》',
             translation: '秦国人从渺小偏狭的地方起家，最终称霸天下。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '自称的谦词“我”',
+        examples: [
+          {
+            text: '阿母谓府吏：“何乃太区区！”',
+            source: '《孔雀东南飞》',
+            translation: '母亲对府吏说：“你为什么竟如此真挚专一呢！”',
           },
         ],
       },
@@ -2022,14 +2332,20 @@ export const XUCI: RawVocabularyEntry[] = [
     pinyin: 'wàng',
     senses: [
       {
-        pos: '形容词/副词',
-        meaning: '胡乱，轻率，无根据 / 任意，随意',
+        pos: '名词',
+        meaning: '胡乱，轻率，无根据',
         examples: [
           {
             text: '善不妄来，灾不空发。',
             source: '《史记》',
             translation: '好事不会凭空无故降临，灾祸也不会白白爆发。',
           },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '任意，随意',
+        examples: [
           {
             text: '不敢妄举师以伐攻。',
             source: '《左传》',
@@ -2065,8 +2381,19 @@ export const XUCI: RawVocabularyEntry[] = [
     pinyin: 'dàn xī',
     senses: [
       {
-        pos: '时间词/副词',
-        meaning: '早晨和晚上 / 比喻时间短暂或情况危急（如“危在旦夕”）',
+        pos: '时间词',
+        meaning: '早晨和晚上',
+        examples: [
+          {
+            text: '甄丰旦夕入谋议，参与机密。',
+            source: '《汉书》',
+            translation: '甄丰早晚都进入宫中参与谋划商议，参与核心机密。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '比喻时间短暂或情况危急（如“危在旦夕”）',
         examples: [
           {
             text: '甄丰旦夕入谋议，参与机密。',
@@ -2084,19 +2411,36 @@ export const XUCI: RawVocabularyEntry[] = [
     pinyin: 'jué',
     senses: [
       {
-        pos: '代词/副词',
-        meaning: '第三人称代词“他的，它的” / 指示代词“那个，那些” / 乃，才',
+        pos: '动词',
+        meaning: '第三人称代词“他的，它的”',
         examples: [
           {
             text: '遭世罔极兮，乃损厥身。',
             source: '《屈原列传》',
             translation: '遭遇了黑暗无道的乱世啊，才损害了自己的身体。',
           },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '指示代词“那个，那些”',
+        examples: [
           {
             text: '左丘失明，厥有《国语》；孙子膑脚，《兵法》修列。',
             source: '《报任安书》',
             translation:
               '左丘明双目失明，才撰写出了《国语》；孙膑被砍去了膝盖骨，才编著出了《兵法》。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '乃，才',
+        examples: [
+          {
+            text: '遭世罔极兮，乃损厥身。',
+            source: '《屈原列传》',
+            translation: '遭遇了黑暗无道的乱世啊，才损害了自己的身体。',
           },
         ],
       },
@@ -2128,14 +2472,20 @@ export const XUCI: RawVocabularyEntry[] = [
     pinyin: 'yǎ',
     senses: [
       {
-        pos: '副词/形容词',
-        meaning: '平素，向来，素来 / 很，非常',
+        pos: '副词',
+        meaning: '平素，向来，素来',
         examples: [
           {
             text: '宪王雅不以之为子数，甚疏之。',
             source: '《汉书》',
             translation: '宪王向来不把他当作自己的儿子看待，非常疏远他。',
           },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '很，非常',
+        examples: [
           {
             text: '扬州刺史雅重之，屡加提拔。',
             source: '《宋史》',
@@ -2176,16 +2526,24 @@ export const XUCI: RawVocabularyEntry[] = [
     pinyin: 'zī',
     senses: [
       {
-        pos: '动词/副词',
-        meaning: '增加，增多 / 更加',
+        pos: '动词',
+        meaning: '增加，增多',
         examples: [
           {
             text: '滋其懈怠。',
             source: '《左传》',
+            translation: '滋长他们的懈怠。',
           },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '更加',
+        examples: [
           {
             text: '由此滋骄。',
             source: '《资治通鉴》',
+            translation: '从此更加骄横。',
           },
         ],
       },
@@ -2199,15 +2557,23 @@ export const XUCI: RawVocabularyEntry[] = [
     senses: [
       {
         pos: '固定短语',
-        meaning: '表比较（两者相比，哪一个更……） / 表抉择（倾向于肯定后者）',
+        meaning: '表比较（两者相比，哪一个更……）',
         examples: [
           {
             text: '我孰与城北徐公美？',
             source: '《邹忌讽齐王纳谏》',
+            translation: '我同城北徐公比，谁更美？',
           },
+        ],
+      },
+      {
+        pos: '固定短语',
+        meaning: '表抉择（倾向于肯定后者）',
+        examples: [
           {
             text: '孰与制天命而用之？',
             source: '《荀子》',
+            translation: '哪里比得上掌握自然规律而去利用它呢？',
           },
         ],
       },
@@ -2220,12 +2586,24 @@ export const XUCI: RawVocabularyEntry[] = [
     pinyin: 'màn',
     senses: [
       {
-        pos: '形容词/副词',
-        meaning: '放荡，放纵 / 胡乱，随意，聊且',
+        pos: '形容词',
+        meaning: '放荡，放纵',
         examples: [
           {
             text: '漫卷诗书喜欲狂。',
             source: '《闻官军收河南河北》',
+            translation: '胡乱卷起诗书，高兴得快要发狂。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '胡乱，随意，聊且',
+        examples: [
+          {
+            text: '漫卷诗书喜欲狂。',
+            source: '《闻官军收河南河北》',
+            translation: '胡乱卷起诗书，高兴得快要发狂。',
           },
         ],
       },
@@ -2238,16 +2616,68 @@ export const XUCI: RawVocabularyEntry[] = [
     pinyin: 'shū',
     senses: [
       {
-        pos: '动词/副词',
-        meaning: '死 / 断绝 / 超过 / 区别 / 副词“甚、很” / 副词“尚、犹”',
+        pos: '动词',
+        meaning: '死',
         examples: [
           {
             text: '士卒殊死战。',
             source: '《史记》',
+            translation: '士兵们拼死作战。',
           },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '断绝',
+        examples: [
           {
             text: '老臣今者殊不欲食。',
             source: '《触龙说赵太后》',
+            translation: '老臣近来很不思饮食。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '超过',
+        examples: [
+          {
+            text: '士卒殊死战。',
+            source: '《史记》',
+            translation: '士兵们拼死作战。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '区别',
+        examples: [
+          {
+            text: '士卒殊死战。',
+            source: '《史记》',
+            translation: '士兵们拼死作战。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '副词“甚、很”',
+        examples: [
+          {
+            text: '士卒殊死战。',
+            source: '《史记》',
+            translation: '士兵们拼死作战。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '副词“尚、犹”',
+        examples: [
+          {
+            text: '士卒殊死战。',
+            source: '《史记》',
+            translation: '士兵们拼死作战。',
           },
         ],
       },

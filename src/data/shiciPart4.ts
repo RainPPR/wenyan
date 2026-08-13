@@ -2,1030 +2,1720 @@ import { RawVocabularyEntry } from '../types';
 
 export const SHICI_PART4: RawVocabularyEntry[] = [
   {
-    id: 'wang_hope',
-    word: '望',
-    pinyin: 'wàng',
-    radical: '月',
-    isHighFrequency: true,
+    id: 'mi',
+    word: '弥',
+    pinyin: 'mí',
+    radical: '弓',
     senses: [
       {
-        pos: '动词',
-        meaning: '远望，看 / 期望，希望 / 责怪，怨恨',
+        pos: '副词',
+        meaning: '满，遍',
         examples: [
           {
-            text: '吾尝跂而望矣，不如登高之博见也。',
-            source: '《劝学》',
-            translation: '我曾经提起脚后跟远望，不如登到高处看得广阔。',
+            text: '夜雪初霁，荠麦弥望。',
+            source: '《扬州慢》',
+            translation: '夜雪初停，荠菜麦苗遍布视野。',
           },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '补救，弥补',
+        examples: [
           {
-            text: '日夜望将军至，岂敢反乎？',
-            source: '《鸿门宴》',
-            translation: '日夜盼望将军到来，怎么敢反叛呢？',
-          },
-          {
-            text: '若不屈法，则无以惩恶。若不忍小忿，则有望于大伦。',
+            text: '敢拜子弥缝敝邑，寡君有望矣。',
             source: '《左传》',
-            translation: '令人抱怨责怪。',
-          },
-        ],
-      },
-      {
-        pos: '名词',
-        meaning: '农历每月十五日（月圆） / 名望，声望',
-        examples: [
-          {
-            text: '壬戌之秋，七月既望。',
-            source: '《赤壁赋》',
-            translation: '壬戌年的秋天，七月十六日（既望：十六日）。',
-          },
-          {
-            text: '德隆望尊，门人弟子填其室。',
-            source: '《送东阳马生序》',
-            translation: '道德高尚声望尊崇，门人弟子挤满了他的房间。',
-          },
-        ],
-      },
-    ],
-    examTips: '“望”在农历中特指“十五日”（既望为十六日）；名望；动词“怨恨/责怪”。',
-  },
-  {
-    id: 'wei_danger',
-    word: '危',
-    pinyin: 'wēi',
-    radical: '卩',
-    isHighFrequency: true,
-    senses: [
-      {
-        pos: '形容词',
-        meaning: '高，高耸 / 正视，端正 / 危险，危急',
-        examples: [
-          {
-            text: '危楼高百尺，手可摘星辰。',
-            source: '《夜宿山寺》',
-            translation: '高耸的大楼高百尺，伸手可以摘取星辰。',
-          },
-          {
-            text: '正襟危坐而问客曰。',
-            source: '《赤壁赋》',
-            translation: '整理好衣襟端正地坐着问客人。',
-          },
-          {
-            text: '邦有道，危言危行；邦无道，危行言孙。',
-            source: '《论语》',
-            translation: '国家有道时，言语正直行为正直。',
-          },
-          { text: 'left困危急，无所不至。', source: '《出师表》', translation: '奉命于危难之间。' },
-        ],
-      },
-    ],
-    examTips: '“危”古义常表“高”（危楼、危峰）及“端正”（危坐、危言危行），非仅指危险。',
-  },
-  {
-    id: 'wei_micro',
-    word: '微',
-    pinyin: 'wēi',
-    radical: '彳',
-    isHighFrequency: true,
-    senses: [
-      {
-        pos: '形容词/副词',
-        meaning: '细微，微小 / 卑贱，地位低微 / 隐蔽，不明显 / 稍微，略微',
-        examples: [
-          {
-            text: '微风鼓浪，水石相搏。',
-            source: '《石钟山记》',
-            translation: '微风掀起波浪，水与石头相互撞击。',
-          },
-          { text: '出身微贱，屡建奇功。', source: '《史记》', translation: '出身地位低微……' },
-          {
-            text: '见其发矢十中八九，但微颔之。',
-            source: '《卖油翁》',
-            translation: '看见他射出的箭十发中八九发，只是稍微对他点头。',
-          },
-        ],
-      },
-      {
-        pos: '介词/动词',
-        meaning: '（如果）没有（表假设否定） / 精妙，隐晦',
-        examples: [
-          {
-            text: '微斯人，吾谁与归？',
-            source: '《岳阳楼记》',
-            translation: '如果没有这种人，我同谁一道呢？',
-          },
-          {
-            text: '微夫人之力不及此。',
-            source: '《烛之武退秦师》',
-            translation: '如果没有那个人的力量我到不了这个地步。',
-          },
-        ],
-      },
-    ],
-    examTips: '“微”作否定介词表“如果没有”（微斯人、微夫人之力）是高考绝对核心重点！',
-  },
-  {
-    id: 'xi_all',
-    word: '悉',
-    pinyin: 'xī',
-    radical: '心',
-    isHighFrequency: true,
-    senses: [
-      {
-        pos: '动词',
-        meaning: '详尽，知道，了解',
-        examples: [
-          { text: '悉使芮芮等报之。', source: '《史记》', translation: '详尽地知道了解。' },
-          {
-            text: '事无大小，悉以咨之。',
-            source: '《出师表》',
-            translation: '事情无论大小，全都要询问他们。',
+            translation: '我冒昧地拜托您弥补我们国家的过失，我们国君对此寄予厚望。',
           },
         ],
       },
       {
         pos: '副词',
-        meaning: '全都，全，尽',
+        meaning: '表程度，越，更加',
         examples: [
           {
-            text: '男女衣着，悉如外人。',
-            source: '《桃花源记》',
-            translation: '男子妇女的衣着，全都像桃花源外面的人一样。',
-          },
-          { text: '悉埋于地，解其牵绊。', source: '《促织》', translation: '全都埋在地下。' },
-        ],
-      },
-    ],
-    examTips: '“悉”作副词表“全都/全/尽”（悉如外人、悉以咨之）。',
-  },
-  {
-    id: 'xiang_mutual',
-    word: '相',
-    pinyin: ['xiāng', 'xiàng'],
-    radical: '目',
-    isHighFrequency: true,
-    senses: [
-      {
-        pos: '副词 [xiāng]',
-        meaning: '相互，亲自 / 偏指一方（动作偏指一方，相当于“我/你/他”）',
-        examples: [
-          {
-            text: '黄发垂髫，并怡然自乐。相命肆农耕。',
-            source: '《桃花源记》',
-            translation: '相互呼唤从事农耕。',
-          },
-          {
-            text: '及时相遣归。',
-            source: '《孔雀东南飞》',
-            translation: '及时把我休弃遣送回家（相：偏指我）。',
-          },
-          {
-            text: '杂然相许。',
-            source: '《愚公移山》',
-            translation: '大家纷杂地赞同他（相：偏指他）。',
-          },
-        ],
-      },
-      {
-        pos: '名词/动词 [xiàng]',
-        meaning: '宰相，相国 / 辅佐，帮助 / 观察，看（相貌）',
-        examples: [
-          {
-            text: '沛公欲王关中，使子房相国。',
-            source: '《鸿门宴》',
-            translation: '让张良辅助作相国。',
-          },
-          {
-            text: '王侯将相宁有种乎！',
-            source: '《陈涉世家》',
-            translation: '王侯将相难道有天生的贵种吗！',
-          },
-          { text: '察焉而相之。', source: '《史记》', translation: '仔细观察看他。' },
-        ],
-      },
-    ],
-    examTips: '“相”作副词偏指一方（及时相遣归、嬉戏莫相忘）；[xiàng]作宰相、辅佐、观察。',
-  },
-  {
-    id: 'xie_thank',
-    word: '谢',
-    pinyin: 'xiè',
-    radical: '讠',
-    isHighFrequency: true,
-    senses: [
-      {
-        pos: '动词',
-        meaning: '道歉，认错，谢罪 / 告辞，辞别 / 感谢 / 拒绝，推辞 / 告诉 / 凋落，衰退',
-        examples: [
-          {
-            text: '旦日不可不蚤自来谢项王。',
-            source: '《鸿门宴》',
-            translation: '明天早晨不可以不早早亲自来向项王道歉谢罪。',
-          },
-          {
-            text: '侯生视公子色终不变，乃谢曰：“公子姐矣！”',
-            source: '《信陵君窃符救赵》',
-            translation: '侯生看公子面色始终不改变，于是致谢道歉说……',
-          },
-          {
-            text: '阿母谢媒人：“女子先有誓，老妇岂敢言！”',
-            source: '《孔雀东南飞》',
-            translation: '母亲推辞拒绝媒人……',
-          },
-          {
-            text: '多谢后世人，戒之慎勿忘。',
-            source: '《孔雀东南飞》',
-            translation: '多加劝告告诉后世的人……',
-          },
-          {
-            text: '及花之既谢，亦可收敛供焚。',
-            source: '《芙蕖》',
-            translation: '等到花朵已经凋落……',
+            text: '然则诸侯之地有限，暴秦之欲无厌，奉之弥繁，侵之愈急。',
+            source: '《六国论》',
+            translation:
+              '既然如此，那么诸侯的土地有限，暴秦的欲望没有满足的时候，进贡的越频繁，侵略的就越急迫。',
           },
         ],
       },
     ],
-    examTips:
-      '“谢”在古文中多考“谢罪/道歉”（蚤来谢项王）、“推辞/拒绝”（谢媒人）、“告诉/劝告”（多谢后世人）。',
+    isHighFrequency: false,
+    examTips: null,
   },
   {
-    id: 'xin_trust',
-    word: '信',
-    pinyin: 'xìn',
-    radical: '亻',
-    isHighFrequency: true,
+    id: 'mingfu',
+    word: '明府',
+    pinyin: 'míng fǔ',
+    radical: '日',
     senses: [
       {
-        pos: '形容词/名词',
-        meaning: '诚信，讲信用 / 信用，凭证（信物） / 信件，使者',
+        pos: '名词',
+        meaning: '官府',
         examples: [
           {
-            text: '此四君者，皆明智而忠信。',
-            source: '《过秦论》',
-            translation: '这四位君主，都明智且忠诚讲信用。',
-          },
-          {
-            text: '自可断来信，徐徐更谓之。',
-            source: '《孔雀东南飞》',
-            translation: '自然可以回绝前来的媒人使者……',
+            text: '（无例句）',
+            source: 'N/A',
+            translation: '（无例句）',
           },
         ],
       },
       {
-        pos: '动词/副词',
-        meaning: '相信，信任 / 随意，任凭 / 确实，的确',
+        pos: '名词',
+        meaning: '汉魏以来对郡守的尊称',
         examples: [
-          { text: '信而见疑，忠而被谤。', source: '《屈原列传》', translation: '诚信却被怀疑……' },
           {
-            text: '低眉信手续续弹，说尽心中无限事。',
-            source: '《琵琶行》',
-            translation: '低着头随手连续地弹奏……',
+            text: '明府位尊德重',
+            source: 'N/A',
+            translation: '明府您地位尊贵，德行高尚。',
           },
+        ],
+      },
+    ],
+    isHighFrequency: false,
+    examTips: null,
+  },
+  {
+    id: 'mo',
+    word: '莫',
+    pinyin: 'mò, mù',
+    radical: '艹',
+    senses: [
+      {
+        pos: '代词',
+        meaning: '没有谁，没有什么，没有哪里',
+        examples: [
           {
-            text: '烟涛微茫信难求。',
-            source: '《梦游天姥吟留别》',
-            translation: '云烟波涛微茫确实难以寻求。',
+            text: '后世之谬其传而莫能名者。',
+            source: '《游褒禅山记》',
+            translation: '后世的人错误地传述它，没有人能说出它的名字。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '表否定，不',
+        examples: [
+          {
+            text: '稍出近之，慭慭然，莫相知。',
+            source: '《黔之驴》',
+            translation: '稍微出来靠近它，（老虎）小心谨慎的样子，不互相了解。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '表禁止，不要',
+        examples: [
+          {
+            text: '便可速遣之，遣去慎莫留！',
+            source: '《孔雀东南飞》',
+            translation: '你就可以赶快打发她走，打发走了千万不要挽留！',
+          },
+        ],
+      },
+      {
+        pos: '语气词',
+        meaning: '相当于口语“罢了”',
+        examples: [
+          {
+            text: '山盟虽在，锦书难托。莫，莫，莫。',
+            source: '《钗头凤》',
+            translation: '山盟海誓虽然还在，但锦书难以寄托。罢了，罢了，罢了。',
           },
         ],
       },
       {
         pos: '通假字',
-        meaning: '通“伸”，伸张，舒展',
-        examples: [
-          { text: '欲信大义于天下。', source: '《隆中对》', translation: '想要在天下伸张大义。' },
-        ],
-      },
-    ],
-    examTips: '“信”作使者（断来信）；作副词“确实/的确”（信难求）；通“伸”（欲信大义）。',
-  },
-  {
-    id: 'xing_rise',
-    word: '兴',
-    pinyin: ['xīng', 'xìng'],
-    radical: '八',
-    isHighFrequency: true,
-    senses: [
-      {
-        pos: '动词 [xīng]',
-        meaning: '兴起，发动，兴建 / 发生，使……兴盛',
+        meaning: '通“暮”，晚上',
         examples: [
           {
-            text: '积土成山，风雨兴焉。',
-            source: '《劝学》',
-            translation: '堆积泥土成为高山，风雨就在这里兴起。',
-          },
-          {
-            text: '政通人和，百废俱兴。',
-            source: '《岳阳楼记》',
-            translation: '政事通达百姓和顺，各种荒废了的事业全都兴办起来。',
-          },
-        ],
-      },
-      {
-        pos: '名词 [xìng]',
-        meaning: '兴致，兴趣',
-        examples: [
-          {
-            text: '遥襟甫畅，逸兴遄飞。',
-            source: '《滕王阁序》',
-            translation: '远大的胸怀刚得到舒展，飘逸的兴致迅速飞扬起来。',
+            text: '至莫夜月明，独与迈乘小舟，至绝壁下。',
+            source: '《石钟山记》',
+            translation: '到了晚上月光明亮的时候，我独自和苏迈乘坐小船，来到绝壁下面。',
           },
         ],
       },
     ],
-    examTips: '“兴”读[xīng]作动词（百废俱兴、风雨兴焉）与[xìng]作名词兴致（逸兴遄飞）。',
+    isHighFrequency: false,
+    examTips: null,
   },
   {
-    id: 'xing_walk',
-    word: '行',
-    pinyin: ['xíng', 'háng'],
-    radical: '行',
-    isHighFrequency: true,
+    id: 'nei',
+    word: '内',
+    pinyin: 'nèi, nà',
+    radical: '入',
     senses: [
       {
-        pos: '动词/名词 [xíng]',
-        meaning: '行走，步行 / 运行 / 品行，行为 / 实行，从事',
+        pos: '名词',
+        meaning: '里面',
         examples: [
           {
-            text: '行衢道者不至。',
-            source: '《劝学》',
-            translation: '在岔路上行走的人到达不了目的地。',
-          },
-          {
-            text: '君子博学而日参省乎己，则知明而行无过矣。',
-            source: '《劝学》',
-            translation: '……行为就没有过错了。',
+            text: '少间，帘内掷一纸出。',
+            source: '《促织》',
+            translation: '过了一会儿，帘子里面扔出一张纸。',
           },
         ],
       },
       {
-        pos: '名词 [háng]',
-        meaning: '行列，队伍 / 职业，行当',
-        examples: [
-          { text: '悉使芮芮等报之。', source: '《史记》', translation: '行列队伍。' },
-          { text: '避席畏师不肯靠近。', source: '《师说》', translation: '行业同行。' },
-        ],
-      },
-    ],
-    examTips: '“行”作名词[xíng]品行行为（行无过矣），[háng]行列队伍。',
-  },
-  {
-    id: 'xing_fortunate',
-    word: '幸',
-    pinyin: 'xìng',
-    radical: '干',
-    isHighFrequency: true,
-    senses: [
-      {
-        pos: '形容词/副词',
-        meaning: '幸运，幸亏，幸而 / 恭敬地希望（敬词：幸勿推辞、幸即到来）',
+        pos: '名词',
+        meaning: '内部，常指国内、朝廷内',
         examples: [
           {
-            text: '则吾斯役之不幸，未若复吾赋之不幸之甚也。',
-            source: '《捕蛇者说》',
-            translation: '那么我做这差役的不幸，还不如恢复我赋税的不幸厉害呢。',
-          },
-          {
-            text: '幸可广问讯，殷勤于赵母。',
-            source: '《孔雀东南飞》',
-            translation: '希望您可以多加关照打听……',
-          },
-          { text: '幸大王赦之。', source: '《廉颇蔺相如列传》', translation: '希望大王赦免他。' },
-        ],
-      },
-      {
-        pos: '动词',
-        meaning: '宠爱，宠幸 / 皇帝亲临，到达',
-        examples: [
-          {
-            text: '妇女无所幸，财物无所取。',
-            source: '《鸿门宴》',
-            translation: '妇女没有被宠幸的，财物没有拿取过的。',
-          },
-          {
-            text: '缦立远视，而望幸焉。',
-            source: '《阿房宫赋》',
-            translation: '久久站立向远处张望，而盼望皇帝的亲临降临。',
-          },
-        ],
-      },
-    ],
-    examTips: '“幸”作敬词副词表“希望/幸而”（幸大王赦之）；动词表帝王亲临（望幸焉）。',
-  },
-  {
-    id: 'xu_allow',
-    word: '许',
-    pinyin: 'xǔ',
-    radical: '讠',
-    isHighFrequency: true,
-    senses: [
-      {
-        pos: '动词',
-        meaning: '应允，许诺，答应 / 赞同，赞许',
-        examples: [
-          { text: '安陵君许诺。', source: '《唐雎不辱使命》', translation: '安陵君应允许诺。' },
-          { text: '杂然相许。', source: '《愚公移山》', translation: '大家纷杂地赞同他。' },
-        ],
-      },
-      {
-        pos: '数词/代词/地方',
-        meaning: '左右，上下（表约数，如“百许人”） / 处，地方（如“何许人”）',
-        examples: [
-          {
-            text: '潭中鱼可百许头，皆若空游无所依。',
-            source: '《小石潭记》',
-            translation: '石潭里的鱼大约有一百头左右……',
-          },
-          {
-            text: '先生不知何许人也。',
-            source: '《五柳先生传》',
-            translation: '先生不知道是哪里（什么地方）的人。',
-          },
-        ],
-      },
-    ],
-    examTips: '“许”附于数词后表约数“左右/上下”（百许头）；代词表地方（何许人）。',
-  },
-  {
-    id: 'xu_pity',
-    word: '恤',
-    pinyin: 'xù',
-    radical: '忄',
-    isHighFrequency: true,
-    senses: [
-      {
-        pos: '动词',
-        meaning: '顾念，忧虑，关心 / 救济，抚恤',
-        examples: [
-          {
-            text: '司马春衫谓何？恤孤念寡。',
-            source: '《史记》',
-            translation: '抚恤救济孤儿寡妇。',
-          },
-          {
-            text: '国胡以相恤？',
-            source: '《论积贮疏》',
-            translation: '国家用什么来相互救济恤抚呢？',
-          },
-        ],
-      },
-    ],
-    examTips: '“恤”作动词“顾念/救济/抚恤”（国胡以相恤）。',
-  },
-  {
-    id: 'ya_elegant',
-    word: '雅',
-    pinyin: 'yǎ',
-    radical: '隹',
-    isHighFrequency: true,
-    senses: [
-      {
-        pos: '形容词/副词',
-        meaning: '高雅，正统 / 平素，平时，素来（雅不愿、雅善）',
-        examples: [
-          {
-            text: '察纳雅言，深追先帝遗诏。',
-            source: '《出师表》',
-            translation: '审察采纳高雅正确的言论，深切追念先帝遗诏。',
-          },
-          {
-            text: '安帝雅闻张衡有才艺。',
-            source: '《张衡传》',
-            translation: '汉安帝平素听说张衡有才干技艺。',
-          },
-        ],
-      },
-    ],
-    examTips: '“雅”作副词表“平素/平时/素来”（雅闻张衡有才艺）是极其特殊的考查点！',
-  },
-  {
-    id: 'yan_strict',
-    word: '严',
-    pinyin: 'yán',
-    radical: '口',
-    isHighFrequency: true,
-    senses: [
-      {
-        pos: '形容词/动词/名词',
-        meaning: '严格，严厉 / 紧急，急迫 / 尊敬 / 父（尊称“严君”）',
-        examples: [
-          { text: '严威俨恪。', source: '《廉颇蔺相如列传》', translation: '尊严威严。' },
-          {
-            text: '家君作宰，路过名郡；童子何知，躬逢胜况。',
-            source: '《滕王阁序》',
-            translation: '父亲（严君/家君）做县令。',
-          },
-        ],
-      },
-    ],
-    examTips: '“严”在古代常尊称父亲（严君、家严）。',
-  },
-  {
-    id: 'yan_dislike',
-    word: '厌',
-    pinyin: 'yàn',
-    radical: '厂',
-    isHighFrequency: true,
-    senses: [
-      {
-        pos: '动词',
-        meaning: '满足（古义“贪得无厌”） / 厌恶，讨厌 / 压制（同“压”）',
-        examples: [
-          {
-            text: '秦之欲无厌。',
-            source: '《六国论》',
-            translation: '秦国的欲望没有满足的时候（厌：满足）。',
-          },
-          {
-            text: '学而不厌，诲人不倦。',
-            source: '《论语》',
-            translation: '学习不感到满足，教导人不知疲倦。',
-          },
-        ],
-      },
-    ],
-    examTips: '“厌”古义最核心指“满足”（学而不厌、贪得无厌），非现代讨厌。',
-  },
-  {
-    id: 'yao_demand',
-    word: '要',
-    pinyin: ['yāo', 'yào'],
-    radical: '女',
-    isHighFrequency: true,
-    senses: [
-      {
-        pos: '动词 [yāo]',
-        meaning: '通“邀”，邀请，约请 / 强求，胁迫 / 拦截',
-        examples: [
-          {
-            text: '便要还家，设酒杀鸡作食。',
-            source: '《桃花源记》',
-            translation: '就邀请渔人回到自己家里，摆酒杀鸡做饭食。',
-          },
-          { text: '张良出，要项伯。', source: '《鸿门宴》', translation: '张良出来，邀请项伯。' },
-          {
-            text: '要盟也，神不听。',
-            source: '《左传》',
-            translation: '胁迫订立的盟约，神灵是不听信的。',
-          },
-        ],
-      },
-      {
-        pos: '名词/形容词 [yào]',
-        meaning: '腰（同“腰”） / 要害，要领，重要',
-        examples: [
-          { text: '支折要痛。', source: '《史记》', translation: '腰部疼痛。' },
-          {
-            text: '增兵据要，给贡如常。',
-            source: '《赤壁之战》',
-            translation: '增加士兵据守要害地方。',
-          },
-        ],
-      },
-    ],
-    examTips: '“要”读[yāo]通“邀”表“邀请”（便要还家、要项伯）；表“强求/胁迫”（要盟）。',
-  },
-  {
-    id: 'yi_suitable',
-    word: '宜',
-    pinyin: 'yí',
-    radical: '宀',
-    isHighFrequency: true,
-    senses: [
-      {
-        pos: '形容词/副词',
-        meaning: '适宜，合适 / 应当，应该 / 大概，大约',
-        examples: [
-          {
-            text: '淡妆浓抹总相宜。',
-            source: '《饮湖上初晴后雨》',
-            translation: '淡雅地化妆浓艳地打扮全都适宜合适。',
-          },
-          { text: '宜乎众矣！', source: '《爱莲说》', translation: '应当是很多了！' },
-          {
-            text: '诚宜开张圣听，以光先帝遗德。',
-            source: '《出师表》',
-            translation: '确实应该广泛听取正确的言论，发扬光大先帝遗留的美德。',
-          },
-        ],
-      },
-    ],
-    examTips: '“宜”作副词“应当/应该”（诚宜开张圣听）。',
-  },
-  {
-    id: 'yi_wei',
-    word: '遗',
-    pinyin: ['yí', 'wèi'],
-    radical: '辶',
-    isHighFrequency: true,
-    senses: [
-      {
-        pos: '动词/形容词 [yí]',
-        meaning: '遗失，遗漏，丢失 / 遗留，留下 / 忽略，抛弃',
-        examples: [
-          {
-            text: '深追先帝遗诏。',
-            source: '《出师表》',
-            translation: '深切追念先帝遗留下的诏书。',
-          },
-          {
-            text: '小学而大遗，吾未见其明也。',
-            source: '《师说》',
-            translation: '小的方面学习而大的方面放弃忽略，我看不出他聪明在哪里。',
-          },
-        ],
-      },
-      {
-        pos: '动词 [wèi]',
-        meaning: '赠送，给',
-        examples: [
-          {
-            text: '是以先帝简拔以遗陛下。',
-            source: '《出师表》',
-            translation: '因此先帝挑选拔萃的人赠送留给陛下。',
-          },
-          {
-            text: '公子闻之，往请，欲厚遗之。',
-            source: '《信陵君窃符救赵》',
-            translation: '信陵君听说后前往拜访，想要优厚地赠送财物给他。',
-          },
-        ],
-      },
-    ],
-    examTips: '“遗”读[wèi]作动词表“赠送/给”（以遗陛下、厚遗之）是高频必考题！',
-  },
-  {
-    id: 'yi_change',
-    word: '易',
-    pinyin: 'yì',
-    radical: '日',
-    isHighFrequency: true,
-    senses: [
-      {
-        pos: '动词',
-        meaning: '改变，变更 / 交换，换取 / 轻视，看不起（轻易）',
-        examples: [
-          {
-            text: '寒暑易节，始一反焉。',
-            source: '《愚公移山》',
-            translation: '冬夏季节改变更替，才往返一次。',
-          },
-          {
-            text: '秦王以十五城请易寡人之璧。',
-            source: '《廉颇蔺相如列传》',
-            translation: '秦王用十五座城池请求交换我这块和氏璧。',
-          },
-          {
-            text: '以乱易整，不武。',
-            source: '《烛之武退秦师》',
-            translation: '用混乱代替整齐，是不符合武德的。',
-          },
-          {
-            text: '强国请服，弱国入朝。轻易相视。',
+            text: '内立法度，务耕织，修守战之具。',
             source: '《过秦论》',
-            translation: '轻视看不起。',
+            translation: '在内制定法度，致力于耕作纺织，修备防守和作战的器械。',
+          },
+        ],
+      },
+      {
+        pos: '名词',
+        meaning: '内心',
+        examples: [
+          {
+            text: '纷吾既有此内美兮，又重之以修能。',
+            source: '《离骚》',
+            translation: '我既有这些内在的美德啊，又加上修养才能。',
+          },
+        ],
+      },
+      {
+        pos: '通假字',
+        meaning: '通“纳”，接纳',
+        examples: [
+          {
+            text: '距关，毋内诸侯，秦地可尽王也。',
+            source: '《鸿门宴》',
+            translation: '把守函谷关，不要接纳诸侯，秦国的土地就可以全部称王了。',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: false,
+    examTips: null,
+  },
+  {
+    id: 'ni',
+    word: '逆',
+    pinyin: 'nì',
+    radical: '辶',
+    senses: [
+      {
+        pos: '动词',
+        meaning: '迎接',
+        examples: [
+          {
+            text: '韩宣子逆客',
+            source: 'N/A',
+            translation: '韩宣子迎接客人。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '揣测',
+        examples: [
+          {
+            text: '以意逆志，是谓之得',
+            source: 'N/A',
+            translation: '用自己的想法去揣测作者的意图，这叫做领会。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '预先',
+        examples: [
+          {
+            text: '逆知其将死，则其书诞谩不足信也',
+            source: 'N/A',
+            translation: '如果预先知道他将要死去，那么他的书就是荒诞不经不足以相信的。',
           },
         ],
       },
       {
         pos: '形容词',
-        meaning: '容易，简单',
+        meaning: '忤逆',
         examples: [
           {
-            text: '蜀道之难，难于上青天！易如反掌。',
-            source: '《蜀道难》',
-            translation: '容易简单。',
+            text: '（无例句）',
+            source: 'N/A',
+            translation: '（无例句）',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '迎战，抵抗',
+        examples: [
+          {
+            text: '（无例句）',
+            source: 'N/A',
+            translation: '（无例句）',
+          },
+        ],
+      },
+      {
+        pos: '名词',
+        meaning: '叛乱',
+        examples: [
+          {
+            text: '（无例句）',
+            source: 'N/A',
+            translation: '（无例句）',
           },
         ],
       },
     ],
-    examTips: '“易”作动词“改变”（寒暑易节）、“交换”（以城易璧）、“轻视”。',
+    isHighFrequency: false,
+    examTips: null,
   },
   {
-    id: 'yin_draw',
-    word: '引',
-    pinyin: 'yǐn',
-    radical: '弓',
-    isHighFrequency: true,
+    id: 'ning',
+    word: '佞',
+    pinyin: 'nìng',
+    radical: '人',
+    senses: [
+      {
+        pos: '形容词',
+        meaning: '才能',
+        examples: [
+          {
+            text: '寡人不佞，其不能以诸侯退矣',
+            source: 'N/A',
+            translation: '我没有才能，大概不能让诸侯退兵了。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '用巧言奉承，奸伪',
+        examples: [
+          {
+            text: '何必为佞以取富贵',
+            source: 'N/A',
+            translation: '何必用巧言奉承来获取富贵呢？',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '沉迷于',
+        examples: [
+          {
+            text: '佞佛',
+            source: 'N/A',
+            translation: '沉迷于佛教。',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: false,
+    examTips: null,
+  },
+  {
+    id: 'ou',
+    word: '偶',
+    pinyin: 'ǒu',
+    radical: '人',
     senses: [
       {
         pos: '动词',
-        meaning: '拉开弓 / 牵引，拉 / 伸长，伸出 / 带领，率领 / 避开，退避',
+        meaning: '匹敌，对等，相当',
         examples: [
           {
-            text: '君子引而不发，跃如也。',
-            source: '《孟子》',
-            translation: '君子拉开弓却不射出箭，跃跃欲试的样子。',
+            text: '有人于此，文偶仲舒，论次君山',
+            source: 'N/A',
+            translation: '这里有人，文章可以与董仲舒匹敌，论述可以与刘向（字君山）相媲美。',
           },
+        ],
+      },
+      {
+        pos: '名词',
+        meaning: '伙伴，同伙',
+        examples: [
           {
-            text: '引壶觞以自酌，眄庭柯以怡颜。',
-            source: '《归去来兮辞》',
-            translation: '端起酒壶酒杯自斟自饮，看着庭院的树枝露出怡然脸色。',
+            text: '君子绝之，不与为偶',
+            source: 'N/A',
+            translation: '君子与他断绝关系，不与他为伍。',
           },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '迎合，投合',
+        examples: [
           {
-            text: '相如引车避匿。',
-            source: '《廉颇蔺相如列传》',
-            translation: '蔺相如拉回车马避让躲藏。',
-          },
-          {
-            text: '乃引其匕首提秦王。',
-            source: '《荆轲刺秦王》',
-            translation: '于是举起拿出他的匕首投击秦王。',
+            text: '不希指偶俗',
+            source: 'N/A',
+            translation: '不希望迎合世俗。',
           },
         ],
       },
     ],
-    examTips: '“引”作动词“退避/避让”（引车避匿）、“举起/拿出”（引其匕首）。',
+    isHighFrequency: false,
+    examTips: null,
   },
   {
-    id: 'wang_wu',
-    word: '亡',
-    pinyin: ['wáng', 'wú'],
-    radical: '亠',
-    isHighFrequency: true,
+    id: 'pi_bi',
+    word: '辟',
+    pinyin: 'pì, bì',
+    radical: '辛',
     senses: [
       {
-        pos: '动词/形容词 [wáng]',
-        meaning: '逃跑，逃亡 / 灭亡，死亡，丢失',
+        pos: '动词',
+        meaning: '开，打开',
         examples: [
           {
-            text: '今亡亦死，举大计亦死，等死，死国可乎？',
-            source: '《陈涉世家》',
-            translation: '现在逃跑也是死，起义做大事也是死，同样是死，为国事而死可以吗？',
+            text: '（无例句）',
+            source: 'N/A',
+            translation: '（无例句）',
           },
-          {
-            text: '秦无亡矢遗镞之费。',
-            source: '《过秦论》',
-            translation: '秦国没有损失一根箭矢一个箭头损耗费用。',
-          },
-          { text: '追亡逐北，伏尸百万。', source: '《过秦论》', translation: '追赶逃跑的败兵……' },
         ],
       },
       {
-        pos: '通假字 [wú]',
+        pos: '动词',
+        meaning: '排除，驳斥',
+        examples: [
+          {
+            text: '辟耳目之欲',
+            source: 'N/A',
+            translation: '排除耳目的欲望。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '被任以官职',
+        examples: [
+          {
+            text: '（无例句）',
+            source: 'N/A',
+            translation: '（无例句）',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: false,
+    examTips: null,
+  },
+  {
+    id: 'qi_pray',
+    word: '蕲',
+    pinyin: 'qí',
+    radical: '艹',
+    senses: [
+      {
+        pos: '通假字',
+        meaning: '通“祈”求',
+        examples: [
+          {
+            text: '不知生之志，蕲胜于人而取于人邪？',
+            source: 'N/A',
+            translation: '不知道生存的志向，是祈求胜过别人而从别人那里获取吗？',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: false,
+    examTips: null,
+  },
+  {
+    id: 'qikuo',
+    word: '契阔',
+    pinyin: 'qì kuò',
+    radical: '大',
+    senses: [
+      {
+        pos: '名词',
+        meaning: '离合聚散',
+        examples: [
+          {
+            text: '（无例句）',
+            source: 'N/A',
+            translation: '（无例句）',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '劳苦，勤苦',
+        examples: [
+          {
+            text: '契阔于田亩间',
+            source: 'N/A',
+            translation: '在田地间辛勤劳作。',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: false,
+    examTips: null,
+  },
+  {
+    id: 'qi_date',
+    word: '期',
+    pinyin: 'qī, jī',
+    radical: '月',
+    senses: [
+      {
+        pos: '名词',
+        meaning: '限度，限定或约定的时间',
+        examples: [
+          {
+            text: '以五年为期，必复之全之。',
+            source: '《病梅馆记》',
+            translation: '以五年为期限，一定使它恢复并保全。',
+          },
+          {
+            text: '征敛无期。',
+            source: '《吕氏春秋》',
+            translation: '征收赋税没有期限。',
+          },
+        ],
+      },
+      {
+        pos: '名词',
+        meaning: '日期，时候',
+        examples: [
+          {
+            text: '业根，死期至矣。',
+            source: '《促织》',
+            translation: '孽根啊，死期到了！',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '约定',
+        examples: [
+          {
+            text: '期曰：“暮见火举而俱发。”',
+            source: '《孙膑》',
+            translation: '约定说：‘晚上看见火光举起就一起出发。’',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '期望，希望',
+        examples: [
+          {
+            text: '良剑期乎断，不期乎莫邪。',
+            source: '《察今》',
+            translation: '好剑期望的是能斩断东西，不期望它是莫邪剑。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '至，及，到达',
+        examples: [
+          {
+            text: '况修短随化，终期于尽',
+            source: '《兰亭集序》',
+            translation: '况且寿命长短都听从造化安排，最终都会归于消亡。',
+          },
+        ],
+      },
+      {
+        pos: '名词',
+        meaning: '一周年',
+        examples: [
+          {
+            text: '期年之后，虽欲言，无可进者。',
+            source: '《邹忌讽齐王纳谏》',
+            translation: '一年之后，即使想进言，也没有什么可以进言的了。',
+          },
+        ],
+      },
+      {
+        pos: '名词',
+        meaning: '穿一周年孝服的人',
+        examples: [
+          {
+            text: '外无期功强近之亲，内无应门五尺之僮。',
+            source: '《陈情表》',
+            translation: '外面没有服一年丧或九个月丧的亲属，家里没有应门的小僮。',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: false,
+    examTips: null,
+  },
+  {
+    id: 'qi_odd',
+    word: '奇',
+    pinyin: 'qí, jī',
+    radical: '大',
+    senses: [
+      {
+        pos: '形容词',
+        meaning: '珍贵的，少有的，罕见的',
+        examples: [
+          {
+            text: '入之愈深，其进愈难，而其见愈奇。',
+            source: '《游褒禅山记》',
+            translation: '进入得越深，前进就越困难，而所看到的景色就越奇特。',
+          },
+          {
+            text: '市中游侠儿得佳者笼养之，昂其直，居为奇货。',
+            source: '《促织》',
+            translation: '市中的游侠少年得到好的就笼养起来，抬高它的价格，当作奇货来囤积。',
+          },
+        ],
+      },
+      {
+        pos: '形容词',
+        meaning: '优异，卓越，杰出的',
+        examples: [
+          {
+            text: '以事秦之心礼天下之奇才。',
+            source: '《六国论》',
+            translation: '用侍奉秦国的心意来礼遇天下的奇才。',
+          },
+        ],
+      },
+      {
+        pos: '形容词',
+        meaning: '佳，好',
+        examples: [
+          {
+            text: '嘉木异石错置，皆山水之奇者。',
+            source: '《愚溪诗序》',
+            translation: '美好的树木和奇异的石头交错放置，都是山水中的奇景。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '以……为奇',
+        examples: [
+          {
+            text: '每闻琴瑟之声，则应节而舞。益奇之。',
+            source: '《促织》',
+            translation: '每当听到琴瑟的声音，就应着节拍跳舞。人们更加觉得它奇特。',
+          },
+        ],
+      },
+      {
+        pos: '形容词',
+        meaning: '单一，单数',
+        examples: [
+          {
+            text: '每奇日未尝不视朝。',
+            source: '《资治通鉴》',
+            translation: '每逢单日没有不临朝听政的。',
+          },
+        ],
+      },
+      {
+        pos: '形容词',
+        meaning: '命运不好，运气不好',
+        examples: [
+          {
+            text: '以为李广老，数奇，毋令当单于，恐不得所欲。',
+            source: '《李将军列传》',
+            translation: '认为李广年老，运气不好，不要让他去抵挡单于，恐怕不能达到预期的目的。',
+          },
+        ],
+      },
+      {
+        pos: '名词',
+        meaning: '零数，余数',
+        examples: [
+          {
+            text: '舟首尾长约八分有奇，高可二黍许。',
+            source: '《核舟记》',
+            translation: '船头到船尾长约八分多一点，高约二黍左右。',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: false,
+    examTips: null,
+  },
+  {
+    id: 'shu_transport',
+    word: '输',
+    pinyin: 'shū',
+    radical: '车',
+    senses: [
+      {
+        pos: '动词',
+        meaning: '运输，输送',
+        examples: [],
+      },
+      {
+        pos: '动词',
+        meaning: '交纳、献纳',
+        examples: [
+          {
+            text: '岁责里胥代输',
+            source: '《汉书·食货志》',
+            translation: '每年责令里正代为交纳赋税。',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: true,
+    examTips: null,
+  },
+  {
+    id: 'shu_careful',
+    word: '孰',
+    pinyin: 'shú',
+    radical: '子',
+    senses: [
+      {
+        pos: '副词',
+        meaning: '仔细，周详',
+        examples: [
+          {
+            text: '唯大王与群臣孰计议之。',
+            source: '《史记·廉颇蔺相如列传》',
+            translation: '希望大王和群臣仔细商议这件事。',
+          },
+        ],
+      },
+      {
+        pos: '代词',
+        meaning: '表疑问，可代人、事、物，谁，哪一个',
+        examples: [
+          {
+            text: '独乐乐，与人乐乐，孰乐？',
+            source: '《孟子·梁惠王下》',
+            translation: '一个人欣赏音乐快乐，和别人一起欣赏音乐也快乐，哪种更快乐？',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: true,
+    examTips: null,
+  },
+  {
+    id: 'shu_yu_timely_rain',
+    word: '澍雨',
+    pinyin: 'shù yǔ',
+    radical: '雨',
+    senses: [
+      {
+        pos: '名词',
+        meaning: '及时雨',
+        examples: [],
+      },
+    ],
+    isHighFrequency: false,
+    examTips: null,
+  },
+  {
+    id: 'shu_number',
+    word: '数',
+    pinyin: 'shù, shǔ, shuò, cù',
+    radical: '攵',
+    senses: [
+      {
+        pos: '名词',
+        meaning: '数目，数量',
+        examples: [
+          {
+            text: '众数虽多，甚未足畏。',
+            source: '《资治通鉴·赤壁之战》',
+            translation: '人数虽然很多，但很不值得畏惧。',
+          },
+        ],
+      },
+      {
+        pos: '名词',
+        meaning: '算术',
+        examples: [
+          {
+            text: '三曰六艺：礼、乐、射、御、书、数。',
+            source: '《周礼·地官·保氏》',
+            translation: '第三是六艺：礼仪、音乐、射箭、驾车、书法、算术。',
+          },
+        ],
+      },
+      {
+        pos: '名词',
+        meaning: '法则，规律',
+        examples: [
+          {
+            text: '天有常道矣，地有常数矣。',
+            source: '《荀子·天论》',
+            translation: '天有其固定的运行规律，地有其固定的法则。',
+          },
+        ],
+      },
+      {
+        pos: '名词',
+        meaning: '命运，定数',
+        examples: [
+          {
+            text: '则胜负之数，存亡之理，当与秦相较，或未易量。',
+            source: '《六国论》',
+            translation: '那么胜败的命运，存亡的道理，与秦国相比较，或许还不容易衡量。',
+          },
+        ],
+      },
+      {
+        pos: '名词',
+        meaning: '技艺，方术',
+        examples: [
+          {
+            text: '今夫弈之为数，小数也。',
+            source: '《孟子·告子上》',
+            translation: '现在下棋这种技艺，是小技艺。',
+          },
+        ],
+      },
+      {
+        pos: '数词',
+        meaning: '几，表示不确定的数目',
+        examples: [
+          {
+            text: '当求数顷之田于伊、颍之上，以待余年。',
+            source: '《祭十二郎文》',
+            translation: '我应当在伊水、颍水边上求得几顷田地，以度过我的余生。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '计算',
+        examples: [
+          {
+            text: '臣宜从，老不能，请数公子行日，以至晋鄙军之日北乡自刭，以送公子。',
+            source: '《信陵君窃符救赵》',
+            translation:
+              '我本应跟随，但年老不能，请您计算公子出发的日子，等到到达晋鄙军营的那一天，我面向北方自刎，以送公子。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '列举罪状，加以斥责',
+        examples: [
+          {
+            text: '数吕师孟叔侄为逆。',
+            source: '《指南录后序》',
+            translation: '列举吕师孟叔侄的罪状，斥责他们是叛逆。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '多次、屡次',
+        examples: [
+          {
+            text: '范增数目项王。',
+            source: '《鸿门宴》',
+            translation: '范增多次向项王使眼色。',
+          },
+        ],
+      },
+      {
+        pos: '形容词',
+        meaning: '密，与“疏”相对',
+        examples: [
+          {
+            text: '数罟（gǔ）不入洿（wū）池，鱼鳖不可胜（shēng）食也。',
+            source: '《孟子·寡人之于国也》',
+            translation: '细密的渔网不进入池塘，鱼鳖就吃不完。',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: true,
+    examTips: null,
+  },
+  {
+    id: 'shu_category',
+    word: '属',
+    pinyin: 'shǔ, zhǔ',
+    radical: '尸',
+    senses: [
+      {
+        pos: '名词',
+        meaning: '等，辈，类',
+        examples: [
+          {
+            text: '于是六国之士，有宁越、徐尚、苏秦、杜赫之属为之谋。',
+            source: '《过秦论》',
+            translation: '于是六国的士人中，有宁越、徐尚、苏秦、杜赫这一类人为他出谋划策。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '隶属于、登记在',
+        examples: [
+          {
+            text: '十三学得琵琶成，名属教坊第一部。',
+            source: '《琵琶行》',
+            translation: '十三岁学成琵琶，名列教坊第一部。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '编写、撰写',
+        examples: [
+          {
+            text: '屈原属草稿未定，上官大夫见而欲夺之，屈平不与。',
+            source: '《史记·屈原列传》',
+            translation: '屈原撰写草稿还没有定稿，上官大夫看见了想要夺取它，屈平不给他。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '通“嘱”，劝酒',
+        examples: [
+          {
+            text: '举酒属客，诵明月之诗，歌窈窕之章。',
+            source: '《赤壁赋》',
+            translation: '举起酒杯劝客人饮酒，吟诵《明月》之诗，歌唱《窈窕》之章。',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: true,
+    examTips: null,
+  },
+  {
+    id: 'shuai_lv',
+    word: '率',
+    pinyin: 'shuài, lǜ',
+    radical: '玄',
+    senses: [
+      {
+        pos: '动词',
+        meaning: '率领，带领',
+        examples: [
+          {
+            text: '率疲弊之卒，将数百之众，转而攻秦。',
+            source: '《过秦论》',
+            translation: '率领疲惫的士兵，带领几百人的队伍，转而攻打秦国。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '全都，一概',
+        examples: [
+          {
+            text: '或曰：“六国互丧，率赂秦耶？”',
+            source: '《六国论》',
+            translation: '有人说：‘六国相继灭亡，都是因为贿赂秦国吗？’',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: false,
+    examTips: null,
+  },
+  {
+    id: 'shuo_speak',
+    word: '说',
+    pinyin: 'shuō, shuì, yuè',
+    radical: '言',
+    senses: [
+      {
+        pos: '动词',
+        meaning: '讲，谈',
+        examples: [
+          {
+            text: '低眉信手续续弹，说尽心中无限事。',
+            source: '《琵琶行》',
+            translation: '低着眉毛随手继续弹奏，说尽了心中无限的事情。',
+          },
+        ],
+      },
+      {
+        pos: '名词',
+        meaning: '说法，言论',
+        examples: [
+          {
+            text: '是说也，人常疑之。',
+            source: '《石钟山记》',
+            translation: '这种说法，人们常常怀疑它。',
+          },
+        ],
+      },
+      {
+        pos: '名词',
+        meaning: '文体的一种，侧重议论，多用于说明事物，讲述道理',
+        examples: [
+          {
+            text: '故为之说，以俟夫观人风者得焉。',
+            source: '《捕蛇者说》',
+            translation: '所以我写了这篇《说》，以等待那些考察民风的人能从中有所收获。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '劝说，说服',
+        examples: [
+          {
+            text: '公子患之，数请魏王，及宾客辩士说王万端。',
+            source: '《信陵君窃符救赵》',
+            translation: '公子为此担忧，多次请求魏王，以及宾客辩士用各种方法劝说魏王。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '通“悦”，高兴',
+        examples: [
+          {
+            text: '王说，曰：“《诗》云：‘他人有心，予忖度之。’夫子之谓也。”',
+            source: '《孟子·齐桓晋文之事》',
+            translation: '齐王高兴地说：“《诗经》说：‘别人有心思，我能揣测到。’说的就是先生啊。”',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: true,
+    examTips: null,
+  },
+  {
+    id: 'si_private',
+    word: '私',
+    pinyin: 'sī',
+    radical: '禾',
+    senses: [
+      {
+        pos: '形容词',
+        meaning: '私人的，自己的',
+        examples: [
+          {
+            text: '吾所以为此者，以先国家之急而后私仇也。',
+            source: '《史记·廉颇蔺相如列传》',
+            translation: '我之所以这样做，是因为先国家之急，后个人恩怨。',
+          },
+        ],
+      },
+      {
+        pos: '名词',
+        meaning: '私事，私利',
+        examples: [
+          {
+            text: '丹不忍以己之私，而伤长者之意。',
+            source: '《战国策·荆轲刺秦王》',
+            translation: '我燕丹不忍心因为自己的私事，而伤害长者的心意。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '私下，私自',
+        examples: [
+          {
+            text: '燕王私握臣手曰，“愿结友”，以此知之。',
+            source: '《史记·廉颇蔺相如列传》',
+            translation: '燕王私下握着我的手说，“愿意与我结交朋友”，因此我知道了。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '偏爱',
+        examples: [
+          {
+            text: '吾妻之美我者，私我也。',
+            source: '《战国策·邹忌讽齐王纳谏》',
+            translation: '我的妻子认为我美，是偏爱我。',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: true,
+    examTips: null,
+  },
+  {
+    id: 'su_plain_silk',
+    word: '素',
+    pinyin: 'sù',
+    radical: '糸',
+    senses: [
+      {
+        pos: '名词',
+        meaning: '白色的生绢',
+        examples: [
+          {
+            text: '十三能织素，十四学裁衣。',
+            source: '《孔雀东南飞》',
+            translation: '十三岁就能织白绢，十四岁学习裁剪衣服。',
+          },
+        ],
+      },
+      {
+        pos: '形容词',
+        meaning: '白色的、洁白的',
+        examples: [
+          {
+            text: '纤纤擢素手，札札弄机杼。',
+            source: '《迢迢牵牛星》',
+            translation: '纤细的手伸出来，织布机札札作响。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '空，白白地',
+        examples: [
+          {
+            text: '彼君子兮，不素餐兮。',
+            source: '《诗经·伐檀》',
+            translation: '那些老爷君子啊，不会白吃闲饭啊。',
+          },
+        ],
+      },
+      {
+        pos: '形容词',
+        meaning: '朴素的，不加修饰',
+        examples: [
+          {
+            text: '众人皆以奢靡为荣，吾心独以俭素为美。',
+            source: '《训俭示康》',
+            translation: '众人皆以奢侈浪费为荣，我心中唯独以节俭朴素为美。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '一向，从来，平素',
+        examples: [
+          {
+            text: '而五人生于编伍之间，素不闻诗书之训。',
+            source: '《五人墓碑记》',
+            translation: '而这五个人生于平民百姓之中，一向没有听过诗书的教诲。',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: true,
+    examTips: null,
+  },
+  {
+    id: 'su_invite',
+    word: '速',
+    pinyin: 'sù',
+    radical: '辶',
+    senses: [
+      {
+        pos: '动词',
+        meaning: '召请',
+        examples: [
+          {
+            text: '不速之客',
+            source: '《周易·需卦》',
+            translation: '不请自来的客人。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '招致',
+        examples: [
+          {
+            text: '是之不恤，而蓄积不厌，其速怨于民多矣',
+            source: '《荀子·富国》',
+            translation: '不顾念这些，却聚敛财物不知满足，这样招致百姓怨恨就太多了。',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: true,
+    examTips: null,
+  },
+  {
+    id: 'tang_treasury',
+    word: '帑',
+    pinyin: 'tǎng',
+    radical: '巾',
+    senses: [
+      {
+        pos: '名词',
+        meaning: '收藏钱币的库房',
+        examples: [],
+      },
+      {
+        pos: '名词',
+        meaning: '金帛钱财',
+        examples: [],
+      },
+    ],
+    isHighFrequency: false,
+    examTips: null,
+  },
+  {
+    id: 'tang_hot_water',
+    word: '汤',
+    pinyin: 'tāng, shāng',
+    radical: '氵',
+    senses: [
+      {
+        pos: '名词',
+        meaning: '热水，开水',
+        examples: [
+          {
+            text: '媵人持汤沃灌。',
+            source: '《送东阳马生序》',
+            translation: '侍女拿着热水浇灌。',
+          },
+        ],
+      },
+      {
+        pos: '名词',
+        meaning: '汤剂，中药加水煎制而成',
+        examples: [
+          {
+            text: '臣侍汤药，未尝废离。',
+            source: '《陈情表》',
+            translation: '我侍奉汤药，未曾废弃离开。',
+          },
+        ],
+      },
+      {
+        pos: '形容词',
+        meaning: '汤汤：水势浩大的样子',
+        examples: [
+          {
+            text: '衔远山，吞长江，浩浩汤汤，横无际涯。',
+            source: '《岳阳楼记》',
+            translation: '含着远山，吞吐着长江，水势浩大无边，广阔无际。',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: true,
+    examTips: null,
+  },
+  {
+    id: 'te_er_merely',
+    word: '特…耳',
+    pinyin: 'tè…ěr',
+    radical: '牛',
+    senses: [
+      {
+        pos: '固定结构',
+        meaning: '只是…罢了',
+        examples: [],
+      },
+    ],
+    isHighFrequency: true,
+    examTips: null,
+  },
+  {
+    id: 'ti_expose',
+    word: '擿',
+    pinyin: 'tì',
+    radical: '扌',
+    senses: [
+      {
+        pos: '动词',
+        meaning: '挑，揭发',
+        examples: [
+          {
+            text: '善政事，好发擿奸伏',
+            source: '《汉书·张汤传》',
+            translation: '擅长处理政事，喜欢揭发隐藏的奸邪。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '指使',
+        examples: [],
+      },
+    ],
+    isHighFrequency: false,
+    examTips: null,
+  },
+  {
+    id: 'ti_tears',
+    word: '涕',
+    pinyin: 'tì',
+    radical: '氵',
+    senses: [
+      {
+        pos: '名词',
+        meaning: '眼泪',
+        examples: [
+          {
+            text: '言讫，歔欷流涕，悲不自胜。',
+            source: '《柳毅传》',
+            translation: '说完，抽泣流泪，悲伤得不能自持。',
+          },
+        ],
+      },
+      {
+        pos: '名词',
+        meaning: '鼻涕',
+        examples: [
+          {
+            text: '目泪下落，鼻涕长一尺。',
+            source: '《僮约》',
+            translation: '眼泪落下，鼻涕长达一尺。',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: true,
+    examTips: null,
+  },
+  {
+    id: 'tu_disciple',
+    word: '徒',
+    pinyin: 'tú',
+    radical: '彳',
+    senses: [
+      {
+        pos: '名词',
+        meaning: '徒弟，弟子',
+        examples: [
+          {
+            text: '仲尼之徒无道桓文之事者，是以后世无传焉。',
+            source: '《孟子·齐桓晋文之事》',
+            translation: '孔子的弟子中没有谈论齐桓公、晋文公事迹的，是以后世没有流传下来。',
+          },
+        ],
+      },
+      {
+        pos: '名词',
+        meaning: '党徒，同类或同一派别的人',
+        examples: [
+          {
+            text: '郯子之徒，其贤不及孔子。',
+            source: '《师说》',
+            translation: '郯子这一类人，他们的贤能比不上孔子。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '步行',
+        examples: [
+          {
+            text: '舍车而徒。',
+            source: '《周易·睽卦》',
+            translation: '放弃车子而步行。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '白白地，徒然',
+        examples: [
+          {
+            text: '故予与同社诸君子哀斯墓之徒有其石也而为之记。',
+            source: '《五人墓碑记》',
+            translation: '所以我与同社的各位君子哀叹这座墓白白地有其石碑，而为它作记。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '只，仅仅',
+        examples: [
+          {
+            text: '而蔺相如徒以口舌为劳，而位居我上。',
+            source: '《史记·廉颇蔺相如列传》',
+            translation: '而蔺相如仅仅凭着口舌的功劳，地位却在我之上。',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: true,
+    examTips: null,
+  },
+  {
+    id: 'wang_look_afar',
+    word: '望',
+    pinyin: 'wàng',
+    radical: '月',
+    senses: [
+      {
+        pos: '动词',
+        meaning: '向远处看',
+        examples: [
+          {
+            text: '吾尝跂而望矣，不如登高之博见也。',
+            source: '《劝学》',
+            translation: '我曾经踮起脚尖向远处眺望，不如登高看得广阔。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '盼望，希望',
+        examples: [
+          {
+            text: '日夜望将军至，岂敢反乎？',
+            source: '《鸿门宴》',
+            translation: '日夜盼望将军到来，哪里敢反叛呢？',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '察看',
+        examples: [
+          {
+            text: '吾令人望其气，皆为龙虎，成五采，此天子气也。',
+            source: '《鸿门宴》',
+            translation: '我让人察看那里的气象，都呈现龙虎之形，形成五彩之色，这是天子之气啊。',
+          },
+        ],
+      },
+      {
+        pos: '名词',
+        meaning: '名望，声望',
+        examples: [
+          {
+            text: '都督阎公之雅望，棨戟遥临；宇文新州之懿范，襜帷暂驻。',
+            source: '《滕王阁序》',
+            translation: '都督阎公的雅望，仪仗队遥远地到来；宇文新州的懿范，车驾暂时停留。',
+          },
+        ],
+      },
+      {
+        pos: '名词',
+        meaning: '望日，指月亮圆的那天',
+        examples: [
+          {
+            text: '在丁卯三月之望。',
+            source: '《五人墓碑记》',
+            translation: '在丁卯年三月十五日。',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: true,
+    examTips: null,
+  },
+  {
+    id: 'wang_feng_admire',
+    word: '望风',
+    pinyin: 'wàng fēng',
+    radical: '风',
+    senses: [
+      {
+        pos: '动词',
+        meaning: '望其仪容风采，都来投奔依附',
+        examples: [
+          {
+            text: '海内望风',
+            source: '《史记·高祖本纪》',
+            translation: '天下人都仰慕其风采而归附。',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: true,
+    examTips: null,
+  },
+  {
+    id: 'wang_king',
+    word: '王',
+    pinyin: 'wáng, wàng',
+    radical: '王',
+    senses: [
+      {
+        pos: '名词',
+        meaning: '帝王、君主、大王',
+        examples: [
+          {
+            text: '先王之道，斯为美。',
+            source: '《论语·学而》',
+            translation: '先王的治国之道，这才是美好的。',
+          },
+          {
+            text: '王不行，示赵弱且怯也',
+            source: '《史记·廉颇蔺相如列传》',
+            translation: '大王如果不去，就显得赵国既软弱又胆小。',
+          },
+        ],
+      },
+      {
+        pos: '名词',
+        meaning: '王父（祖父）、王母（祖母）,对祖辈的敬称',
+        examples: [],
+      },
+      {
+        pos: '动词',
+        meaning: '称王，统治天下',
+        examples: [
+          {
+            text: '沛公欲王关中，使子婴为相，珍宝尽有之。',
+            source: '《鸿门宴》',
+            translation: '沛公想要在关中称王，让子婴做丞相，把珍宝全部占有。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '使……为王',
+        examples: [
+          {
+            text: '先破秦入咸阳者王之',
+            source: '《鸿门宴》',
+            translation: '先攻破秦国进入咸阳的人就封他为王。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '封……为王',
+        examples: [
+          {
+            text: '先破秦入咸阳者王之',
+            source: '《鸿门宴》',
+            translation: '先攻破秦国进入咸阳的人就封他为王。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '胜过',
+        examples: [
+          {
+            text: '彼兀者也，而王先生',
+            source: '《庄子·德充符》',
+            translation: '那个断脚的人却胜过先生。',
+          },
+        ],
+      },
+    ],
+    isHighFrequency: true,
+    examTips: null,
+  },
+  {
+    id: 'wang_flee',
+    word: '亡',
+    pinyin: 'wáng, wú',
+    radical: '亠',
+    senses: [
+      {
+        pos: '动词',
+        meaning: '逃亡，逃跑',
+        examples: [
+          {
+            text: '臣为韩王送沛公，沛公今事有急，亡去不义。',
+            source: '《鸿门宴》',
+            translation: '我替韩王送沛公，沛公现在有急事，逃走是不义的。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '失去，丢失',
+        examples: [
+          {
+            text: '秦无亡矢遗镞之费，而天下诸侯已困矣。',
+            source: '《过秦论》',
+            translation: '秦国没有丢失箭矢的耗费，而天下诸侯已经困顿了。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
+        meaning: '灭亡，消亡',
+        examples: [
+          {
+            text: '燕虽小国而后亡，斯用兵之效也。',
+            source: '《六国论》',
+            translation: '燕国虽然是小国却在最后灭亡，这是用兵的效果啊。',
+          },
+        ],
+      },
+      {
+        pos: '动词',
         meaning: '通“无”，没有',
         examples: [
           {
-            text: '河曲智叟亡以应。',
-            source: '《愚公移山》',
-            translation: '河曲智叟没有话用来回答。',
-          },
-          {
             text: '生之有时而用之亡度，则物力必屈。',
             source: '《论积贮疏》',
-            translation: '生产财物有季节限制而消费财物没有限度，那么物力必定消耗殆尽。',
+            translation: '生产有一定的时候，而使用却没有节制，那么物力必然会枯竭。',
           },
         ],
       },
     ],
-    examTips: '“亡”通“无”[wú]表没有（亡以应）；[wáng]作逃跑（今亡亦死）与败兵（追亡）。',
+    isHighFrequency: true,
+    examTips: null,
   },
   {
-    id: 'zhi_zhi',
-    word: '知',
-    pinyin: ['zhī', 'zhì'],
-    radical: '矢',
-    isHighFrequency: true,
+    id: 'wei_subtle',
+    word: '微',
+    pinyin: 'wēi',
+    radical: '彳',
     senses: [
       {
-        pos: '动词 [zhī]',
-        meaning: '知道，了解，懂得 / 掌管，主持（如“知府”）',
+        pos: '形容词',
+        meaning: '精妙，微妙',
         examples: [
           {
-            text: '草木有本心，何求美人折？知我者谓我心忧，不知我者谓我何求。',
-            source: '《诗经》',
-            translation: '了解我的人说我心里忧愁……',
+            text: '其文约，其辞微，其志洁，其行廉。',
+            source: '《史记·屈原列传》',
+            translation: '他的文章简约，言辞精微，志向高洁，品行廉洁。',
           },
         ],
       },
       {
-        pos: '通假字/名词 [zhì]',
-        meaning: '通“智”，智慧，聪明 / 知觉，感觉',
+        pos: '形容词',
+        meaning: '细小，轻微的',
         examples: [
           {
-            text: '君子博学而日参省乎己，则知明而行无过矣。',
-            source: '《劝学》',
-            translation: '君子广博学习且每天对自己检验反省，那么智慧明达行为就没有过错了。',
+            text: '微风鼓浪，水石相搏，声如洪钟。',
+            source: '《石钟山记》',
+            translation: '微风吹动波浪，水和石头相互撞击，声音如同洪钟。',
           },
+        ],
+      },
+      {
+        pos: '形容词',
+        meaning: '低贱，卑下',
+        examples: [
           {
-            text: '孰为汝多知乎？',
-            source: '《两小儿辩日》',
-            translation: '谁说你多有智慧聪明呢？',
+            text: '勃，三尺微命，一介书生。',
+            source: '《滕王阁序》',
+            translation: '王勃，一个地位低微的生命，一个普通的书生。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '稍微地，略微地',
+        examples: [
+          {
+            text: '见其发矢十中八九，但微颔之。',
+            source: '《卖油翁》',
+            translation: '看到他射箭十支中八九支，只是稍微点点头。',
+          },
+        ],
+      },
+      {
+        pos: '副词',
+        meaning: '暗中，秘密地',
+        examples: [
+          {
+            text: '微察公子，公子颜色愈和。',
+            source: '《信陵君窃符救赵》',
+            translation: '暗中观察公子，公子的脸色更加和悦。',
+          },
+        ],
+      },
+      {
+        pos: '连词',
+        meaning: '如果（假如）没有，如果不是',
+        examples: [
+          {
+            text: '微夫人之力不及此。',
+            source: '《烛之武退秦师》',
+            translation: '如果没有那个人（烛之武）的力量，是达不到这种地步的。',
           },
         ],
       },
     ],
-    examTips: '“知”通“智”[zhì]表智慧（知明而行无过矣）是必考通假字。',
+    isHighFrequency: true,
+    examTips: null,
   },
   {
-    id: 'zhi_reach',
-    word: '致',
-    pinyin: 'zhì',
-    radical: '至',
-    isHighFrequency: true,
+    id: 'wei_leave',
+    word: '违',
+    pinyin: 'wéi',
+    radical: '辶',
     senses: [
       {
         pos: '动词',
-        meaning: '送到，表达，呈献 / 获得，取得，招致 / 达到 / 辞去，归还',
+        meaning: '离开，远离',
         examples: [
           {
-            text: '余幼时即嗜学，家贫，无从致书以观。',
-            source: '《送东阳马生序》',
-            translation: '我小时候就爱好学习，家里贫穷，没有办法买到（取得）书来看。',
-          },
-          {
-            text: '不积跬步，无以至（致）千里。',
-            source: '《劝学》',
-            translation: '不积累小步，没有办法达到千里之远。',
-          },
-          {
-            text: '致万乘之势，序八州而朝同列。',
-            source: '《过秦论》',
-            translation: '达到万乘兵车的声势……',
-          },
-          { text: '辞官致仕。', source: '《史记》', translation: '辞去官职归还职权。' },
-        ],
-      },
-      {
-        pos: '形容词/名词',
-        meaning: '情致，情趣 / 结构精细',
-        examples: [
-          {
-            text: '胜负之数，存亡之理，当与秦相较，致意于此。',
-            source: '《史记》',
-            translation: '情致情趣。',
-          },
-        ],
-      },
-    ],
-    examTips: '“致”作动词“买到/取得/招致”（无从致书以观）与“辞去”（致仕）。',
-  },
-  {
-    id: 'zhi_substance',
-    word: '质',
-    pinyin: 'zhì',
-    radical: '贝',
-    isHighFrequency: true,
-    senses: [
-      {
-        pos: '名词/动词',
-        meaning: '本质，资质，质朴 / 抵押品，人质 / 做人质，抵押',
-        examples: [
-          {
-            text: '永州之野产异蛇，黑质而白章。',
-            source: '《捕蛇者说》',
-            translation: '永州的郊野产生异种蛇，黑色的底子底质而有白色的花纹。',
-          },
-          {
-            text: '于是为长安君约车百乘，质于齐。',
-            source: '《触龙说赵太后》',
-            translation: '于是为长安君准备兵车一百辆，送到齐国去做人质抵押。',
+            text: '便起告违，拂衣而去',
+            source: '《世说新语·方正》',
+            translation: '于是起身告辞，拂袖而去。',
           },
         ],
       },
       {
         pos: '动词',
-        meaning: '询问，质问，对质',
+        meaning: '避开，躲避',
+        examples: [],
+      },
+      {
+        pos: '动词',
+        meaning: '违背，违反',
         examples: [
           {
-            text: '援疑质理，先达执经叩问。',
-            source: '《送东阳马生序》',
-            translation: '提出疑问询问探讨道理，向道德学问高的前辈拿着经书请教叩问。',
+            text: '不违农时',
+            source: '《孟子·梁惠王上》',
+            translation: '不耽误农时。',
           },
         ],
       },
     ],
-    examTips: '“质”作动词表“做人质/抵押”（质于齐）与“询问”（援疑质理）。',
+    isHighFrequency: true,
+    examTips: null,
   },
   {
-    id: 'zu_clan',
-    word: '族',
-    pinyin: 'zú',
-    radical: '方',
-    isHighFrequency: true,
+    id: 'wei_examination_hall',
+    word: '闱',
+    pinyin: 'wéi',
+    radical: '门',
     senses: [
       {
         pos: '名词',
-        meaning: '家族，宗族 / 类别，同类 / 筋骨交错聚结处（庖丁解牛）',
-        examples: [
-          {
-            text: '山东豪俊遂并起而亡秦族矣。',
-            source: '《过秦论》',
-            translation: '崤山以东的豪杰英俊于是同时起义消灭了秦朝皇族宗族。',
-          },
-          {
-            text: '每至叶交错，族筋骨交错处。',
-            source: '《庖丁解牛》',
-            translation: '每当碰到筋骨交错聚结的地方。',
-          },
-        ],
+        meaning: '春闱，会试，每年三月，三年一次，在礼部举行，举人参加',
+        examples: [],
       },
-      {
-        pos: '动词',
-        meaning: '灭族，杀尽全族',
-        examples: [
-          {
-            text: '族秦者秦也，非天下也。',
-            source: '《阿房宫赋》',
-            translation: '消灭秦朝全族的是秦朝自己，不是天下的人民。',
-          },
-        ],
-      },
-    ],
-    examTips: '“族”作动词“灭族/杀尽全族”（族秦者秦也）；名词“筋骨交错聚结处”。',
-  },
-  {
-    id: 'zu_pawn',
-    word: '卒',
-    pinyin: 'zú',
-    radical: '十',
-    isHighFrequency: true,
-    senses: [
       {
         pos: '名词',
-        meaning: '步兵，士兵，差役',
-        examples: [
-          {
-            text: '率疲弊之卒，将数百之众。',
-            source: '《过秦论》',
-            translation: '率领疲惫不堪的士兵，指挥几百人的军队。',
-          },
-        ],
-      },
-      {
-        pos: '动词',
-        meaning: '死亡 / 结束，完成',
-        examples: [
-          {
-            text: '卒起不意，尽失其度。',
-            source: '《荆轲刺秦王》',
-            translation: '事情突然爆发意料不到……',
-          },
-          {
-            text: '年六十有二，卒于正寝。',
-            source: '《史记》',
-            translation: '年纪六十二岁，在正室中去世死亡。',
-          },
-        ],
-      },
-      {
-        pos: '副词/通假字',
-        meaning: '终于，到底 / 通“猝”，仓促，突然（卒起不意）',
-        examples: [
-          {
-            text: '卒相与欢，为刎颈之交。',
-            source: '《廉颇蔺相如列传》',
-            translation: '终于相互欢好，成为誓同生死的好朋友。',
-          },
-          {
-            text: '卒起不意，尽失其度。',
-            source: '《荆轲刺秦王》',
-            translation: '突然爆发意料不到，全部失去了常态慌乱。',
-          },
-        ],
+        meaning: '秋闱，乡试，每年八月，三年一次，在省城举行，秀才和监生参加',
+        examples: [],
       },
     ],
-    examTips: '“卒”作副词“终于/到底”（卒相与欢）；通“猝”表“突然/仓促”（卒起不意）；动词表“死亡”。',
+    isHighFrequency: false,
+    examTips: null,
   },
   {
-    id: 'zuo_sit',
-    word: '坐',
-    pinyin: 'zuo',
-    radical: '土',
-    isHighFrequency: true,
+    id: 'wei_place',
+    word: '委',
+    pinyin: 'wěi',
+    radical: '女',
     senses: [
       {
         pos: '动词',
-        meaning: '坐下，就座 / 触犯刑法，犯罪，定罪 / 坐等，坚守',
-        examples: [
-          {
-            text: '项王、项伯东向坐；亚父南向坐。',
-            source: '《鸿门宴》',
-            translation: '项王、项伯朝东坐；亚父朝南坐。',
-          },
-          {
-            text: '广谋告之曰：“人言坐法死，免者无几。”',
-            source: '《汉书》',
-            translation: '有人说因为犯了法被定罪判死刑……',
-          },
-        ],
+        meaning: '放置',
+        examples: [],
       },
       {
-        pos: '介词/名词',
-        meaning: '因为，由于（如“停车坐爱枫林晚”） / 座位（同“座”）',
-        examples: [
-          {
-            text: '停车坐爱枫林晚，霜叶红于二月花。',
-            source: '《山行》',
-            translation: '停下车来是因为喜爱这深秋枫林晚景。',
-          },
-          {
-            text: '置酒大会，沛公因因引坐。',
-            source: '《鸿门宴》',
-            translation: '座位上（满坐寂然）。',
-          },
-        ],
+        pos: '动词',
+        meaning: '离开',
+        examples: [],
+      },
+      {
+        pos: '动词',
+        meaning: '舍弃',
+        examples: [],
+      },
+      {
+        pos: '动词',
+        meaning: '积蓄',
+        examples: [],
+      },
+      {
+        pos: '动词',
+        meaning: '推卸',
+        examples: [],
       },
     ],
-    examTips: '“坐”作介词表“因为/由于”（停车坐爱枫林晚）；动词表“犯罪/定罪”（坐法死）。',
+    isHighFrequency: true,
+    examTips: null,
   },
 ];
