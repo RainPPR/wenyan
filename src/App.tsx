@@ -24,10 +24,22 @@ export default function App() {
 
       {/* Footer */}
       <footer className="bg-stone-900 text-stone-400 py-6 text-center text-xs border-t border-stone-800 font-serif">
-        <div className="max-w-7xl mx-auto px-4 space-y-1">
+        <div className="max-w-7xl mx-auto px-4 space-y-1.5">
           <p className="text-stone-300 font-bold">高中文言实虚词检索与学习平台</p>
           <p className="text-stone-500">
             包含文言常用实词、虚词与常见短语义项说明及高中课文文言例句参考
+          </p>
+          <p className="text-stone-400 text-[11px] pt-1.5 border-t border-stone-800/80 max-w-2xl mx-auto leading-relaxed font-sans">
+            本平台内容仅用于学习用途。如果您认为侵犯了您的著作权，请联系我（
+            <a
+              href="https://github.com/RainPPR"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-amber-400 hover:text-amber-300 underline underline-offset-2 transition-colors font-medium"
+            >
+              RainPPR
+            </a>
+            ）。
           </p>
         </div>
       </footer>

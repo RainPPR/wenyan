@@ -6,9 +6,10 @@
    - 使用 React 19 + TypeScript + Tailwind CSS v4 构建古朴沉稳的字词检索界面。
    - 使用 Motion 库实现模态框与组件过渡。
    - 核心组件构成：
-     - Navbar: 顶部导航与全库字词统计展示。
+     - Navbar: 顶部导航、全库字词统计展示与右上角 GitHub 社区开源仓库标签 (`https://github.com/RainPPR/wenyan`)。
      - VocabularyList: 字词多维加权智能检索（内置词头精准度 > 拼音无调匹配 > 义项释义/词性 > 课文出处的加权算法）、高频筛选、分类切分与词条卡片网格。
      - VocabularyCardModal: 词条深度解析模态框，包含宣纸风衬面、义项拆解、课文例句对译与考点易错警示。具备背景页面滚动锁与滚动条位移补偿机制，彻底消除双滚动条与画面抖动。
+     - Footer: 页面底部声明与著作权保护说明（标注仅用于学习用途，并提供 RainPPR GitHub 链接）。
 
 2. **数据架构层 (Data Layer)**
    - 核心数据采用模块化的 TypeScript 数据文件 (`/src/data/`) 静态打包，拆分为实词部分与核心虚词部分。

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Github } from 'lucide-react';
 
 interface NavbarProps {
   stats: {
@@ -28,17 +29,31 @@ export const Navbar: React.FC<NavbarProps> = ({ stats }) => {
             </div>
           </div>
 
-          {/* Quick Stats Badges */}
-          <div className="flex items-center space-x-2 text-xs font-serif">
-            <span className="bg-amber-900/80 px-2.5 py-1 rounded border border-amber-700/60 text-amber-200">
-              全库字词：<strong className="text-amber-400 font-mono">{stats.totalWords}</strong> 条
-            </span>
-            <span className="hidden sm:inline-block bg-amber-900/80 px-2.5 py-1 rounded border border-amber-700/60 text-amber-200">
-              文言实词：<strong className="text-amber-400 font-mono">{stats.shiciCount}</strong> 词
-            </span>
-            <span className="hidden sm:inline-block bg-amber-900/80 px-2.5 py-1 rounded border border-amber-700/60 text-amber-200">
-              文言虚词：<strong className="text-amber-400 font-mono">{stats.xuciCount}</strong> 词
-            </span>
+          {/* Quick Stats Badges & GitHub Link */}
+          <div className="flex items-center space-x-2.5 text-xs font-serif">
+            <div className="flex items-center space-x-2">
+              <span className="bg-amber-900/80 px-2.5 py-1 rounded border border-amber-700/60 text-amber-200">
+                全库字词：<strong className="text-amber-400 font-mono">{stats.totalWords}</strong> 条
+              </span>
+              <span className="hidden sm:inline-block bg-amber-900/80 px-2.5 py-1 rounded border border-amber-700/60 text-amber-200">
+                文言实词：<strong className="text-amber-400 font-mono">{stats.shiciCount}</strong> 词
+              </span>
+              <span className="hidden sm:inline-block bg-amber-900/80 px-2.5 py-1 rounded border border-amber-700/60 text-amber-200">
+                文言虚词：<strong className="text-amber-400 font-mono">{stats.xuciCount}</strong> 词
+              </span>
+            </div>
+
+            {/* GitHub Link Tag */}
+            <a
+              href="https://github.com/RainPPR/wenyan"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center space-x-1.5 bg-amber-900/90 hover:bg-amber-800 text-amber-200 hover:text-white px-2.5 py-1 rounded border border-amber-700/70 hover:border-amber-500 transition-colors shadow-xs font-sans text-xs group"
+              title="GitHub 项目仓库"
+            >
+              <Github className="w-4 h-4 text-amber-300 group-hover:text-amber-100 transition-colors" />
+              <span className="font-medium hidden xs:inline">GitHub</span>
+            </a>
           </div>
         </div>
       </div>

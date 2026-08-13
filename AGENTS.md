@@ -9,6 +9,8 @@ The application is a pure React 19 + TypeScript + Tailwind CSS v4 single-page ap
 ## Practical Focus & Scope
 
 - Focus purely on clean word lookup, complete definitions, accurate senses, correct translations, and real textbook examples.
+- Include a GitHub tag in the top-right corner of Navbar linking to `https://github.com/RainPPR/wenyan`.
+- Include a clear copyright and educational use notice in the page footer with a link to `https://github.com/RainPPR`.
 - Implement intelligent multi-tiered relevance search ranking so exact headword matches (e.g., searching "望") sit at the absolute top, followed by prefix matches, substring matches, tone-stripped pinyin matches, core definitions, and textbook quote/source matches.
 - Ensure modal dialogs handle background scroll locks and layout-shift scrollbar compensation (`document.body.style.overflow = 'hidden'` with scrollbar width padding) to prevent double scrollbars or page jitter when modals open.
 - Completely removed AI tools, flashcards, quizzes, and bookmark/favorites state to keep the project completely offline-ready, light, and static.
