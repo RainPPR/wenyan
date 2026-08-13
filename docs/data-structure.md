@@ -4,11 +4,13 @@
 项目对文言词条进行整理归纳，合并同一词语的多来源异义项与课文例句，保持数据准确与务实：
 
 1. **分类划分标准与数据文件**：
-   - 文言实词精选：划入模块化的 `/src/data/shiciPart1.ts` ~ `/src/data/shiciPart6.ts`，包含150+重点文言实词与常见难词短语（category: `'shici'`, categoryLabel: `'文言实词'`）。
-   - 核心文言虚词：划入 `/src/data/xuci.ts`（涵括核心虚词及高频虚词与固定句式的完整义项、词性划分、复音虚词、高中课文权威例句与现代汉语精准译文，category: `'xuci'`, categoryLabel: `'文言虚词'`）。
-   - 彻底简化分类体系，仅保留“文言实词”与“文言虚词”两大核心分类。
+   - 文言实词精选：划入模块化的 `/src/data/shiciPart1.ts` ~ `/src/data/shiciPart6.ts`（导出的数组类型为 `RawVocabularyEntry[]`）。
+   - 核心文言虚词：划入 `/src/data/xuci.ts`（涵括核心虚词及高频虚词与固定句式的完整义项、词性划分、复音虚词、高中课文权威例句与现代汉语精准译文，导出的数组类型为 `RawVocabularyEntry[]`）。
+   - 分类属性 (`category: 'shici' | 'xuci'` 与 `categoryLabel: '文言实词' | '文言虚词'`) 不再写死在每个条目中，而是在 `/src/data/allVocabulary.ts` 中根据来源文件统一组装映射为完整 `VocabularyEntry`。
 
-2. **VocabularyEntry 统一字段接口**：
+2. **数据接口与类型定义 (`src/types.ts`)**：
+   - `RawVocabularyEntry`: 原始数据接口，仅包含词条本身的语义属性（`id`, `word`, `pinyin`, `radical`, `senses`, `examTips`, `isHighFrequency` 等），不包含分类。
+   - `VocabularyEntry`: 组合型全量接口，继承 `RawVocabularyEntry` 并包含动态注入的 `category` (`'shici'` | `'xuci'`) 与 `categoryLabel` (`'文言实词'` | `'文言虚词'`)。
    - `id`: 唯一标识符 (通过全局映射保障 ID 严格唯一，彻底消除重复 Key 警告)
    - `word`: 汉字字词（如 "安", "而", "苟", "孰与", "甫"）
    - `pinyin`: 拼音标注 (支持多音字字符串或数组，如 "fǔ", "cháo / zhāo")

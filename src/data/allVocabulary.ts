@@ -1,4 +1,4 @@
-import { VocabularyEntry } from '../types';
+import { VocabularyEntry, RawVocabularyEntry } from '../types';
 import { SHICI_PART1 } from './shiciPart1';
 import { SHICI_PART2 } from './shiciPart2';
 import { SHICI_PART3 } from './shiciPart3';
@@ -7,15 +7,31 @@ import { SHICI_PART5 } from './shiciPart5';
 import { SHICI_PART6 } from './shiciPart6';
 import { XUCI } from './xuci';
 
-// Combine all datasets
-const rawList: VocabularyEntry[] = [
+const shiciRaw: RawVocabularyEntry[] = [
   ...SHICI_PART1,
   ...SHICI_PART2,
   ...SHICI_PART3,
   ...SHICI_PART4,
   ...SHICI_PART5,
-  ...SHICI_PART6,
+  ...SHICI_PART6
+];
+
+const xuciRaw: RawVocabularyEntry[] = [
   ...XUCI
+];
+
+// Combine all datasets and map category/categoryLabel based on source file
+const rawList: VocabularyEntry[] = [
+  ...shiciRaw.map((item) => ({
+    ...item,
+    category: 'shici' as const,
+    categoryLabel: '文言实词'
+  })),
+  ...xuciRaw.map((item) => ({
+    ...item,
+    category: 'xuci' as const,
+    categoryLabel: '文言虚词'
+  }))
 ];
 
 // Combine entries with the same word and category if any duplicates exist

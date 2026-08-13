@@ -19,7 +19,9 @@ The application is a pure React 19 + TypeScript + Tailwind CSS v4 single-page ap
 - `.github/workflows/deploy.yml` sets up Node.js 22, runs `npm install`, verifies types with `npm run lint`, builds the static site (`npm run build`), and deploys `./dist` to GitHub Pages automatically upon push to `main`/`master`.
 
 ## Data Maintenance Rules
-- All classical Chinese vocabulary entries MUST be stored in modular TypeScript datasets under `/src/data/` (`shiciPart1.ts`~`shiciPart6.ts`, `xuci.ts`). `xuci.ts` contains the core function words and fixed grammatical structures with complete senses, quotes, translations, and notes.
+- All classical Chinese vocabulary entries MUST be stored in modular TypeScript datasets under `/src/data/` (`shiciPart1.ts`~`shiciPart6.ts`, `xuci.ts`) as `RawVocabularyEntry[]`.
+- Individual entries in dataset files MUST NOT contain inline `category` or `categoryLabel` properties. Instead, `allVocabulary.ts` dynamically maps dataset items to complete `VocabularyEntry` objects with `category` (`'shici'` | `'xuci'`) and `categoryLabel` (`'文言实词'` | `'文言虚词'`) assigned based on the source file.
+- `xuci.ts` contains the core function words and fixed grammatical structures with complete senses, quotes, translations, and notes.
 - High-frequency vocabulary is organized flexibly without hardcoded numeric limits, with over 150+ comprehensive content words and reading hard words consolidated into `shiciPart1.ts` ~ `shiciPart6.ts`.
 - Ensure NO duplicate word entries exist across categories, while merging all definitions, alternate pronunciations, parts of speech, and textbook examples from source texts.
 - Ensure every item in `ALL_VOCABULARY` has a strictly unique `id` to avoid React duplicate key collisions.

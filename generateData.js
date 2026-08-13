@@ -11,8 +11,6 @@ const part1Data = [
     id: 'ai',
     word: '爱',
     pinyin: 'ài',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '爪',
     isHighFrequency: true,
     senses: [
@@ -69,8 +67,6 @@ const part1Data = [
     id: 'an',
     word: '安',
     pinyin: 'ān',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '宀',
     isHighFrequency: true,
     senses: [
@@ -120,8 +116,6 @@ const part1Data = [
     id: 'bei',
     word: '被',
     pinyin: ['bèi', 'pī'],
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '衤',
     isHighFrequency: true,
     senses: [
@@ -163,8 +157,6 @@ const part1Data = [
     id: 'bei_2',
     word: '倍',
     pinyin: 'bèi',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '亻',
     isHighFrequency: true,
     senses: [
@@ -199,8 +191,6 @@ const part1Data = [
     id: 'ben',
     word: '本',
     pinyin: 'běn',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '木',
     isHighFrequency: true,
     senses: [
@@ -241,8 +231,6 @@ const part1Data = [
     id: 'bi',
     word: '鄙',
     pinyin: 'bǐ',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '阝',
     isHighFrequency: true,
     senses: [
@@ -277,8 +265,6 @@ const part1Data = [
     id: 'bing',
     word: '兵',
     pinyin: 'bīng',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '八',
     isHighFrequency: true,
     senses: [
@@ -311,8 +297,6 @@ const part1Data = [
     id: 'bing_2',
     word: '病',
     pinyin: 'bìng',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '疒',
     isHighFrequency: true,
     senses: [
@@ -348,8 +332,6 @@ const part1Data = [
     id: 'bo',
     word: '伯',
     pinyin: ['bó', 'bà', 'bǎi'],
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '亻',
     isHighFrequency: false,
     senses: [
@@ -375,8 +357,6 @@ const part1Data = [
     id: 'ceng',
     word: '曾',
     pinyin: ['céng', 'zēng'],
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '曰',
     isHighFrequency: true,
     senses: [
@@ -409,8 +389,6 @@ const part1Data = [
     id: 'cha',
     word: '察',
     pinyin: 'chá',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '宀',
     isHighFrequency: true,
     senses: [
@@ -445,8 +423,6 @@ const part1Data = [
     id: 'chao',
     word: '朝',
     pinyin: ['cháo', 'zhāo'],
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '十',
     isHighFrequency: true,
     senses: [
@@ -481,8 +457,6 @@ const part1Data = [
     id: 'cheng',
     word: '乘',
     pinyin: ['chéng', 'shèng'],
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '丿',
     isHighFrequency: true,
     senses: [
@@ -517,8 +491,6 @@ const part1Data = [
     id: 'cheng_2',
     word: '城',
     pinyin: 'chéng',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '土',
     isHighFrequency: false,
     senses: [
@@ -536,8 +508,6 @@ const part1Data = [
     id: 'cheng_3',
     word: '诚',
     pinyin: 'chéng',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '讠',
     isHighFrequency: true,
     senses: [
@@ -570,8 +540,6 @@ const part1Data = [
     id: 'chi',
     word: '池',
     pinyin: 'chí',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '氵',
     isHighFrequency: false,
     senses: [
@@ -589,8 +557,6 @@ const part1Data = [
     id: 'chu',
     word: '除',
     pinyin: 'chú',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '阝',
     isHighFrequency: true,
     senses: [
@@ -624,8 +590,6 @@ const part1Data = [
     id: 'chuan',
     word: '传',
     pinyin: ['chuán', 'zhuàn'],
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '亻',
     isHighFrequency: true,
     senses: [
@@ -653,8 +617,6 @@ const part1Data = [
     id: 'ci',
     word: '辞',
     pinyin: 'cí',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '辛',
     isHighFrequency: true,
     senses: [
@@ -690,8 +652,6 @@ const part1Data = [
     id: 'cong',
     word: '从',
     pinyin: ['cóng', 'zòng'],
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '彳',
     isHighFrequency: true,
     senses: [
@@ -725,8 +685,6 @@ const part1Data = [
     id: 'da',
     word: '达',
     pinyin: 'dá',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '辶',
     isHighFrequency: true,
     senses: [
@@ -753,8 +711,6 @@ const part1Data = [
     id: 'dai',
     word: '殆',
     pinyin: 'dài',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '歹',
     isHighFrequency: true,
     senses: [
@@ -781,8 +737,6 @@ const part1Data = [
     id: 'dang',
     word: '当',
     pinyin: ['dāng', 'dàng'],
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '⺌',
     isHighFrequency: true,
     senses: [
@@ -826,8 +780,6 @@ const part1Data = [
     id: 'dao',
     word: '道',
     pinyin: 'dào',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '辶',
     isHighFrequency: true,
     senses: [
@@ -864,8 +816,6 @@ const part1Data = [
     id: 'de',
     word: '得',
     pinyin: 'dé',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '彳',
     isHighFrequency: true,
     senses: [
@@ -901,8 +851,6 @@ const part1Data = [
     id: 'du',
     word: '度',
     pinyin: ['dù', 'duó'],
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '广',
     isHighFrequency: true,
     senses: [
@@ -938,8 +886,6 @@ const part1Data = [
     id: 'duan',
     word: '短',
     pinyin: 'duǎn',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '矢',
     isHighFrequency: false,
     senses: [
@@ -958,8 +904,6 @@ const part1Data = [
     id: 'duo',
     word: '多',
     pinyin: 'duō',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '夕',
     isHighFrequency: false,
     senses: [
@@ -977,8 +921,6 @@ const part1Data = [
     id: 'e',
     word: '恶',
     pinyin: ['è', 'wù', 'wū'],
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '心',
     isHighFrequency: true,
     senses: [
@@ -1012,8 +954,6 @@ const part1Data = [
     id: 'fa',
     word: '发',
     pinyin: 'fā',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '乛',
     isHighFrequency: true,
     senses: [
@@ -1049,8 +989,6 @@ const part1Data = [
     id: 'fa_2',
     word: '伐',
     pinyin: 'fá',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '亻',
     isHighFrequency: true,
     senses: [
@@ -1077,8 +1015,6 @@ const part1Data = [
     id: 'fan',
     word: '反',
     pinyin: 'fǎn',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '又',
     isHighFrequency: true,
     senses: [
@@ -1103,8 +1039,6 @@ const part1Data = [
     id: 'fang',
     word: '方',
     pinyin: 'fāng',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '方',
     isHighFrequency: true,
     senses: [
@@ -1132,8 +1066,6 @@ const part1Data = [
     id: 'fen',
     word: '分',
     pinyin: ['fēn', 'fèn'],
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '刀',
     isHighFrequency: true,
     senses: [
@@ -1158,8 +1090,6 @@ const part1Data = [
     id: 'feng',
     word: '奉',
     pinyin: 'fèng',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '大',
     isHighFrequency: true,
     senses: [
@@ -1185,8 +1115,6 @@ const part1Data = [
     id: 'fou',
     word: '否',
     pinyin: ['fǒu', 'pǐ'],
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '口',
     isHighFrequency: false,
     senses: [
@@ -1211,8 +1139,6 @@ const part1Data = [
     id: 'chu_ru_nr',
     word: '出入',
     pinyin: 'chū rù',
-    category: 'shici',
-    categoryLabel: '文言实词',
     isHighFrequency: true,
     senses: [
       {
@@ -1229,8 +1155,6 @@ const part1Data = [
     id: 'bao_qin',
     word: '暴秦',
     pinyin: 'bào qín',
-    category: 'shici',
-    categoryLabel: '文言实词',
     senses: [
       {
         pos: '名词短语',
@@ -1245,8 +1169,6 @@ const part1Data = [
     id: 'ba_guan',
     word: '拔',
     pinyin: 'bá',
-    category: 'shici',
-    categoryLabel: '文言实词',
     isHighFrequency: true,
     senses: [
       {
@@ -1263,8 +1185,6 @@ const part1Data = [
     id: 'bai_guan',
     word: '拜',
     pinyin: 'bài',
-    category: 'shici',
-    categoryLabel: '文言实词',
     isHighFrequency: true,
     senses: [
       {

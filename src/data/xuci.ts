@@ -1,12 +1,10 @@
-import { VocabularyEntry } from '../types';
+import { RawVocabularyEntry } from '../types';
 
-export const XUCI: VocabularyEntry[] = [
+export const XUCI: RawVocabularyEntry[] = [
   {
     "id": "xuci_er",
     "word": "而",
     "pinyin": "ér",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "radical": "而",
     "isHighFrequency": true,
     "senses": [
@@ -128,8 +126,6 @@ export const XUCI: VocabularyEntry[] = [
       "hé",
       "hè"
     ],
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "radical": "亻",
     "isHighFrequency": true,
     "senses": [
@@ -227,8 +223,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "xuci_hu",
     "word": "乎",
     "pinyin": "hū",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "radical": "丿",
     "isHighFrequency": true,
     "senses": [
@@ -321,8 +315,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "xuci_nai",
     "word": "乃",
     "pinyin": "nǎi",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "radical": "丿",
     "isHighFrequency": true,
     "senses": [
@@ -403,8 +395,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "xuci_qi",
     "word": "其",
     "pinyin": "qí",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "radical": "八",
     "isHighFrequency": true,
     "senses": [
@@ -523,8 +513,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "xuci_qie",
     "word": "且",
     "pinyin": "qiě",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "radical": "一",
     "isHighFrequency": true,
     "senses": [
@@ -611,8 +599,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "xuci_ruo",
     "word": "若",
     "pinyin": "ruò",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "radical": "艹",
     "isHighFrequency": true,
     "senses": [
@@ -716,8 +702,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "xuci_suo",
     "word": "所",
     "pinyin": "suǒ",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "radical": "户",
     "isHighFrequency": true,
     "senses": [
@@ -796,8 +780,6 @@ export const XUCI: VocabularyEntry[] = [
       "wéi",
       "wèi"
     ],
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "radical": "丶",
     "isHighFrequency": true,
     "senses": [
@@ -905,8 +887,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "xuci_yan",
     "word": "焉",
     "pinyin": "yān",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "radical": "灬",
     "isHighFrequency": true,
     "senses": [
@@ -988,8 +968,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "xuci_ye",
     "word": "也",
     "pinyin": "yě",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "radical": "乚",
     "isHighFrequency": true,
     "senses": [
@@ -1049,8 +1027,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "xuci_yi",
     "word": "以",
     "pinyin": "yǐ",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "radical": "人",
     "isHighFrequency": true,
     "senses": [
@@ -1193,8 +1169,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "xuci_yin",
     "word": "因",
     "pinyin": "yīn",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "radical": "囗",
     "isHighFrequency": true,
     "senses": [
@@ -1259,8 +1233,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "xuci_yu",
     "word": "于",
     "pinyin": "yú",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "radical": "二",
     "isHighFrequency": true,
     "senses": [
@@ -1345,8 +1317,6 @@ export const XUCI: VocabularyEntry[] = [
       "yù",
       "yú"
     ],
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "radical": "一",
     "isHighFrequency": true,
     "senses": [
@@ -1427,8 +1397,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "xuci_ze",
     "word": "则",
     "pinyin": "zé",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "radical": "刂",
     "isHighFrequency": true,
     "senses": [
@@ -1499,8 +1467,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "xuci_zhe",
     "word": "者",
     "pinyin": "zhě",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "radical": "耂",
     "isHighFrequency": true,
     "senses": [
@@ -1549,8 +1515,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "xuci_zhi",
     "word": "之",
     "pinyin": "zhī",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "radical": "丿",
     "isHighFrequency": true,
     "senses": [
@@ -1649,8 +1613,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "te_er",
     "word": "特……耳",
     "pinyin": "tè ... ěr",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "固定句式",
@@ -1670,8 +1632,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "gpn_fu",
     "word": "甫",
     "pinyin": "fǔ",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "副词/名词",
@@ -1696,8 +1656,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "gou",
     "word": "苟",
     "pinyin": "gǒu",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "副词/连词",
@@ -1722,8 +1680,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "qian_all",
     "word": "佥",
     "pinyin": "qiān",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "副词",
@@ -1743,8 +1699,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "wu_no",
     "word": "无",
     "pinyin": "wú",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "连词/副词",
@@ -1769,8 +1723,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "ran_so",
     "word": "然",
     "pinyin": "rán",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "代词/动词/连词",
@@ -1798,8 +1750,6 @@ export const XUCI: VocabularyEntry[] = [
       "jǐ",
       "jī"
     ],
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "数词/副词",
@@ -1819,8 +1769,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "du_only",
     "word": "独",
     "pinyin": "dú",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "副词",
@@ -1840,8 +1788,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "chu_first",
     "word": "初",
     "pinyin": "chū",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "副词/名词",
@@ -1866,8 +1812,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "zhi_shi",
     "word": "至是",
     "pinyin": "zhì shì",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "固定短语",
@@ -1887,8 +1831,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "jing_end",
     "word": "竟",
     "pinyin": "jìng",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "动词/副词",
@@ -1913,8 +1855,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "nai_he",
     "word": "奈何",
     "pinyin": "nài hé",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "固定短语",
@@ -1934,8 +1874,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "nai_x_he",
     "word": "奈…何？",
     "pinyin": "nài ... hé",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "固定句式",
@@ -1955,8 +1893,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "tuo_slight",
     "word": "脱",
     "pinyin": "tuō",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "形容词/副词/连词",
@@ -1981,8 +1917,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "qi_until",
     "word": "迄",
     "pinyin": "qì",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "介词/副词",
@@ -2007,8 +1941,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "wei_hope",
     "word": "唯",
     "pinyin": "wéi",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "副词",
@@ -2028,8 +1960,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "zi_this",
     "word": "兹",
     "pinyin": "zī",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "代词/副词",
@@ -2049,8 +1979,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "shu_ji",
     "word": "庶几",
     "pinyin": "shù jī",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "副词短语",
@@ -2070,8 +1998,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "qu_qu",
     "word": "区区",
     "pinyin": "qū qū",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "形容词/代词",
@@ -2096,8 +2022,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "wang_reckless",
     "word": "妄",
     "pinyin": "wàng",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "形容词/副词",
@@ -2122,8 +2046,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "ji_xi",
     "word": "几希",
     "pinyin": "jǐ xī",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "形容词短语",
@@ -2143,8 +2065,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "dan_xi",
     "word": "旦夕",
     "pinyin": "dàn xī",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "时间词/副词",
@@ -2164,8 +2084,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "jue_he",
     "word": "厥",
     "pinyin": "jué",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "代词/副词",
@@ -2190,8 +2108,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "you_ji",
     "word": "有奇",
     "pinyin": "yǒu jī",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "固定短语",
@@ -2211,8 +2127,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "ya_usual",
     "word": "雅",
     "pinyin": "yǎ",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "副词/形容词",
@@ -2237,8 +2151,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "zhe_always",
     "word": "辄",
     "pinyin": "zhé",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "副词",
@@ -2263,8 +2175,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "zi_increase",
     "word": "滋",
     "pinyin": "zī",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "动词/副词",
@@ -2287,8 +2197,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "shu_yu_ruo",
     "word": "孰与，孰若",
     "pinyin": "shú yǔ, shú ruò",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "固定短语",
@@ -2311,8 +2219,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "man_reckless",
     "word": "漫",
     "pinyin": "màn",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "形容词/副词",
@@ -2331,8 +2237,6 @@ export const XUCI: VocabularyEntry[] = [
     "id": "shu_die",
     "word": "殊",
     "pinyin": "shū",
-    "category": "xuci",
-    "categoryLabel": "文言虚词",
     "senses": [
       {
         "pos": "动词/副词",

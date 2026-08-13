@@ -1,12 +1,10 @@
-import { VocabularyEntry } from '../types';
+import { RawVocabularyEntry } from '../types';
 
-export const SHICI_PART3: VocabularyEntry[] = [
+export const SHICI_PART3: RawVocabularyEntry[] = [
   {
     id: 'qiang_strong',
     word: '强',
     pinyin: ['qiáng', 'qiǎng', 'jiàng'],
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '弓',
     isHighFrequency: true,
     senses: [
@@ -41,8 +39,6 @@ export const SHICI_PART3: VocabularyEntry[] = [
     id: 'qie_steal',
     word: '窃',
     pinyin: 'qiè',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '穴',
     isHighFrequency: true,
     senses: [
@@ -69,8 +65,6 @@ export const SHICI_PART3: VocabularyEntry[] = [
     id: 'qiong_poor',
     word: '穷',
     pinyin: 'qióng',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '穴',
     isHighFrequency: true,
     senses: [
@@ -98,8 +92,6 @@ export const SHICI_PART3: VocabularyEntry[] = [
     id: 'qiu_seek',
     word: '求',
     pinyin: 'qiú',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '水',
     isHighFrequency: true,
     senses: [
@@ -119,8 +111,6 @@ export const SHICI_PART3: VocabularyEntry[] = [
     id: 'qu_go',
     word: '去',
     pinyin: 'qù',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '厶',
     isHighFrequency: true,
     senses: [
@@ -140,8 +130,6 @@ export const SHICI_PART3: VocabularyEntry[] = [
     id: 'quan_encourage',
     word: '劝',
     pinyin: 'quàn',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '力',
     isHighFrequency: true,
     senses: [
@@ -161,8 +149,6 @@ export const SHICI_PART3: VocabularyEntry[] = [
     id: 'que_decline',
     word: '却',
     pinyin: 'què',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '卩',
     isHighFrequency: true,
     senses: [
@@ -189,8 +175,6 @@ export const SHICI_PART3: VocabularyEntry[] = [
     id: 'ru_like',
     word: '如',
     pinyin: 'rú',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '女',
     isHighFrequency: true,
     senses: [
@@ -217,8 +201,6 @@ export const SHICI_PART3: VocabularyEntry[] = [
     id: 'ruo_if',
     word: '若',
     pinyin: 'ruò',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '艹',
     isHighFrequency: true,
     senses: [
@@ -245,8 +227,6 @@ export const SHICI_PART3: VocabularyEntry[] = [
     id: 'shan_good',
     word: '善',
     pinyin: 'shàn',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '口',
     isHighFrequency: true,
     senses: [
@@ -274,8 +254,6 @@ export const SHICI_PART3: VocabularyEntry[] = [
     id: 'shao_few',
     word: '少',
     pinyin: ['shǎo', 'shào'],
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '小',
     isHighFrequency: true,
     senses: [
@@ -301,8 +279,6 @@ export const SHICI_PART3: VocabularyEntry[] = [
     id: 'sheng_win',
     word: '胜',
     pinyin: ['shèng', 'shēng'],
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '力',
     isHighFrequency: true,
     senses: [
@@ -330,8 +306,6 @@ export const SHICI_PART3: VocabularyEntry[] = [
     id: 'shi_shi',
     word: '使',
     pinyin: 'shǐ',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '亻',
     isHighFrequency: true,
     senses: [
@@ -365,8 +339,6 @@ export const SHICI_PART3: VocabularyEntry[] = [
     id: 'shi_this',
     word: '是',
     pinyin: 'shì',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '日',
     isHighFrequency: true,
     senses: [
@@ -394,8 +366,6 @@ export const SHICI_PART3: VocabularyEntry[] = [
     id: 'shu_book',
     word: '书',
     pinyin: 'shū',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '乛',
     isHighFrequency: true,
     senses: [
@@ -422,8 +392,6 @@ export const SHICI_PART3: VocabularyEntry[] = [
     id: 'shu_which',
     word: '孰',
     pinyin: 'shú',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '子',
     isHighFrequency: true,
     senses: [
@@ -449,8 +417,6 @@ export const SHICI_PART3: VocabularyEntry[] = [
     id: 'shu_zhu',
     word: '属',
     pinyin: ['shǔ', 'zhǔ'],
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '尸',
     isHighFrequency: true,
     senses: [
@@ -479,8 +445,6 @@ export const SHICI_PART3: VocabularyEntry[] = [
     id: 'shu_count',
     word: '数',
     pinyin: ['shù', 'shǔ', 'shuò'],
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '攵',
     isHighFrequency: true,
     senses: [
@@ -515,8 +479,6 @@ export const SHICI_PART3: VocabularyEntry[] = [
     id: 'shuai_lead',
     word: '率',
     pinyin: ['shuài', 'lǜ'],
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '玄',
     isHighFrequency: true,
     senses: [
@@ -542,8 +504,6 @@ export const SHICI_PART3: VocabularyEntry[] = [
     id: 'sui_then',
     word: '遂',
     pinyin: 'suì',
-    category: 'shici',
-    categoryLabel: '文言实词',
     radical: '辶',
     isHighFrequency: true,
     senses: [

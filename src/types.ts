@@ -17,18 +17,21 @@ export interface SenseItem {
   note?: string;         // 补充技巧或对比
 }
 
-export interface VocabularyEntry {
+export interface RawVocabularyEntry {
   id: string;
   word: string;                   // 汉字/词语
   pinyin: string | string[];     // 拼音（字符串或多音字数组）
-  category: CategoryType;
-  categoryLabel: string;         // '文言实词' | '文言虚词'
   radical?: string;              // 部首/首字
   strokes?: number;              // 笔画数（可选）
   senses: SenseItem[];
   examTips?: string;             // 高考考点玄机/易错辨析/记忆口诀
   phoneticVariants?: string;     // 通假字或异读字说明
   isHighFrequency?: boolean;      // 是否高频考查词
+}
+
+export interface VocabularyEntry extends RawVocabularyEntry {
+  category: CategoryType;
+  categoryLabel: string;         // '文言实词' | '文言虚词'
 }
 
 export interface QuizQuestion {

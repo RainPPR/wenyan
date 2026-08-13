@@ -1,12 +1,10 @@
-import { VocabularyEntry } from '../types';
+import { RawVocabularyEntry } from '../types';
 
-export const SHICI_PART6: VocabularyEntry[] = [
+export const SHICI_PART6: RawVocabularyEntry[] = [
   {
     "id": "di",
     "word": "敌",
     "pinyin": "dí",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
@@ -30,8 +28,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "wei_shen",
     "word": "委身",
     "pinyin": "wěi shēn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词短语",
@@ -55,8 +51,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "wei",
     "word": "委",
     "pinyin": "wěi",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -80,8 +74,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "chu_ru",
     "word": "出入",
     "pinyin": "chū rù",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
@@ -100,8 +92,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "bu_shu_ting_duan",
     "word": "簿书听断",
     "pinyin": "bù shū tīng duàn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "成语短语",
@@ -120,8 +110,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "yu_advance",
     "word": "预",
     "pinyin": "yù",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "副词/动词",
@@ -145,8 +133,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "qi_kuo",
     "word": "契阔",
     "pinyin": "qì kuò",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词/名词",
@@ -165,8 +151,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "wei_viol",
     "word": "违",
     "pinyin": "wéi",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -190,8 +174,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "ji_carry",
     "word": "赍",
     "pinyin": "jī",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -215,8 +197,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "he_indict",
     "word": "劾",
     "pinyin": "hé",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -235,8 +215,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "duo_praise",
     "word": "多",
     "pinyin": "duō",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/形容词",
@@ -255,8 +233,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "ya_zi",
     "word": "睚眦",
     "pinyin": "yá zì",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词/动词",
@@ -275,8 +251,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "jin_boast",
     "word": "矜",
     "pinyin": "jīn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/形容词",
@@ -300,8 +274,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "huang_orig",
     "word": "皇",
     "pinyin": "huáng",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词/副词",
@@ -320,8 +292,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "xian_restrict",
     "word": "闲",
     "pinyin": "xián",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/形容词",
@@ -340,8 +310,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "yu_lawsuit",
     "word": "狱",
     "pinyin": "yù",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词/动词",
@@ -365,8 +333,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "heng_usual",
     "word": "恒",
     "pinyin": "héng",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词/副词",
@@ -393,8 +359,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
       "pì",
       "bì"
     ],
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词 [pì]",
@@ -418,8 +382,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "kui_measure",
     "word": "揆",
     "pinyin": "kuí",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -438,8 +400,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "ben_bei",
     "word": "奔北",
     "pinyin": "bēn běi",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词短语",
@@ -462,8 +422,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
       "jǐ",
       "dài"
     ],
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词 [dài]",
@@ -493,8 +451,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "yi_expect",
     "word": "意",
     "pinyin": "yì",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
@@ -518,8 +474,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "gan_offend",
     "word": "干",
     "pinyin": "gān",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -543,8 +497,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "yin_shade",
     "word": "荫",
     "pinyin": "yìn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
@@ -563,8 +515,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "da_yan",
     "word": "大言",
     "pinyin": "dà yán",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词/动词",
@@ -583,8 +533,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "kuan_sincere",
     "word": "款",
     "pinyin": "kuǎn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词/动词",
@@ -603,8 +551,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "kuan_fu",
     "word": "款附",
     "pinyin": "kuǎn fù",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词短语",
@@ -623,8 +569,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "qiang_fu",
     "word": "襁负",
     "pinyin": "qiǎng fù",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词短语",
@@ -643,8 +587,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "shu_yu",
     "word": "澍雨",
     "pinyin": "shù yǔ",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词",
@@ -663,8 +605,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "jian_zuo",
     "word": "践祚",
     "pinyin": "jiàn zuò",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词短语",
@@ -686,8 +626,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
       "ài",
       "yì"
     ],
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词 [ài]",
@@ -717,8 +655,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "kou_invader",
     "word": "寇",
     "pinyin": "kòu",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词/动词",
@@ -737,8 +673,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "bi_fatigue",
     "word": "弊",
     "pinyin": "bì",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词/名词",
@@ -757,8 +691,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "fa_open",
     "word": "发",
     "pinyin": "fā",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -777,8 +709,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "xing_li",
     "word": "行李",
     "pinyin": "xíng lǐ",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词",
@@ -797,8 +727,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "yi_one",
     "word": "一",
     "pinyin": "yī",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/副词",
@@ -822,8 +750,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "shang_xia",
     "word": "上下",
     "pinyin": "shàng xià",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
@@ -847,8 +773,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "chi_age",
     "word": "齿",
     "pinyin": "chǐ",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词/动词",
@@ -872,8 +796,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "yi_plant",
     "word": "艺",
     "pinyin": "yì",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
@@ -892,8 +814,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "su_invite",
     "word": "速",
     "pinyin": "sù",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -917,8 +837,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "bi_cause",
     "word": "俾",
     "pinyin": "bǐ",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -937,8 +855,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "xun_pursue",
     "word": "徇",
     "pinyin": "xùn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -957,8 +873,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "yin_pull",
     "word": "引",
     "pinyin": "yǐn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -987,8 +901,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "er_near",
     "word": "迩",
     "pinyin": "ěr",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词/动词",
@@ -1007,8 +919,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "xia_far",
     "word": "遐",
     "pinyin": "xiá",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词/名词",
@@ -1027,8 +937,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "bi_gift",
     "word": "币",
     "pinyin": "bì",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词/动词",
@@ -1052,8 +960,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "hui_defame",
     "word": "毁",
     "pinyin": "huǐ",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -1072,8 +978,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "yu_expect",
     "word": "虞",
     "pinyin": "yú",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
@@ -1092,8 +996,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "fen_willing",
     "word": "分",
     "pinyin": "fèn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
@@ -1117,8 +1019,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "tang_treasury",
     "word": "帑",
     "pinyin": "tǎng",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词",
@@ -1137,8 +1037,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "da_jian",
     "word": "大渐",
     "pinyin": "dà jiàn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词/动词",
@@ -1157,8 +1055,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "gai_beg",
     "word": "丐",
     "pinyin": "gài",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -1177,8 +1073,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "ci_station",
     "word": "次",
     "pinyin": "cì",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
@@ -1197,8 +1091,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "ji_trace",
     "word": "迹",
     "pinyin": "jì",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
@@ -1217,8 +1109,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "gong_tribute",
     "word": "贡",
     "pinyin": "gòng",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
@@ -1237,8 +1127,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "xian_surplus",
     "word": "羡",
     "pinyin": "xiàn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词/动词",
@@ -1257,8 +1145,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "shao_inherit",
     "word": "绍",
     "pinyin": "shào",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -1277,8 +1163,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "jing_praise",
     "word": "旌",
     "pinyin": "jīng",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
@@ -1297,8 +1181,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "you_plan",
     "word": "猷",
     "pinyin": "yóu",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词/动词",
@@ -1317,8 +1199,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "yan_extend",
     "word": "延",
     "pinyin": "yán",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -1342,8 +1222,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "wei_exam",
     "word": "闱",
     "pinyin": "wéi",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词",
@@ -1362,8 +1240,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "ce_plan",
     "word": "策",
     "pinyin": "cè",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
@@ -1382,8 +1258,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "quan_balance",
     "word": "权",
     "pinyin": "quán",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "副词/动词/名词",
@@ -1402,8 +1276,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "lang_wild",
     "word": "浪",
     "pinyin": "làng",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "副词/形容词",
@@ -1422,8 +1294,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "yi_move",
     "word": "移",
     "pinyin": "yí",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -1442,8 +1312,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "yi_bing",
     "word": "移病",
     "pinyin": "yí bìng",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词短语",
@@ -1462,8 +1330,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "zhong_supervise",
     "word": "重",
     "pinyin": "zhòng",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -1482,8 +1348,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "jun_dredge",
     "word": "濬",
     "pinyin": "jùn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/形容词",
@@ -1502,8 +1366,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "qin_soak",
     "word": "寝",
     "pinyin": "qǐn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "副词/动词",
@@ -1522,8 +1384,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "zi_slander",
     "word": "訾",
     "pinyin": "zǐ",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -1542,8 +1402,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "wu_wake",
     "word": "寤",
     "pinyin": "wù",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -1567,8 +1425,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "bao_reply",
     "word": "报",
     "pinyin": "bào",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -1592,8 +1448,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "cao_chuang",
     "word": "草创",
     "pinyin": "cǎo chuàng",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -1612,8 +1466,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "gu_gong",
     "word": "股肱",
     "pinyin": "gǔ gōng",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词/动词",
@@ -1632,8 +1484,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "yuan_wang",
     "word": "怨望",
     "pinyin": "yuàn wàng",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
@@ -1652,8 +1502,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "ke_yi",
     "word": "可意",
     "pinyin": "kě yì",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词",
@@ -1672,8 +1520,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "hao_declare",
     "word": "号",
     "pinyin": "hào",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -1692,8 +1538,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "liao_rely",
     "word": "聊",
     "pinyin": "liáo",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/副词",
@@ -1717,8 +1561,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "jie_cause",
     "word": "阶",
     "pinyin": "jiē",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词/动词",
@@ -1737,8 +1579,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "juan_abandon",
     "word": "捐",
     "pinyin": "juān",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -1762,8 +1602,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "ming_fu",
     "word": "明府",
     "pinyin": "míng fǔ",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词",
@@ -1782,8 +1620,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "yan_strict",
     "word": "严",
     "pinyin": "yán",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/形容词",
@@ -1807,8 +1643,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "wang_feng",
     "word": "望风",
     "pinyin": "wàng fēng",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词短语",
@@ -1830,8 +1664,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
       "hú",
       "gǔ"
     ],
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词 [hú]",
@@ -1861,8 +1693,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "fan_lan",
     "word": "泛滥",
     "pinyin": "fàn làn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/形容词",
@@ -1881,8 +1711,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "jiao_tong",
     "word": "交通",
     "pinyin": "jiāo tōng",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -1906,8 +1734,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "she_setup",
     "word": "设",
     "pinyin": "shè",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词/连词/动词",
@@ -1931,8 +1757,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "xian_bit",
     "word": "衔",
     "pinyin": "xián",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词/动词",
@@ -1956,8 +1780,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "zhe_break",
     "word": "折",
     "pinyin": "zhé",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -1981,8 +1803,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "he_verify",
     "word": "覈",
     "pinyin": "hé",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -2001,8 +1821,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "ji_collect",
     "word": "戢",
     "pinyin": "jí",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -2021,8 +1839,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "ning_flatter",
     "word": "佞",
     "pinyin": "nìng",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词/动词",
@@ -2046,8 +1862,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "lian_investigate",
     "word": "廉",
     "pinyin": "lián",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/形容词",
@@ -2066,8 +1880,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "ru_ren",
     "word": "濡忍",
     "pinyin": "rú rěn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词",
@@ -2086,8 +1898,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "zhe_dao",
     "word": "遮道",
     "pinyin": "zhē dào",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词短语",
@@ -2106,8 +1916,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "ni_meet",
     "word": "逆",
     "pinyin": "nì",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/副词",
@@ -2136,8 +1944,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "qi_pray",
     "word": "蕲",
     "pinyin": "qí",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -2156,8 +1962,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "fan_xi",
     "word": "蕃息",
     "pinyin": "fán xī",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -2176,8 +1980,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "ke_severe",
     "word": "刻",
     "pinyin": "kè",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词/动词",
@@ -2199,8 +2001,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
       "chuāng",
       "chuàng"
     ],
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词 [chuàng]",
@@ -2230,8 +2030,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "yu_instruct",
     "word": "谕",
     "pinyin": "yù",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -2250,8 +2048,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "yu_enlighten",
     "word": "喻",
     "pinyin": "yù",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -2275,8 +2071,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "huo_zhi",
     "word": "货殖",
     "pinyin": "huò zhí",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
@@ -2300,8 +2094,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "hu_rely",
     "word": "怙",
     "pinyin": "hù",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
@@ -2320,8 +2112,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "quan_repent",
     "word": "悛",
     "pinyin": "quān",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -2340,8 +2130,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "zi_money",
     "word": "赀",
     "pinyin": "zī",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词/动词",
@@ -2360,8 +2148,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "xing_zai",
     "word": "行在",
     "pinyin": "xíng zài",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词",
@@ -2380,8 +2166,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "li_suffer",
     "word": "罹",
     "pinyin": "lí",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
@@ -2405,8 +2189,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "ji_shen",
     "word": "籍甚",
     "pinyin": "jí shèn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词",
@@ -2425,8 +2207,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "bu_ou",
     "word": "不偶",
     "pinyin": "bù ǒu",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词",
@@ -2445,8 +2225,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "jue_fall",
     "word": "蹶",
     "pinyin": "jué",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -2465,8 +2243,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "huan_lenient",
     "word": "缓",
     "pinyin": "huǎn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词/动词",
@@ -2490,8 +2266,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "bi_xing_chen",
     "word": "偪臣，倖臣",
     "pinyin": "bī chén, xìng chén",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词短语",
@@ -2510,8 +2284,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "fu_fu",
     "word": "弗弗",
     "pinyin": "fú fú",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词",
@@ -2530,8 +2302,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "e_e",
     "word": "谔谔",
     "pinyin": "è è",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词",
@@ -2550,8 +2320,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "zi_gong",
     "word": "梓宫",
     "pinyin": "zǐ gōng",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词",
@@ -2570,8 +2338,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "ti_expose",
     "word": "擿",
     "pinyin": "tì",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -2590,8 +2356,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "lun_ci",
     "word": "论次",
     "pinyin": "lùn cì",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -2610,8 +2374,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "zhang_ren",
     "word": "丈人",
     "pinyin": "zhàng rén",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词",
@@ -2629,8 +2391,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "jin_stint",
     "word": "靳",
     "pinyin": "jìn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -2648,8 +2408,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "duo_change",
     "word": "夺",
     "pinyin": "duó",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -2671,8 +2429,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "ju_breadth",
     "word": "局",
     "pinyin": "jú",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词/形容词",
@@ -2690,8 +2446,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "gao_dao",
     "word": "高蹈",
     "pinyin": "gāo dǎo",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -2709,8 +2463,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "xiao_brave",
     "word": "枭",
     "pinyin": "xiāo",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词/动词",
@@ -2728,8 +2480,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "yu_change",
     "word": "渝",
     "pinyin": "yú",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -2747,8 +2497,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "shen_thorough",
     "word": "审",
     "pinyin": "shěn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词/动词",
@@ -2770,8 +2518,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "ou_partner",
     "word": "偶",
     "pinyin": "ǒu",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
@@ -2793,8 +2539,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "chu_fu",
     "word": "除服",
     "pinyin": "chú fú",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词短语",
@@ -2812,8 +2556,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "ding_jian",
     "word": "丁艰",
     "pinyin": "dīng jiān",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词短语",
@@ -2831,8 +2573,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "qiao_geng",
     "word": "峭鲠",
     "pinyin": "qiào gěng",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词",
@@ -2850,8 +2590,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "chu_exit",
     "word": "出",
     "pinyin": "chū",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -2873,8 +2611,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "bu_flee",
     "word": "逋",
     "pinyin": "bū",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -2896,8 +2632,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "bu_man",
     "word": "逋慢",
     "pinyin": "bū màn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词",
@@ -2915,8 +2649,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "shu_transport",
     "word": "输",
     "pinyin": "shū",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -2934,8 +2666,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "li_xu",
     "word": "里胥",
     "pinyin": "lǐ xū",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词",
@@ -2953,8 +2683,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "lun_lie",
     "word": "论列",
     "pinyin": "lùn liè",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -2972,8 +2700,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "lao_old",
     "word": "老",
     "pinyin": "lǎo",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "形容词",
@@ -2995,8 +2721,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "ji_register",
     "word": "籍",
     "pinyin": "jí",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
@@ -3018,8 +2742,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "jie_rely",
     "word": "藉",
     "pinyin": "jiè",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/连词",
@@ -3037,8 +2759,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "zen_run",
     "word": "谮润",
     "pinyin": "zèn rùn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -3056,8 +2776,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "yue_exceed",
     "word": "越",
     "pinyin": "yuè",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/形容词",
@@ -3083,8 +2801,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
       "qù",
       "cù"
     ],
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词 [qū]",
@@ -3122,8 +2838,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "yuan_officured",
     "word": "掾",
     "pinyin": "yuàn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词",
@@ -3141,8 +2855,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "jin_xi",
     "word": "近习",
     "pinyin": "jìn xí",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词",
@@ -3160,8 +2872,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "yang_su",
     "word": "养素",
     "pinyin": "yǎng sù",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词短语",
@@ -3179,8 +2889,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "qiu_food",
     "word": "糗",
     "pinyin": "qiǔ",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词",
@@ -3198,8 +2906,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "an_press",
     "word": "按",
     "pinyin": "àn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词",
@@ -3221,8 +2927,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "sheng_dou",
     "word": "升斗",
     "pinyin": "shēng dǒu",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词",
@@ -3240,8 +2944,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "lie_shi",
     "word": "猎食",
     "pinyin": "liè shí",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词短语",
@@ -3259,8 +2961,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "hao_consume",
     "word": "耗",
     "pinyin": "hào",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
@@ -3278,8 +2978,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "bian_xin",
     "word": "褊心",
     "pinyin": "biǎn xīn",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词",
@@ -3297,8 +2995,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "xian_guan",
     "word": "县官",
     "pinyin": "xiàn guān",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词",
@@ -3316,8 +3012,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "feng_wind",
     "word": "风",
     "pinyin": "fēng",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "名词/动词",
@@ -3339,8 +3033,6 @@ export const SHICI_PART6: VocabularyEntry[] = [
     "id": "xing_shape",
     "word": "形",
     "pinyin": "xíng",
-    "category": "shici",
-    "categoryLabel": "文言实词",
     "senses": [
       {
         "pos": "动词/名词",
